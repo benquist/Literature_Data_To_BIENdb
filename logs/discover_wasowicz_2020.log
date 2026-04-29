@@ -1,0 +1,7 @@
+2026-04-29T14:11:30Z | INFO | Discovery started | paper_id= wasowicz_2020 
+2026-04-29T14:11:33Z | WARN | No supplementary assets detected in XML |  
+2026-04-29T14:16:43Z | INFO | Discovery started | paper_id= wasowicz_2020 
+2026-04-29T14:16:46Z | WARN | No supplementary assets detected in XML |  
+2026-04-29T14:17:03Z | INFO | Discovery started | paper_id= wasowicz_2020 
+2026-04-29T14:17:05Z | WARN | No supplementary assets detected in XML |  
+2026-04-29T14:17:06Z | INFO | Discovery complete | assets= 0  output= /Users/brianjenquist/VSCode/Literature_Data_To_BIENdb/data/interim/wasowicz_2020_assets.csv 

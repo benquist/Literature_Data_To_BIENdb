@@ -1,0 +1,3 @@
+2026-04-29T14:17:33Z | INFO | Discovery started | paper_id= salim_2020 
+2026-04-29T14:17:36Z | WARN | No supplementary assets detected in XML |  
+2026-04-29T14:17:36Z | INFO | Discovery complete | assets= 0  output= /Users/brianjenquist/VSCode/Literature_Data_To_BIENdb/data/interim/salim_2020_assets.csv 

@@ -8,7 +8,18 @@ source(file.path(project_root, "scripts", "utils.R"), local = FALSE)
 
 extract_supplementary_assets <- function(xml_txt) {
   blocks <- regmatches(xml_txt, gregexpr("<supplementary-material[\\s\\S]*?</supplementary-material>", xml_txt, perl = TRUE))[[1]]
-  if (!length(blocks)) return(data.frame(stringsAsFactors = FALSE))
+  if (!length(blocks)) {
+    return(data.frame(
+      supplementary_id = character(0),
+      supplementary_doi = character(0),
+      label = character(0),
+      media_href = character(0),
+      declared_mimetype = character(0),
+      declared_mime_subtype = character(0),
+      original_file_url = character(0),
+      stringsAsFactors = FALSE
+    ))
+  }
 
   rows <- lapply(blocks, function(block) {
     get_one <- function(pattern) {
@@ -79,10 +90,10 @@ if (nrow(assets)) {
   }, character(1))
 }
 
-assets$paper_id <- paper_id
-assets$doi <- paper$doi[[1]]
-assets$landing_url <- paper$landing_url[[1]]
-assets$discovered_at_utc <- timestamp_utc()
+assets$paper_id <- rep(paper_id, nrow(assets))
+assets$doi <- rep(paper$doi[[1]], nrow(assets))
+assets$landing_url <- rep(paper$landing_url[[1]], nrow(assets))
+assets$discovered_at_utc <- rep(timestamp_utc(), nrow(assets))
 
 crossref_pdf <- if (grepl('download/pdf', crossref_txt, fixed = TRUE)) sub('.*(https://phytokeys\\.pensoft\\.net/article/184780/download/pdf/[^"\\\\]+).*', '\\1', crossref_txt) else NA_character_
 crossref_xml <- if (grepl('download/xml', crossref_txt, fixed = TRUE)) sub('.*(https://phytokeys\\.pensoft\\.net/article/184780/download/xml/[^"\\\\]+).*', '\\1', crossref_txt) else paper$xml_url[[1]]

@@ -70,3 +70,17 @@
 - Updated BIEN staging builder to emit explicit `decimalLatitude`, `decimalLongitude`, `verbatim_elevation`, and `elevation_m` fields in addition to existing staging coordinate/elevation fields.
 - Re-ran pipeline from source with force overwrite for `jennings_2026`, regenerated interim and processed outputs, and validated coordinate/elevation columns and non-missing counts.
 - Updated README with brief coordinate/elevation mapping behavior and force-rebuild expectations.
+
+## 2026-04-29 - Batch onboarding and multi-paper processing kickoff
+
+**Prompt:** Continue project work after morning status check; commit `jennings_2026`, register queued papers, prioritize machine-readable occurrence datasets, and start processing.
+
+**Summary:**
+- Committed and pushed finalized `jennings_2026` outputs and script hardening updates to `origin/main`.
+- Added 10 queued papers to `config/papers.csv` with DOI/publisher metadata and initial source notes.
+- Added GBIF DwC-A ZIP ingestion support to `scripts/03_normalize_to_dwc.R` by extracting and parsing `occurrence.txt` directly from archives.
+- Fixed normalization edge cases introduced by column-name normalization: scientific-name extraction now supports lowercase and checklist-style name columns (`name`, `accepted_species`, `accepted_name`) and event date extraction now handles normalized `eventdate`.
+- Fixed discovery robustness in `scripts/01_discover_paper_assets.R` for zero-asset XML cases (no-row schema + safe metadata assignment).
+- Downloaded and processed GBIF/IPT DwC-A datasets for `gosline_2023`, `novikov_2022`, and `dayneko_2023` through staging.
+- Ran discovery/download/normalize/staging for `joyce_2020` and `aung_2025` using supplementary XLSX assets.
+- New staged outputs generated for: `gosline_2023`, `novikov_2022`, `dayneko_2023`, `joyce_2020`, and `aung_2025`.

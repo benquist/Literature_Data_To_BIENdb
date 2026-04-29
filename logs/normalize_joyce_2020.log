@@ -1,0 +1,4 @@
+2026-04-29T14:18:17Z | INFO | Mapping file loaded (informational; heuristic extraction still active) | rows= 26  path= /Users/brianjenquist/VSCode/Literature_Data_To_BIENdb/mappings/jennings_2026_column_mapping.csv 
+2026-04-29T14:18:20Z | INFO | Normalization complete | rows= 0  output= /Users/brianjenquist/VSCode/Literature_Data_To_BIENdb/data/interim/joyce_2020_dwc_normalized.csv 
+2026-04-29T14:19:03Z | INFO | Mapping file loaded (informational; heuristic extraction still active) | rows= 26  path= /Users/brianjenquist/VSCode/Literature_Data_To_BIENdb/mappings/jennings_2026_column_mapping.csv 
+2026-04-29T14:19:07Z | INFO | Normalization complete | rows= 146116  output= /Users/brianjenquist/VSCode/Literature_Data_To_BIENdb/data/interim/joyce_2020_dwc_normalized.csv 

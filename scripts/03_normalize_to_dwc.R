@@ -62,6 +62,9 @@ extract_event_parts <- function(df, event_date) {
 extract_scientific_name <- function(df) {
   # names(df) will already be normalize_name()'d (all lowercase) at call time
   if ("species" %in% names(df)) return(as.character(df$species))
+  if ("name" %in% names(df)) return(as.character(df$name))
+  if ("accepted_species" %in% names(df)) return(as.character(df$accepted_species))
+  if ("accepted_name" %in% names(df)) return(as.character(df$accepted_name))
   if ("scientificname" %in% names(df)) return(as.character(df$scientificname))
   if ("scientific_name" %in% names(df)) return(as.character(df$scientific_name))
   rep(NA_character_, nrow(df))
