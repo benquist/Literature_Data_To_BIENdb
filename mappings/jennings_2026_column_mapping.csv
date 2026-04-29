@@ -1,0 +1,27 @@
+source_column,dwc_term,bien_field,notes
+catalognumber,catalogNumber,catalog_number,Specimen catalog number
+basisofrecord,basisOfRecord,basis_of_record,Record type
+family,family,family,Family name
+genus,genus,genus,Genus
+species,scientificName,name_submitted,Submitted species/binomial
+authority,scientificNameAuthorship,scientific_name_authorship,Authorship string
+collector,recordedBy,collector,Primary collector
+add_coll,recordedBy,collector,Additional collector
+fieldnumber,recordNumber,field_number,Collector field number
+day,eventDate,date_collected,Used with month/year when eventDate absent
+month,eventDate,date_collected,Used with day/year when eventDate absent
+year,eventDate,date_collected,Used with day/month when eventDate absent
+locality,locality,locality,Locality text
+country,country,country,Country
+island,island,island,Island
+decimallatitude,decimalLatitude,latitude,Latitude WGS84
+decimallongitude,decimalLongitude,longitude,Longitude WGS84
+locationaccordingto,georeferenceSources,georeference_sources,Coordinate source
+coordinateuncertaintyinkilometers,coordinateUncertaintyInMeters,coordinate_uncertainty_m,Convert km to m
+minimumelevationinmeters,minimumElevationInMeters,elevation_min_m,Minimum elevation
+maximumelevationinmeters,maximumElevationInMeters,elevation_max_m,Maximum elevation
+cons_ass,occurrenceRemarks,occurrence_remarks,Conservation status note from supplementary table
+last_coll,eventDate,date_collected,Latest known collection year from supplementary table
+habit,lifeStage,life_stage,Growth habit when provided
+priority_species,occurrenceStatus,occurrence_status,Priority flag
+specimens_found,individualCount,individual_count,Specimen count when provided

@@ -1,0 +1,5 @@
+2026-04-29T04:12:00Z | INFO | Discovery started | paper_id= jennings_2026 
+2026-04-29T04:12:07Z | INFO | Discovery complete | assets= 5  output= /Users/brianjenquist/VSCode/Literature_Data_To_BIENdb/data/interim/jennings_2026_assets.csv 
+2026-04-29T04:13:05Z | INFO | Discovery started | paper_id= jennings_2026 
+2026-04-29T04:13:11Z | INFO | Overwriting existing assets manifest | /Users/brianjenquist/VSCode/Literature_Data_To_BIENdb/data/interim/jennings_2026_assets.csv 
+2026-04-29T04:13:11Z | INFO | Discovery complete | assets= 5  output= /Users/brianjenquist/VSCode/Literature_Data_To_BIENdb/data/interim/jennings_2026_assets.csv 

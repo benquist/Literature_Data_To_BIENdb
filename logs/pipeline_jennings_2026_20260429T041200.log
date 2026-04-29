@@ -1,0 +1,69 @@
+2026-04-29T04:12:00Z | INFO | Pipeline start | paper_id= jennings_2026  force= TRUE 
+
+===== 01_discover_paper_assets.R =====
+Warning message:
+In read.table(file = file, header = header, sep = sep, quote = quote,  :
+  incomplete final line found by readTableHeader on '/Users/brianjenquist/VSCode/Literature_Data_To_BIENdb/config/papers.csv'
+Discovery complete: 5 assets written to /Users/brianjenquist/VSCode/Literature_Data_To_BIENdb/data/interim/jennings_2026_assets.csv 
+STATUS: 0
+
+===== 02_download_sources.R =====
+Download step complete: 5 files tracked; blocked=0 
+STATUS: 0
+
+===== 03_normalize_to_dwc.R =====
+Warning message:
+In read.table(file = file, header = header, sep = sep, quote = quote,  :
+  incomplete final line found by readTableHeader on '/Users/brianjenquist/VSCode/Literature_Data_To_BIENdb/config/papers.csv'
+New names:
+• `` -> `...4`
+• `` -> `...5`
+• `` -> `...6`
+• `` -> `...7`
+• `` -> `...8`
+• `` -> `...9`
+New names:
+• `` -> `...26`
+New names:
+• `` -> `...3`
+• `` -> `...4`
+New names:
+• `` -> `...7`
+• `` -> `...8`
+• `` -> `...9`
+• `` -> `...10`
+• `` -> `...11`
+• `` -> `...12`
+• `` -> `...14`
+• `` -> `...15`
+• `` -> `...17`
+• `` -> `...18`
+• `` -> `...19`
+• `Timor` -> `Timor...21`
+• `` -> `...23`
+• `` -> `...24`
+• `Timor` -> `Timor...25`
+• `` -> `...26`
+• `` -> `...27`
+• `9` -> `9...28`
+• `9` -> `9...29`
+• `` -> `...41`
+• `` -> `...42`
+• `` -> `...43`
+• `` -> `...44`
+• `` -> `...45`
+• `` -> `...46`
+• `` -> `...47`
+• `` -> `...48`
+• `` -> `...49`
+• `` -> `...50`
+• `` -> `...52`
+• `` -> `...53`
+• `` -> `...54`
+Normalization complete: 1835 rows -> /Users/brianjenquist/VSCode/Literature_Data_To_BIENdb/data/interim/jennings_2026_dwc_normalized.csv 
+STATUS: 0
+
+===== 04_build_bien_staging.R =====
+Staging build complete: 1835 rows -> /Users/brianjenquist/VSCode/Literature_Data_To_BIENdb/data/processed/jennings_2026_bien_staging.csv 
+STATUS: 0
+2026-04-29T04:12:14Z | INFO | Pipeline end | Completed all steps 
