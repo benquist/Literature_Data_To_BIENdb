@@ -11,8 +11,10 @@ if (!requireNamespace("readxl", quietly = TRUE)) {
 }
 
 combine_event_date <- function(df) {
-  if ("eventDate" %in% names(df)) {
-    out <- as.character(df$eventDate)
+  # names(df) are already normalize_name()'d (lowercase) at call time
+  date_col <- if ("eventdate" %in% names(df)) "eventdate" else if ("eventDate" %in% names(df)) "eventDate" else NULL
+  if (!is.null(date_col)) {
+    out <- as.character(df[[date_col]])
     out[!nzchar(out)] <- NA_character_
     return(out)
   }
@@ -58,8 +60,10 @@ extract_event_parts <- function(df, event_date) {
 }
 
 extract_scientific_name <- function(df) {
+  # names(df) will already be normalize_name()'d (all lowercase) at call time
   if ("species" %in% names(df)) return(as.character(df$species))
-  if ("scientificName" %in% names(df)) return(as.character(df$scientificName))
+  if ("scientificname" %in% names(df)) return(as.character(df$scientificname))
+  if ("scientific_name" %in% names(df)) return(as.character(df$scientific_name))
   rep(NA_character_, nrow(df))
 }
 
@@ -335,7 +339,7 @@ if (file.exists(map_path)) {
 files <- list.files(raw_dir, full.names = TRUE)
 if (!length(files)) stop("No downloaded files in: ", raw_dir, call. = FALSE)
 
-tabular_files <- files[grepl("\\.(xlsx|xls|csv|tsv)$", files, ignore.case = TRUE)]
+tabular_files <- files[grepl("\\.(xlsx|xls|csv|tsv|zip)$", files, ignore.case = TRUE)]
 if (!length(tabular_files)) {
   append_log(log_file, "WARN", "No tabular files found", raw_dir)
   stop("No tabular files to normalize.", call. = FALSE)
@@ -346,7 +350,42 @@ idx <- 0L
 
 for (f in tabular_files) {
   ext <- tolower(tools::file_ext(f))
-  if (ext %in% c("xlsx", "xls")) {
+  if (ext == "zip") {
+    # DwC-A archive — look for occurrence.txt (tab-delimited)
+    zip_contents <- tryCatch(utils::unzip(f, list = TRUE)$Name, error = function(e) character(0))
+    if (!"occurrence.txt" %in% zip_contents) {
+      append_log(log_file, "WARN", "ZIP does not contain occurrence.txt; skipping", f)
+      next
+    }
+    tmp_dir <- tempfile()
+    dir.create(tmp_dir)
+    tryCatch(utils::unzip(f, files = "occurrence.txt", exdir = tmp_dir), error = function(e) {
+      append_log(log_file, "WARN", "Failed to extract occurrence.txt from ZIP",
+                 paste(basename(f), conditionMessage(e)))
+    })
+    occ_path <- file.path(tmp_dir, "occurrence.txt")
+    if (!file.exists(occ_path)) {
+      unlink(tmp_dir, recursive = TRUE)
+      next
+    }
+    df <- tryCatch(
+      utils::read.table(occ_path, sep = "\t", header = TRUE, stringsAsFactors = FALSE,
+                        quote = "", fill = TRUE, comment.char = ""),
+      error = function(e) NULL
+    )
+    unlink(tmp_dir, recursive = TRUE)
+    if (is.null(df) || !nrow(df)) next
+    append_log(log_file, "INFO", "Loaded DwC-A occurrence.txt",
+               paste("file=", basename(f), " rows=", nrow(df), " cols=", ncol(df)))
+    idx <- idx + 1L
+    rows_out[[idx]] <- build_normalized_block(
+      df = df,
+      paper = paper,
+      paper_id = paper_id,
+      source_file = basename(f),
+      source_sheet = "occurrence"
+    )
+  } else if (ext %in% c("xlsx", "xls")) {
     sheet_names <- tryCatch(readxl::excel_sheets(f), error = function(e) character(0))
     if (!length(sheet_names)) {
       append_log(log_file, "WARN", "Unreadable workbook", f)

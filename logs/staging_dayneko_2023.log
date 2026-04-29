@@ -1,0 +1,6 @@
+2026-04-29T14:07:51Z | INFO | Staging build complete | rows= 3210  output= /Users/brianjenquist/VSCode/Literature_Data_To_BIENdb/data/processed/dayneko_2023_bien_staging.csv 
+2026-04-29T14:07:51Z | INFO | Habit trait sidecar complete | rows= 0  output= /Users/brianjenquist/VSCode/Literature_Data_To_BIENdb/data/processed/dayneko_2023_habit_traits.csv 
+2026-04-29T14:07:51Z | INFO | No explicit habit metadata found in normalized input | /Users/brianjenquist/VSCode/Literature_Data_To_BIENdb/data/interim/dayneko_2023_dwc_normalized.csv 
+2026-04-29T14:09:03Z | INFO | Staging build complete | rows= 3210  output= /Users/brianjenquist/VSCode/Literature_Data_To_BIENdb/data/processed/dayneko_2023_bien_staging.csv 
+2026-04-29T14:09:03Z | INFO | Habit trait sidecar complete | rows= 0  output= /Users/brianjenquist/VSCode/Literature_Data_To_BIENdb/data/processed/dayneko_2023_habit_traits.csv 
+2026-04-29T14:09:03Z | INFO | No explicit habit metadata found in normalized input | /Users/brianjenquist/VSCode/Literature_Data_To_BIENdb/data/interim/dayneko_2023_dwc_normalized.csv 

@@ -1,0 +1,3 @@
+2026-04-29T14:10:10Z | INFO | Staging build complete | rows= 6935  output= /Users/brianjenquist/VSCode/Literature_Data_To_BIENdb/data/processed/novikov_2022_bien_staging.csv 
+2026-04-29T14:10:10Z | INFO | Habit trait sidecar complete | rows= 0  output= /Users/brianjenquist/VSCode/Literature_Data_To_BIENdb/data/processed/novikov_2022_habit_traits.csv 
+2026-04-29T14:10:10Z | INFO | No explicit habit metadata found in normalized input | /Users/brianjenquist/VSCode/Literature_Data_To_BIENdb/data/interim/novikov_2022_dwc_normalized.csv 

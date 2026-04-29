@@ -1,0 +1,9 @@
+2026-04-29T14:06:54Z | INFO | Mapping file loaded (informational; heuristic extraction still active) | rows= 26  path= /Users/brianjenquist/VSCode/Literature_Data_To_BIENdb/mappings/jennings_2026_column_mapping.csv 
+2026-04-29T14:06:54Z | INFO | Loaded DwC-A occurrence.txt | file= dayneko_2023_gbif_dwca.zip  rows= 3210  cols= 33 
+2026-04-29T14:06:54Z | INFO | Normalization complete | rows= 0  output= /Users/brianjenquist/VSCode/Literature_Data_To_BIENdb/data/interim/dayneko_2023_dwc_normalized.csv 
+2026-04-29T14:07:42Z | INFO | Mapping file loaded (informational; heuristic extraction still active) | rows= 26  path= /Users/brianjenquist/VSCode/Literature_Data_To_BIENdb/mappings/jennings_2026_column_mapping.csv 
+2026-04-29T14:07:43Z | INFO | Loaded DwC-A occurrence.txt | file= dayneko_2023_gbif_dwca.zip  rows= 3210  cols= 33 
+2026-04-29T14:07:43Z | INFO | Normalization complete | rows= 3210  output= /Users/brianjenquist/VSCode/Literature_Data_To_BIENdb/data/interim/dayneko_2023_dwc_normalized.csv 
+2026-04-29T14:09:02Z | INFO | Mapping file loaded (informational; heuristic extraction still active) | rows= 26  path= /Users/brianjenquist/VSCode/Literature_Data_To_BIENdb/mappings/jennings_2026_column_mapping.csv 
+2026-04-29T14:09:02Z | INFO | Loaded DwC-A occurrence.txt | file= dayneko_2023_gbif_dwca.zip  rows= 3210  cols= 33 
+2026-04-29T14:09:03Z | INFO | Normalization complete | rows= 3210  output= /Users/brianjenquist/VSCode/Literature_Data_To_BIENdb/data/interim/dayneko_2023_dwc_normalized.csv 

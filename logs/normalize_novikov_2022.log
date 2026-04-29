@@ -1,0 +1,3 @@
+2026-04-29T14:10:09Z | INFO | Mapping file loaded (informational; heuristic extraction still active) | rows= 26  path= /Users/brianjenquist/VSCode/Literature_Data_To_BIENdb/mappings/jennings_2026_column_mapping.csv 
+2026-04-29T14:10:09Z | INFO | Loaded DwC-A occurrence.txt | file= novikov_2022_gbif_dwca.zip  rows= 6935  cols= 30 
+2026-04-29T14:10:09Z | INFO | Normalization complete | rows= 6935  output= /Users/brianjenquist/VSCode/Literature_Data_To_BIENdb/data/interim/novikov_2022_dwc_normalized.csv 
