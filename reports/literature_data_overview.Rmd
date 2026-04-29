@@ -1,0 +1,521 @@
+---
+title: "Literature-Sourced Occurrence Data: Quality & Geographic Overview"
+author: "BIEN Database Project"
+date: "`r format(Sys.Date(), '%B %d, %Y')`"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    number_sections: true
+    theme: cosmo
+    code_folding: hide
+params:
+  data_dir: "data/processed"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo = FALSE,
+  warning = FALSE,
+  message = FALSE,
+  fig.width = 12,
+  fig.height = 8,
+  dpi = 150
+)
+
+# Load required packages
+library(dplyr)
+library(tidyr)
+library(knitr)
+library(leaflet)
+library(sf)
+library(DT)
+library(ggplot2)
+
+# Define project root
+project_root <- here::here()
+data_dir <- file.path(project_root, params$data_dir)
+```
+
+```{r load_metadata}
+# Load paper configuration
+papers_config <- read.csv(
+  file.path(project_root, "config/papers.csv"),
+  stringsAsFactors = FALSE,
+  check.names = FALSE
+)
+
+# Create mapping of paper_id to citation
+paper_metadata <- papers_config %>%
+  select(paper_id, citation, doi, year, publisher, journal, notes)
+
+# Extract processed papers (those with _bien_staging.csv files)
+processed_files <- list.files(
+  data_dir,
+  pattern = "_bien_staging\\.csv$",
+  full.names = FALSE
+)
+
+processed_paper_ids <- gsub("_bien_staging\\.csv$", "", processed_files)
+
+cat("Found", length(processed_paper_ids), "processed papers\n")
+cat("Papers:", paste(processed_paper_ids, collapse = ", "), "\n")
+```
+
+```{r load_all_data}
+# Function to load and label data with paper_id
+load_paper_data <- function(paper_id, data_dir) {
+  file_path <- file.path(data_dir, paste0(paper_id, "_bien_staging.csv"))
+  
+  if (!file.exists(file_path)) {
+    return(NULL)
+  }
+  
+  d <- read.csv(
+    file_path,
+    stringsAsFactors = FALSE,
+    check.names = FALSE
+  )
+  
+  # Add paper_id if not present
+  if (!"paper_id" %in% names(d)) {
+    d$paper_id <- paper_id
+  }
+  
+  return(d)
+}
+
+# Load all papers
+all_data <- list()
+for (pid in processed_paper_ids) {
+  dat <- load_paper_data(pid, data_dir)
+  if (!is.null(dat)) {
+    # Standardize common columns
+    if ("occurrence_id" %in% names(dat)) {
+      dat$occurrence_id <- as.character(dat$occurrence_id)
+    }
+    all_data[[pid]] <- dat
+  }
+}
+
+# Combine into single dataframe
+combined_data <- bind_rows(all_data, .id = NULL)
+
+cat("Total rows loaded:", nrow(combined_data), "\n")
+cat("Unique papers:", n_distinct(combined_data$paper_id), "\n")
+```
+
+```{r calculate_quality_metrics}
+# Calculate quality metrics
+quality_metrics <- combined_data %>%
+  group_by(paper_id) %>%
+  summarise(
+    total_records = n(),
+    georeferenced = sum(!is.na(decimalLatitude) & !is.na(decimalLongitude)),
+    with_taxon = sum(!is.na(name_submitted) & nzchar(name_submitted)),
+    with_date = sum(!is.na(date_collected) & nzchar(date_collected)),
+    with_country = sum(!is.na(country) & nzchar(country)),
+    distinct_species = n_distinct(name_submitted, na.rm = TRUE),
+    .groups = "drop"
+  ) %>%
+  mutate(
+    pct_georeferenced = round(100 * georeferenced / total_records, 1),
+    pct_with_taxon = round(100 * with_taxon / total_records, 1),
+    pct_with_date = round(100 * with_date / total_records, 1)
+  )
+
+# Add paper metadata
+quality_metrics <- quality_metrics %>%
+  left_join(
+    paper_metadata %>% select(paper_id, citation, year, publisher),
+    by = "paper_id"
+  ) %>%
+  select(paper_id, year, publisher, total_records, georeferenced, pct_georeferenced,
+         with_taxon, pct_with_taxon, distinct_species, citation)
+
+# Calculate totals
+total_records <- sum(quality_metrics$total_records)
+total_georeferenced <- sum(quality_metrics$georeferenced)
+total_species <- n_distinct(combined_data$name_submitted, na.rm = TRUE)
+```
+
+# Executive Summary
+
+This report provides a comprehensive overview of occurrence data loaded from **`r length(processed_paper_ids)` peer-reviewed literature sources** into the BIEN database pipeline.
+
+## Key Statistics
+
+- **Total observations:** `r format(total_records, big.mark=",")`
+- **Georeferenced observations:** `r format(total_georeferenced, big.mark=",")` (`r round(100*total_georeferenced/total_records, 1)`%)
+- **Distinct species:** `r format(total_species, big.mark=",")`
+- **Papers processed:** `r length(processed_paper_ids)`
+
+---
+
+# Data Quality by Paper
+
+```{r quality_table}
+quality_display <- quality_metrics %>%
+  select(
+    paper_id,
+    year,
+    total_records,
+    georeferenced,
+    pct_georeferenced,
+    with_taxon,
+    pct_with_taxon,
+    distinct_species
+  ) %>%
+  arrange(desc(total_records))
+
+datatable(
+  quality_display,
+  extensions = 'Buttons',
+  options = list(
+    dom = 'Bfrtip',
+    buttons = c('csv', 'excel', 'pdf'),
+    columnDefs = list(
+      list(width = '120px', targets = 0),
+      list(width = '80px', targets = c(1, 2, 3, 4, 5, 6, 7))
+    )
+  ),
+  colnames = c(
+    'Paper ID',
+    'Year',
+    'Total Records',
+    'Georeferenced',
+    '% Geo',
+    'With Taxon',
+    '% Taxon',
+    'Distinct Species'
+  ),
+  rownames = FALSE
+)
+```
+
+---
+
+# Geographic Coverage
+
+## Interactive Map
+
+The map below shows all georeferenced observation points from the literature sources. Hover over points to see the taxon name and source paper.
+
+```{r prepare_map_data}
+# Prepare data for mapping
+map_data <- combined_data %>%
+  mutate(
+    map_lat = suppressWarnings(as.numeric(decimalLatitude)),
+    map_lon = suppressWarnings(as.numeric(decimalLongitude))
+  ) %>%
+  filter(
+    !is.na(map_lat),
+    !is.na(map_lon),
+    map_lat >= -90,
+    map_lat <= 90,
+    map_lon >= -180,
+    map_lon <= 180
+  ) %>%
+  select(
+    paper_id,
+    name_submitted,
+    map_lat,
+    map_lon,
+    country,
+    date_collected
+  ) %>%
+  mutate(
+    name_submitted = ifelse(is.na(name_submitted) | !nzchar(name_submitted),
+                            "Unknown species", name_submitted),
+    popup_text = paste0(
+      "<strong>", name_submitted, "</strong><br>",
+      "Paper: ", paper_id, "<br>",
+      "Country: ", ifelse(is.na(country) | !nzchar(country), "Unknown", country), "<br>",
+      "Date: ", ifelse(is.na(date_collected) | !nzchar(date_collected), "Unknown", date_collected)
+    ),
+    popup_hover = paste0(
+      "<strong>", name_submitted, "</strong><br>",
+      paper_id
+    )
+  )
+
+cat("Map points prepared:", nrow(map_data), "\n")
+cat("Papers with map points:", n_distinct(map_data$paper_id), "\n")
+
+# Define color palette for papers
+paper_colors <- setNames(
+  grDevices::hcl.colors(length(processed_paper_ids), palette = "Set 2"),
+  processed_paper_ids
+)
+```
+
+```{r create_interactive_map, fig.width=14, fig.height=10}
+# Create base map
+m <- leaflet(map_data, 
+             options = leafletOptions(
+               maxBounds = list(
+                 list(-90, -180),
+                 list(90, 180)
+               )
+             )) %>%
+  addProviderTiles(providers$CartoDB.Positron) %>%
+  setView(lng = 0, lat = 20, zoom = 2)
+
+# Add layer for each paper
+for (paper in processed_paper_ids) {
+  paper_data <- map_data %>% filter(paper_id == paper)
+  
+  if (nrow(paper_data) > 0) {
+    m <- m %>%
+      addCircleMarkers(
+        data = paper_data,
+        lng = ~map_lon,
+        lat = ~map_lat,
+        radius = 5,
+        color = paper_colors[paper],
+        stroke = TRUE,
+        weight = 1,
+        opacity = 0.7,
+        fill = TRUE,
+        fillColor = paper_colors[paper],
+        fillOpacity = 0.6,
+        popup = ~popup_text,
+        label = ~popup_hover,
+        labelOptions = labelOptions(style = list("font-size" = "12px")),
+        group = paper
+      )
+  }
+}
+
+# Add layer control
+m <- m %>%
+  addLayersControl(
+    overlayGroups = processed_paper_ids,
+    options = layersControlOptions(collapsed = FALSE)
+  )
+
+# Print map
+m
+```
+
+### Map Legend
+
+Each paper is represented by a distinct color:
+
+```{r map_legend_table}
+legend_df <- data.frame(
+  Paper = names(paper_colors),
+  Color = as.character(paper_colors),
+  stringsAsFactors = FALSE
+) %>%
+  left_join(
+    paper_metadata %>% select(paper_id, year, journal),
+    by = c("Paper" = "paper_id")
+  )
+
+kable(
+  legend_df,
+  col.names = c("Paper ID", "Color", "Year", "Journal"),
+  format = "html",
+  escape = FALSE
+)
+```
+
+---
+
+# Geographic Distribution Summary
+
+```{r geographic_summary}
+# Count observations by country
+country_summary <- combined_data %>%
+  filter(!is.na(decimalLatitude) & !is.na(decimalLongitude)) %>%
+  group_by(country) %>%
+  summarise(
+    observations = n(),
+    papers = n_distinct(paper_id),
+    species = n_distinct(name_submitted, na.rm = TRUE),
+    .groups = "drop"
+  ) %>%
+  arrange(desc(observations)) %>%
+  head(20)
+
+kable(
+  country_summary,
+  col.names = c("Country", "Observations", "Papers", "Species"),
+  format = "html",
+  caption = "Top 20 Countries by Observation Count"
+)
+```
+
+---
+
+# Temporal Coverage
+
+```{r temporal_analysis}
+# Extract year from date_collected
+temporal_data <- combined_data %>%
+  filter(!is.na(date_collected)) %>%
+  mutate(
+    year = as.numeric(substr(date_collected, 1, 4))
+  ) %>%
+  filter(!is.na(year) & year > 1500 & year < 2030)
+
+year_range <- paste0(
+  "Year range: ",
+  min(temporal_data$year, na.rm = TRUE),
+  " – ",
+  max(temporal_data$year, na.rm = TRUE)
+)
+```
+
+`r year_range`
+
+```{r temporal_plot, fig.width=12, fig.height=5}
+# Plot temporal distribution by paper
+temporal_by_paper <- temporal_data %>%
+  group_by(paper_id, year) %>%
+  summarise(count = n(), .groups = "drop")
+
+ggplot(temporal_by_paper, aes(x = year, y = count, fill = paper_id)) +
+  geom_col(position = "stack") +
+  facet_wrap(~paper_id, scales = "free_y", nrow = 3) +
+  labs(
+    title = "Temporal Distribution of Observations by Paper",
+    x = "Year",
+    y = "Number of Observations",
+    fill = "Paper"
+  ) +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
+
+---
+
+# Data Completeness
+
+```{r completeness_analysis}
+# Calculate completeness metrics
+completeness <- combined_data %>%
+  summarise(
+    total_records = n(),
+    with_taxon = sum(!is.na(name_submitted) & nzchar(name_submitted)),
+    with_lat_lon = sum(!is.na(decimalLatitude) & !is.na(decimalLongitude)),
+    with_date = sum(!is.na(date_collected) & nzchar(date_collected)),
+    with_country = sum(!is.na(country) & nzchar(country)),
+    with_elevation = sum(!is.na(elevation_m)),
+    .groups = "drop"
+  ) %>%
+  pivot_longer(
+    cols = starts_with("with_"),
+    names_to = "field",
+    values_to = "count"
+  ) %>%
+  mutate(
+    field = gsub("^with_", "", field),
+    percentage = round(100 * count / total_records, 1)
+  ) %>%
+  select(field, count, percentage) %>%
+  arrange(desc(percentage))
+
+kable(
+  completeness,
+  col.names = c("Field", "Records with Data", "% Complete"),
+  format = "html",
+  caption = "Overall Data Completeness"
+)
+```
+
+```{r completeness_plot, fig.width=12, fig.height=5}
+ggplot(completeness, aes(x = reorder(field, percentage), y = percentage)) +
+  geom_col(fill = "#2E86AB", alpha = 0.8) +
+  geom_text(aes(label = paste0(percentage, "%")), vjust = -0.3, hjust = 0.5) +
+  coord_flip() +
+  labs(
+    title = "Data Field Completeness Across All Papers",
+    x = "Field",
+    y = "% Records with Data"
+  ) +
+  theme_minimal() +
+  ylim(0, 105)
+```
+
+---
+
+# Taxonomic Diversity
+
+```{r taxonomic_analysis}
+# Top species across all data
+top_species <- combined_data %>%
+  filter(!is.na(name_submitted) & nzchar(name_submitted)) %>%
+  group_by(name_submitted) %>%
+  summarise(
+    observations = n(),
+    papers = n_distinct(paper_id),
+    countries = n_distinct(country, na.rm = TRUE),
+    .groups = "drop"
+  ) %>%
+  arrange(desc(observations)) %>%
+  head(30)
+
+datatable(
+  top_species,
+  extensions = 'Buttons',
+  options = list(
+    dom = 'Bfrtip',
+    buttons = c('csv', 'excel'),
+    pageLength = 15
+  ),
+  colnames = c('Species', 'Observations', 'Papers', 'Countries'),
+  rownames = FALSE,
+  caption = "Top 30 Most Frequently Observed Species"
+)
+```
+
+---
+
+# Data Quality Across Papers
+
+```{r quality_by_paper_detailed}
+# Detailed quality metrics by paper
+quality_by_paper <- combined_data %>%
+  group_by(paper_id) %>%
+  summarise(
+    total_obs = n(),
+    has_coords = sum(!is.na(decimalLatitude) & !is.na(decimalLongitude)),
+    has_taxon = sum(!is.na(name_submitted) & nzchar(name_submitted)),
+    has_date = sum(!is.na(date_collected) & nzchar(date_collected)),
+    has_country = sum(!is.na(country) & nzchar(country)),
+    has_elevation = sum(!is.na(elevation_m)),
+    distinct_species = n_distinct(name_submitted, na.rm = TRUE),
+    .groups = "drop"
+  ) %>%
+  mutate(
+    pct_coords = round(100 * has_coords / total_obs, 1),
+    pct_taxon = round(100 * has_taxon / total_obs, 1),
+    pct_date = round(100 * has_date / total_obs, 1)
+  ) %>%
+  left_join(
+    paper_metadata %>% select(paper_id, citation, year),
+    by = "paper_id"
+  ) %>%
+  select(paper_id, year, total_obs, has_coords, pct_coords, has_taxon,
+         pct_taxon, has_date, pct_date, distinct_species)
+
+kable(
+  quality_by_paper,
+  col.names = c("Paper", "Year", "Total", "Coords", "%", "Taxon", "%", 
+                "Date", "%", "Species"),
+  format = "html",
+  caption = "Detailed Quality Metrics by Paper"
+)
+```
+
+---
+
+# Session Information
+
+```{r session_info}
+sessionInfo()
+```
+
+**Report generated:** `r format(Sys.time(), "%Y-%m-%d %H:%M:%S")`
