@@ -1,2 +1,2 @@
-"paper_id","n_rows","n_with_coords","n_unique_species","generated_at_utc"
-"jennings_2026",1835,1069,546,"2026-04-29T04:13:13Z"
+"paper_id","n_rows","n_with_coords","n_with_country","n_with_state_province","n_with_county_parish","n_with_municipality","n_habit_trait_rows","n_unique_species","generated_at_utc"
+"jennings_2026",1835,1069,1114,0,0,0,319,546,"2026-04-29T05:00:53Z"

@@ -41,7 +41,8 @@ Paper-specific field mapping is in `mappings/jennings_2026_column_mapping.csv`.
 - `scripts/04_build_bien_staging.R`: map normalized records into BIEN staging output.
 - `scripts/run_pipeline.R`: top-level orchestrator for end-to-end run.
 
-All scripts support `--paper-id=...` and `--output-dir=...` style CLI args.
+`scripts/run_pipeline.R` supports `--paper-id=...` and `--force=TRUE/FALSE`.
+Individual step scripts support additional path overrides (for example `--interim-dir=...`, `--processed-dir=...`) where applicable.
 
 ## Run
 
@@ -58,6 +59,46 @@ Rscript Literature_Data_To_BIENdb/scripts/run_pipeline.R --paper-id=jennings_202
 ```
 
 `--force=TRUE` re-downloads files and rewrites outputs.
+
+## Coordinate And Elevation Mapping
+
+The normalizer now preserves explicit location/elevation columns in every run, even when source data is missing values.
+
+- Coordinate inputs accepted include `decimalLatitude`/`decimalLongitude` and common variants such as `lat`, `latitude`, `lon`, `long`, `lng`.
+- Elevation inputs accepted include `verbatimElevation` and common variants such as `elev`, `elevation`, `elevation_m`, `alt`, `altitude`.
+- If only a single elevation value is provided, it is propagated to `minimumElevationInMeters` and `maximumElevationInMeters`.
+- Output tables always retain coordinate/elevation columns; rows without source values remain `NA` rather than dropping columns.
+
+## Jennings 2026 Extraction Design (Occurrence + GNRS + Traits)
+
+The Jennings parser now inspects all tabular supplementary sheets and extracts a richer occurrence payload aligned to BIEN `ViewFullOccurrence` style fields when present in source files.
+
+Primary occurrence fields now extracted in `data/interim/jennings_2026_dwc_normalized.csv`:
+
+- Core IDs: `occurrenceID` (source-supplied or deterministic generated fallback), `catalogNumber`, `recordNumber`
+- Taxon + record context: `scientificName`, `scientificNameAuthorship`, `family`, `genus`, `basisOfRecord`, `occurrenceStatus`, `establishmentMeans`
+- Locality and political units: `locality`, `verbatimLocality`, `localityNotes`, `country`, `countryCode`, `stateProvince`, `county`, `municipality`, `island`, `islandGroup`, `waterBody`
+- Coordinates/georeference: `decimalLatitude`, `decimalLongitude`, `coordinateUncertaintyInMeters`, `geodeticDatum`, `georeferenceRemarks`
+- Elevation: `verbatimElevation`, `minimumElevationInMeters`, `maximumElevationInMeters`, `elevation`
+- Event time: `eventDate`, `eventYear`, `eventMonth`, `eventDay`
+- Provenance: `source_file`, `source_sheet`, `original_row_number`, `sourceProvenance`, citation and DOI metadata
+
+GNRS-ready political context is preserved in staging as:
+
+- `country`, `state_province`, `county_parish`, `municipality`
+- Raw counterparts for traceability: `country_raw`, `state_province_raw`, `county_raw`, `municipality_raw`, `political_units_raw`
+
+This keeps direct GNRS input fields and original text side-by-side for auditing and re-processing.
+
+## Habit/Growth Form Sidecar
+
+If metadata includes explicit habit/growth-form values, the pipeline writes:
+
+- `data/processed/jennings_2026_habit_traits.csv`
+
+Schema includes one row per qualifying observation with `trait_name = growth_form`, raw/standardized trait values, observation linkage, and source provenance.
+
+If no explicit habit values are found, the file is still written as a zero-row CSV with the same schema and an explicit log note so downstream steps remain idempotent and predictable.
 
 ## BIEN Service Alignment
 

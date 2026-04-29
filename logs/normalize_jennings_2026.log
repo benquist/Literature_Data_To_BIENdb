@@ -1,2 +1,10 @@
 2026-04-29T04:12:14Z | INFO | Normalization complete | rows= 1835  output= /Users/brianjenquist/VSCode/Literature_Data_To_BIENdb/data/interim/jennings_2026_dwc_normalized.csv 
 2026-04-29T04:13:12Z | INFO | Normalization complete | rows= 1835  output= /Users/brianjenquist/VSCode/Literature_Data_To_BIENdb/data/interim/jennings_2026_dwc_normalized.csv 
+2026-04-29T04:38:40Z | INFO | Normalization complete | rows= 1835  output= /Users/brianjenquist/VSCode/Literature_Data_To_BIENdb/data/interim/jennings_2026_dwc_normalized.csv 
+2026-04-29T04:45:28Z | INFO | Normalization complete | rows= 1835  output= /Users/brianjenquist/VSCode/Literature_Data_To_BIENdb/data/interim/jennings_2026_dwc_normalized.csv 
+2026-04-29T04:55:03Z | INFO | Mapping file loaded (informational; heuristic extraction still active) | rows= 26  path= /Users/brianjenquist/VSCode/Literature_Data_To_BIENdb/mappings/jennings_2026_column_mapping.csv 
+2026-04-29T04:55:03Z | WARN | Coordinates outside valid range were set to NA in decimal fields | rows= 2 
+2026-04-29T04:55:03Z | INFO | Normalization complete | rows= 1835  output= /Users/brianjenquist/VSCode/Literature_Data_To_BIENdb/data/interim/jennings_2026_dwc_normalized.csv 
+2026-04-29T05:00:52Z | INFO | Mapping file loaded (informational; heuristic extraction still active) | rows= 26  path= /Users/brianjenquist/VSCode/Literature_Data_To_BIENdb/mappings/jennings_2026_column_mapping.csv 
+2026-04-29T05:00:53Z | WARN | Coordinates outside valid range were set to NA in decimal fields | rows= 2 
+2026-04-29T05:00:53Z | INFO | Normalization complete | rows= 1835  output= /Users/brianjenquist/VSCode/Literature_Data_To_BIENdb/data/interim/jennings_2026_dwc_normalized.csv 
