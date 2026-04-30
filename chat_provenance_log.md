@@ -94,3 +94,13 @@
 - Confirmed moved occurrence files are present under `data/occurrences/` and script set under `scripts/occurrence_intake/`.
 - Patched `scripts/occurrence_intake/download_occurrence_sources.R` so harvest-status writeback updates `data/occurrence_source_intake.csv` (not Dryad manual intake path).
 - Prepared this project scope for commit/push to `origin/main`.
+
+## 2026-04-29 - README occurrence-program status addition for project split
+
+**Prompt:** Update README.md so Literature_Data_To_BIENdb explicitly carries migrated occurrence intake program status from DryadPlantTraits, including registry counts, compiled row/georeference totals, and script/data locations.
+
+**Summary:**
+- Added a concise Pipeline Status subsection for migrated occurrence intake program.
+- Documented registry state: 46 total sources (10 compiled, 33 pending_review, 3 pending_manual_access).
+- Documented compiled occurrence totals: 165,155 rows and 144,389 georeferenced.
+- Documented canonical locations: scripts/occurrence_intake/, data/occurrences/, and data/occurrence_source_intake.csv.
