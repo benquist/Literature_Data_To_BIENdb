@@ -1,6 +1,13 @@
 # Literature Data To BIENdb
 
-This project bootstraps a literature-to-BIEN ingestion workflow focused on individual papers with high-value observation data.
+This project implements a literature-to-BIEN ingestion workflow that handles a growing multi-paper portfolio of high-value plant occurrence and trait datasets. Each paper is parsed, normalized to Darwin Core, and staged for BIEN database ingestion.
+
+## Pipeline Status (as of 2026-04-29)
+
+- **~10+ papers processed:** jennings_2026, gosline_2023, novikov_2022, dayneko_2023, joyce_2020, aung_2025, and others
+- **~14,325 georeferenced occurrence records** compiled across all papers
+- Interactive report with per-paper breakdowns and a georeferenced leaflet map: `reports/literature_data_overview.html`
+- All output follows Darwin Core schema with BIEN staging fields (GNRS-ready political units, `source_file`, `sourceProvenance`, DOI metadata)
 
 ## Goal
 
