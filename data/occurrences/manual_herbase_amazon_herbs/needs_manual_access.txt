@@ -1,0 +1,4 @@
+qa_flags: needs_manual_access|no_verified_download_found
+url: https://www.scielo.br/j/aa/a/9Tp47pFS4bMsjRT6LkPjcHQ/?lang=en
+checked: 2026-04-30T01:23:29Z
+note: No verified auto-downloadable HERBase dataset source was found; manual access is required.

@@ -84,3 +84,13 @@
 - Downloaded and processed GBIF/IPT DwC-A datasets for `gosline_2023`, `novikov_2022`, and `dayneko_2023` through staging.
 - Ran discovery/download/normalize/staging for `joyce_2020` and `aung_2025` using supplementary XLSX assets.
 - New staged outputs generated for: `gosline_2023`, `novikov_2022`, `dayneko_2023`, `joyce_2020`, and `aung_2025`.
+
+## 2026-04-29 - Manual occurrence migration finalized from Dryad trait intake
+
+**Prompt:** Complete migration of clearly non-trait pending literature sources into Literature_Data_To_BIENdb, ensure occurrence registry totals and moved scripts are complete, and align script registry/output paths with Literature project layout.
+
+**Summary:**
+- Confirmed `data/occurrence_source_intake.csv` contains 46 rows with status distribution: compiled 10, pending_review 33, pending_manual_access 3.
+- Confirmed moved occurrence files are present under `data/occurrences/` and script set under `scripts/occurrence_intake/`.
+- Patched `scripts/occurrence_intake/download_occurrence_sources.R` so harvest-status writeback updates `data/occurrence_source_intake.csv` (not Dryad manual intake path).
+- Prepared this project scope for commit/push to `origin/main`.

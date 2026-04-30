@@ -1,0 +1,216 @@
+AVARU_Ya1_mtelyatnikov_2017_species_data,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Dataset Title: Russian Arctic Vegetation Archive: (Ya1)Northern Yamal Vegetation Plots,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Dataset Author: Mikhail Telyatnikov,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Dataset Reference: Telyatnikov, M.Yu., Troyeva, E.I., Ermokhina, K.A. & Pristyazhnyuk, S.A. (2019). Rastitelnost srednego techeniya r. Yakhadyyakha (yuzhnaya chast arkticheskikh tundr p-va Yamal) [Vegetation of the middle reach of the Yakhadyyakha river (Southern part of the Yamal peninsula arctic tundra)]. Turczaninowia, 22(2), 58–79. https://doi.org/10.14258/turczaninowia.22.2.3",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Dataset Table: Modified Species Cover Data for Northern Yamal (Ya1),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Dataset Notes: Percentage species cover scale is used. Taxa are listed in alphabetical order. Both the dataset author determinations and the current nomenclature according to the Panarctic Species List (PASL) are listed.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,AUTHOR PLOT NUMBER,Ya1-2,Ya1-4,Ya1-6,Ya1-8,Ya1-11,Ya1-12,Ya1-13,Ya1-15,Ya1-17,Ya1-18,Ya1-23,Ya1-25,Ya1-27,Ya1-29,Ya1-31,Ya1-34,Ya1-36,Ya1-38,Ya1-40,Ya1-42,Ya1-45,Ya1-47,Ya1-48,Ya1-53,Ya1-54,Ya1-55,Ya1-58,Ya1-60,Ya1-61,Ya1-63,Ya1-65,Ya1-67,Ya1-68,Ya1-70,Ya1-72,Ya1-73,Ya1-74,Ya1-75,Ya1-76,Ya1-77,Ya1-78,Ya1-79,Ya1-80,Ya1-81,Ya1-82,Ya1-83,Ya1-84,Ya1-85,Ya1-86
+,,TURBOVEG PLOT NUMBER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PASL TAXON SCIENTIFIC NAME NO AUTHOR(S),PASL TAXON SCIENTIFIC NAME WITH AUTHOR(S),DATASET TAXON,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Achoriphragma nudicaule,Achoriphragma nudicaule,Parrya nudicaulis (L.) Regel,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+Alectoria nigricans,Gowardia nigricans,Gowardia nigricans (Ach.) P.Halonen,0,0,0,0,0.5,1,0,0,0,1,0.5,0,0,0,3,0,0,3,3,6,0,0,0,2,0,0,0,0,0,0,3,0,0,0,2,0,3,0,0,0,0,0,0,0,0,0,0,1,0
+Alectoria ochroleuca,Alectoria ochroleuca,Alectoria ochroleuca (Hoffm.) Massal.,0,0,0,0,0,0,0,0,0,2,0,0,0,0,1,0,0,2,0,0,0,0,5,2,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.5,0,0,0,0,2,0
+Alopecurus alpinus,Alopecurus alpinus,Alopecurus borealis Trin.,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.5,0,1,0.5,1,1,1,1,0,0,1,1,0,1
+Antennaria lanata,Antennaria lanata,Antennaria villifera Boriss.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,4,3,0,2,2,3,1,1,0,1
+Arctagrostis latifolia,Arctagrostis latifolia,Arctagrostis latifolia (R. Br.) Griseb.,0,0.5,0,0,0,2,0,0,0,0,0,2,0,0,0,0,0,0,1,0,0,0,0,2,0,4,1,0,2,0,2,0,0,0,2,1,0,0,0,0,0,0,0,0,0,0,0,1,0
+Arctocetraria andrejevii,Arctocetraria andrejevii,Arctocetraria andrejevii (Oxner) KÄrnefelt & Thell,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0.5,0,0,0,0,0,0,0,0.5,0,3,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+Arctocetraria nigricascens,Arctocetraria nigricascens,Arctocetraria nigricascens (Nyl.) Elenkin,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0.5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Armeria maritima,Armeria maritima [s. maritima],Armeria maritima [s. maritima] (Mill.) Willd.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0.5,0,0,0,1,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,1,0.5,0,1,0.5,0
+Artemisia borealis,Artemisia borealis,Artemisia borealis Pall.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+Aulacomnium palustre,Aulacomnium palustre,Aulacomnium palustre (Hedw.) Schwaegr.,0,3,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,5,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Aulacomnium turgidum,Aulacomnium turgidum,Aulacomnium turgidum (Wahlenb.) Schwaegr.,6,0,12,5,0,0,0,0,2,0,4,3,0,4,0,0,0,0,2,0,0,4,0,0,0,0,2,0,0,0,0,5,2,0,0,0,0,0,4,0,0,0,0,0,0,2,0,2,0
+Bistorta vivipara,Bistorta vivipara,Bistorta vivipara (L.) Delarbre,2,2,2,0.5,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,2,0,2,2,0.5,0,0,2,0
+Brachythecium mildeanum,Brachythecium mildeanum,Brachythecium mildeanum (Schimp.) Schimp.,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bryocaulon divergens,Bryocaulon divergens,Bryocaulon divergens (Ach.) KÄrnefelt,0,0,0,0,0,2,0,0,0,2,0,2,0,1,4,0,0,1,0.5,0.5,0,0,4,2,0,1,1,0,0.5,0,3,1,0,1,2,0,1,0,0,0,0,0,0,0,0,0,0,1,0
+Bryoria nitidula,Bryoria nitidula,Bryoria nitidula (Th. Fr.) Brodo & Hawksw.,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0.5,0,0,0,2,0,0,0,0,0,0,0,4,0,0,0,0,0,1,0,0,0,0,0.5,0,0,0,0,0,1,0
+Bryum pseudotriquetrum,Bryum pseudotriquetrum,Bryum pseudotriquetrum (Hedw.) P.G. Gaertn.,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Calamagrostis groenlandica,Calamagrostis groenlandica,Calamagrostis neglecta s. groenlandica (Schrank) Matuszk.,0,5,2,1,0,2,0,0,0,2,0,0,0,3,0,0,0,0,0,0,0,0,0,1,0,0,0,0,5,0,0,2,0,0,0,0,0,0,0,2,0,0,0,0,0,1,0,1,0
+Calamagrostis holmii,Calamagrostis holmii,Calamagrostis holmii Lange,2,0,0,0,0,0,0,0,0,0,0,2,0,0,1,0,0,0,4,0,0,2,2,0,0,0,2,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Calamagrostis lapponica,Calamagrostis lapponica,Calamagrostis lapponica (Wahlenb.) Hartm.,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Calamagrostis neglecta,Calamagrostis neglecta,Calamagrostis neglecta (Ehrh.) P. Gaertn.,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Campanula rotundifolia,Campanula rotundifolia,Campanula rotundifolia L.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.5,0,0,0,0,0
+Cardamine bellidifolia,Cardamine bellidifolia [s. bellidifolia],Cardamine bellidifolia [s. bellidifolia] L.,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0.5,0,0,0,0,0,0,0.5,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cardamine pratensis,Cardamine pratensis s. polemonioides,Cardamine polemonioides Rouy,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Carex arctisibirica,Carex arctisibirica,Carex bigelowii s. ensifolia (Turcz. ex Ledeb.) ined. ,0,0,0,0,0,0,0,0,0,0,0,2,0,0,2,0,0,0,0,0,0,0,0,1,0,10,2,0,0,0,0,0,0,0,9,4,0,3,0,2,0,0,2,0,0,0,0,4,0
+Carex concolor,Carex concolor,Carex concolor R. Br.,20,14,10,12,7,6,30,11,5,0,25,20,0,5,0,1,8,0,6,0,0,30,10,0,0,0,4,2,0,0,0,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Carex lachenalii,Carex lachenalii,Carex lachenalii Schkuhr,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,3,0,0,0,0,0,0,0,1,0,0,0,0,3,0,0,0,0,0,5,0,3,0,0,2,0,0,1,2,0,0,0,1
+Carex laxa,Carex laxa,Carex laxa Wahlenb.,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Carex rariflora,Carex rariflora,Carex rariflora (Wahlenb.) Sm.,0,0,0,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Carex rotundata,Carex rotundata,Carex rotundata Wahlenb.,0,0,0,12,0,0,0,0,0,0,6,0,25,25,0,0,0,0,0,0,0,0,0,0,0,0,0,18,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Carex rupestris,Carex rupestris,Carex rupestris All.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0
+Cassiope tetragona,Cassiope tetragona [s. tetragona],Cassiope tetragona [s. tetragona] (L.) D. Don,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17,0,0,2,0,17,0,0,0,15,0,1,0,0,0,0,2,0,0,0,0,1,0,0,0,0,0,0,0,0,2,0,0,0,0
+Cerastium arvense,Cerastium arvense,Cerastium arvense L.,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,2,0,0,0,1,2,2,0,2,0,1
+Ceratodon purpureus,Ceratodon purpureus,Ceratodon purpureus (Hedw.) Brid.,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cetraria aculeata,Cetraria aculeata,Cetraria aculeata (Schreb.) Link.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.5,0,0.5,0
+Cetraria islandica,Cetraria islandica,Cetraria islandica (L.) Ach.,2,0,3,0,0,1,0,0,0,1,2,1,0,5,3,2,3,0,4,2,0,1,4,3,1,1,0,0,1,1,2,2,0,0,1,5,2,2,0.5,2,4,2,2,0.5,3,1,0,1,2
+Cetraria laevigata,Cetraria laevigata,Cetraria laevigata Rass.,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0
+Cetraria nigricans,Cetraria nigricans,Cetraria nigricans Nyl.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cetrariella delisei,Cetrariella delisei,Cetrariella delisei (Bory ex Schaer.) KÄrnef.,1,0,3,0.5,1,0,0,0,0,0,2,0,0,3,2,5,0.5,0,2,2,0,0,0,2,1,0,0,0,1,1,3,0,2,0,0,0,0,1,0,0,0,0,0,0.2,2,0,0,0,1
+Cetrariella fastigiata,Cetrariella fastigiata,Cetrariella fastigiata (Bory ex Schaerer) KÄrnefelt & Thell,0,0,0,0,2,0,0,0,0,0,0,0,0,0,3,0,0.5,0,0.5,2,0,0,0,1,2,0.5,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0.5,0,0.5,1,0,0,0,0
+Chrysosplenium alternifolium,Chrysosplenium alternifolium,Chrysosplenium alternifolium L.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cinclidium subrotundum,Cinclidium subrotundum,Cinclidium subrotundum Lindb.,2,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cladonia acuminata,Cladonia acuminata,Cladonia acuminata (Ach.) Norrl.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cladonia amaurocraea,Cladonia amaurocraea,Cladonia amaurocraea (FlÔrke) Schaer.,0,0,0,0,3,2,0,0,3,6,2,5,0,4,6,0,0,2,4,1,0,2,5,5,0,1,1,0,1,0,1,3,0,0,4,2,3,1,0,1,2,0.5,2,0,4,0.5,0,0,0
+Cladonia arbuscula,Cladonia arbuscula s. lat.,Cladonia arbuscula s. lat. (Wallr.) Hale & W.Culb.,0,0,4,0,4,2,0,0,0,8,8,0,0,6,20,3,3,5,6,4,0,2,25,4,6,0,6,0,1,3,6,5,3,0,4,4,5,11,6,5,4,2,8,0,5,3,0,0,4
+Cladonia bellidiflora,Cladonia bellidiflora,Cladonia bellidiflora (Ach.) Schaer.,0,0,1,0,0,2,0,0,0,1,0,0,0,1,1,1,1,0,2,0,0,0,0,3,0,0,0.5,0,0,0,3,3,0,0,1,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cladonia coccifera,Cladonia coccifera s. lat.,Cladonia coccifera s. lat. (L.) Willd.,0,0,2,0,0.5,2,0,0,0,6,1,0,0,2,3,0,0,2,2,0,0,0,0,5,1,1,2,0,0,1,2,2,0,0,2,1,2,0,0,1,0,0,1,0,2,1,0,0,0.5
+Cladonia crispata v. cetrariiformis,Cladonia crispata s. lat.,Cladonia crispata s. lat. (Ach.) Flot.,0,0,0,0,6,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,1,0,2,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,2,0,0,0,0
+Cladonia deformis,Cladonia deformis,Cladonia deformis (L.) Hoffm.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cladonia ecmocyna,Cladonia ecmocyna,Cladonia ecmocyna Leight.,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cladonia furcata,Cladonia furcata,Cladonia furcata (Huds.) Schrad.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cladonia gracilis,Cladonia gracilis s. lat.,Cladonia gracilis s. lat. (L.) Willd.,0,0,2,0,0,0,0,0,3,0,3,6,0,8,5,0,2,0,6,1,0,3,2,0,1,1,7,0,4,1,0,4,2,0,4,0,3,2,0,0,0,0.3,0,0,0,0,0,0,0
+Cladonia gracilis v. elongata,Cladonia macroceras,Cladonia macroceras (FlÔrke) Ahti,0,0,0,0,0,4,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cladonia macroceras,Cladonia macroceras,Cladonia macroceras (FlÔrke) Ahti,2,0,1,0,0,0,0,0,0,0,0,0,0,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,1,1,0,0,0,0,0,0,0,0.5,0,1,0,0,0.5
+Cladonia phyllophora,Cladonia phyllophora,Cladonia phyllophora Hoffm.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cladonia pleurota,Cladonia pleurota,Cladonia pleurota (FlÔrke) Schaer.,0,0,0,0,0,0,0,0,0,0.5,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+Cladonia pyxidata,Cladonia pyxidata,Cladonia pyxidata (L.) Hoffm.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cladonia rangiferina,Cladonia rangiferina,Cladonia rangiferina (L.) Nyl.,0,0,2,0,0,0,0,0,0,0,3,0,0,4,0.5,0,0,2,0,0,0,0,2,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cladonia squamosa,Cladonia squamosa s. lat.,Cladonia squamosa s. lat. Hoffm.,0,0,0,0,0,0,0,0,0,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cladonia stricta,Cladonia stricta s. lat.,Cladonia stricta s. lat. (Nyl.) Nyl.,0,0,0,0,0,0,0,0,0,0,0,0,0,0.5,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,1,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0
+Cladonia stygia,Cladonia stygia,Cladonia stygia (Fr.) Ruoss,0,0,0,0,2,2,0,0,0,0.5,0,4,0,0,0,0,0,0,2,2,0,0,4,1,0,4,2,0,3,0,1,2,0,0,0.5,3,0,0,2,0,1,0,0,0.5,0,0.5,0,0,0
+Cladonia subfurcata,Cladonia subfurcata,Cladonia subfurcata (Nyl.) Arn.,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Cladonia sulphurina,Cladonia sulphurina,Cladonia sulphurina (Michx.) Fr.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cladonia uncialis,Cladonia uncialis,Cladonia uncialis (L.) Wigg.,0,0,0,0,0,2,0,0,0,4,3,6,0,5,11,0,2,0,4,3,0.2,0,10,3,2,5,6,0,6,0,7,3,1,0,4,3,5,0,3,0,2,0,0,1,2,0,0,0,2
+Comarum palustre,Comarum palustre,Comarum palustre L.,0,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Conostomum tetragonum,Conostomum tetragonum,Conostomum tetragonum (Hedw.) Lindb.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dactylina arctica,Dactylina arctica,Dactylina arctica (Richardson) Nyl.,0,0,0,0,2,1,0,0,1,2,1,2,0,0,3,0,0,0,1,0,0,0,3,1,0,1,2,0,2,0,3,1,0,0,1,1,1,0,1,1,0,1,0,1,0,0,0,1,0
+Dactylina ramulosa,Dactylina ramulosa,Dactylina ramulosa (Hook.) Tuck.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0.5,0,0,1
+Deschampsia borealis,Deschampsia borealis,Deschampsia sukatschewii s. borealis (Trautv.) Tzvelev,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,6,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+Deschampsia glauca,Deschampsia glauca,Deschampsia anadyrensis V.N. Vassil.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0
+Dicranum angustum,Dicranum angustum,Dicranum spadiceum J. E. Zetterst.,0,0,2,0,0,0,0,0,1,0,5,8,0,0,0.5,0,45,0,5,0,0,2,0,0,0,0,0,0,0,0,0,0,12,0,0,0,0,15,0,5,0,0,0,0,0,0,0,6,3
+Dicranum elongatum,Dicranum elongatum,Dicranum elongatum Schleich. ex Schwaegr.,0,0,2,0,2,2,0,0,2,6,5,2,0,0,0,0,0,0,3,0,0,0,10,0,0,5,7,0,2,0,0,10,0,0,27,0,0,0,2,0,0,0,0,0,0,0,0,0,2
+Dicranum flexicaule,Ditrichum flexicaule,Ditrichum flexicaule (Schwaegr.) Hampe,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,2,0,0,0,0,7,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dicranum majus,Dicranum majus,Dicranum majus Turner,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,5,0,0,0,0,0,0,0,0,1
+Dicranum spadiceum,Dicranum spadiceum,Dicranum spadiceum J. E. Zetterst.,0,0,0,0,0,2,0,0,0,0,0,0,0,15,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,10,2,0,0,12,0,0,2,0,0,0,0,0,0,0,0,0,3
+Dicranum species,Dicranum species,Dicranum species ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,9,0,0,5,0,0,0
+Ditrichum flexicaule,Ditrichum flexicaule,Ditrichum flexicaule (Schwaegr.) Hampe,0,0,0,0,0,0,0,0,1,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Draba parviflora,Draba pauciflora,Draba pauciflora R. Br.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+Draba species,Braya species,Braya species ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.5,0,0,0
+Drepanocladus species,Drepanocladus species,Drepanocladus species ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,70,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dryas octopetala,Dryas octopetala,Dryas octopetala L.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,8,0,0,4,0,8,0
+Dryas punctata,Dryas punctata,Dryas punctata Juz.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,4,0,10,12,0,0,8,0,12,0
+Dupontia fischeri,Dupontia fisheri,Dupontia fisheri R. Br.,3,2,0,0,0,0,0,0,0.5,0,1,1,0,2,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Equisetum arvense,Equisetum arvense,Equisetum arvense L.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,14,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9,4,0,0,0,0,3,5,0,4,12,6,5,5,22,1,9
+Erigeron eriocephalus,Erigeron eriocephalus,Erigeron eriocephalus J. Vahl.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+Eriophorum brachyantherum,Eriophorum brachyantherum,Eriophorum brachyantherum Trautv. & C.A. Mey.,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Eriophorum polystachyon,Eriophorum polystachion,Eriophorum angustifolium Honck.,0,0,0,0,4,1,0,0,0,0,3,0,0,3,0,0,0,0,0,0,0,9,5,0,0,6,9,0,11,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Eriophorum russeolum,Eriophorum russeolum,Eriophorum russeolum Fr. ex Hartm.,5,2,0,3,0.5,2,5,3,0,0,4,5,1,0,0,0,0,0,0,0,0,1,3,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Eriophorum scheuchzeri,Eriophorum scheuchzeri,Eriophorum scheuchzeri Hoppe,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Eriophorum vaginatum,Eriophorum vaginatum,Eriophorum vaginatum L.,0,0,0,0,0,0,0,0,0,0,0,0,0,30,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Eurynchiastrum pulchellum,Unknown forb,Unknown forb,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0
+Festuca brachyphylla,Festuca brachyphylla,Festuca brachyphylla Schult.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.5,0,0,0,0,0,0,0,0,0,0
+Festuca rubra,Festuca rubra,Festuca rubra L.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,1,0,1,14,2,0,2,2,0,0,2,2
+Festuca rubra subsp. arctica,Festuca rubra s. arctica ?,Festuca rubra s. richardsonii (Hook.) HultÂn,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.5,0,0,4,0,0,2,0,0,5,0,0,0,3,0,0,4,6,0,0
+Flavocetraria cucullata,Flavocetraria cucullata,Flavocetraria cucullata (Bell.) KÄrnefelt & Thell,0,0,5,0,4,3,0,0,1,5,3,3,0,3,5,0,0,0,0,0,0,1,3,3,0,0,2,0,3,0,5,1,0,0.5,2,0,2,0,3,2,3,6,6,0,2,6,1,4,1
+Flavocetraria nivalis,Flavocetraria nivalis,Flavocetraria nivalis (L.) KÄrnefelt & Thell,0,0,3,0,2,0,0,0,0,3,0,3,0,1,6,0,0,7,3,17,0,0,4,3,0,6,3,0,2,0,6,2,0,0,4,0,3,0,3,1,0,1,2,0.2,2,5,0,3,1
+Gastrolychnis involucrata,Gastrolychnis involucrata,Silene involucrata (Cham. & Schltdl.) Bocquet,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.5,0,0,0,0,0,0,0
+Gymnomitrion species,Gymnomitrion species,Gymnomitrion species ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,60,0,0,0,14,0,0,0,0,0,0,0,0,0,35,0,0,40,0,0,0,0,0,0,0,0,0,0,0,20,0,0,0,0
+Hierochloe alpina,Hierochloû alpina,Hierochloû alpina (Sw.) Roem. & Schult.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,1,2,0,0,3,0,2,0,0,0,0,2,0,0,0,0,1,3,0,0.5,0.5,0,1,1,0,0,1,1,3,0
+Huperzia arctica,Huperzia arctica,Huperzia arctica (Grossh. ex Tolm.) Sipliv.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0.5,0.5,0,0,0,1,0,1,0,0,0,0,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Hylocomium splendens,Hylocomium splendens,Hylocomium splendens (Hedw.) Schimp.,0,0,10,0,0,0,0,0,1,0,6,8,0,0,0,0,0,0,0,0,0,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.5,0,0,0,0,0,0,0,2,0
+Juncus biglumis,Juncus biglumis,Juncus biglumis L.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Koeleria asiatica,Koeleria asiatica,Koeleria asiatica Domin,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.5,0,0,0,1,0,0,1,2,0,0
+Lagotis minor,Lagotis minor,Lagotis glauca s. minor (Willd.) HultÂn,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,1,2,0,1,4,3,0,0,0,2
+Lloydia serotina,Lloydia serotina,Lloydia serotina (L.) Rchb.,0,0,0,0,0,0,0,0,0,0.3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.5,0,0,1,1,2,0,0,0,1,0
+Lobaria linita,Lobaria linita,Lobaria linita (Ach.) Rabenh.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.5
+Loeskypnum badium,Loeskypnum badium,Loeskypnum badium (C.J. Hart.) Paul,45,0,0,0,0,0,0,0,0,0,0,0,0,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Luzula confusa,Luzula confusa,Luzula confusa Lindeb.,0,0,0.5,0,0,0,0,0,1,2,1,0,0,1,3,2,2,5,2,1,4,1,3,10,5,0.5,2,0,3,3,3,0,1,2,4,1,2,1,1,1,0,1,2,0.2,2,1,0,2,0
+Luzula wahlenbergii,Luzula wahlenbergii,Luzula wahlenbergii Rupr.,1,2,1,1,0,1,0,7,1,0,0,2,0,2,0,0,0,0,0,0,0,4,0,0,1,6,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Minuartia arctica,Minuartia arctica,Minuartia arctica (Steven ex Ser.) Graebn.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.5,0,0,0,1,0,0
+Minuartia rubella,Minuartia rubella,Minuartia rubella (Wahlenb.) Hiern,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+Mnium species,Milium species,Milium species ,6,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Nephroma arcticum,Nephroma arcticum,Nephroma arcticum (L.) Torss.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Nephroma expallidum,Nephroma expallidum,Nephroma expallidum (Nyl.) Nyl.,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+Ochrolechia androgyna,Ochrolechia androgyna,Ochrolechia androgyna (Hoffm.) Arn.,0,0,0.5,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,3,0,0,2,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Ochrolechia frigida,Ochrolechia frigida,Ochrolechia frigida (Sw.) Lynge,0,0,0.5,0,0,1,0,0,0,1,0,0,0,0,0.5,0,0,3,0.5,0,0,0,0.5,2,1,1,1,0,1,0.5,1,0,0,0,2,1,4,1,0.5,0,0,1,0,0,1,1,0,1,1
+Ochrolechia species,Ochrolechia species,Ochrolechia species ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Oligotrichum hercynicum,Oligotrichum hercynicum,Oligotrichum hercynicum (Hedw.) Lam. & DC.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Omphalina species,Omphalina species,Omphalina species,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0.5,0,0,0,0,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Oncophorus wahlenbergii,Oncophorus wahlenbergii,Oncophorus wahlenbergii Brid.,2,0,0,1,0,0,0,0,0,0,8,1,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Oxyria digyna,Oxyria digyna,Oxyria digyna (L.) Hill,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0,2,0,0,0,0,2,0,0,1,0,0,4,0,2,0,0.5,4,0,0,5,1,0,2,0.5,3
+Pachypleurum alpinum,Pachypleurum alpinum,Pachypleurum alpinum Ledeb.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.5,0,0,7,0,0,2,0,9
+Parmelia omphalodes,Parmelia omphalodes s. lat.,Parmelia omphalodes s. lat. (L.) Ach.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0.5,0,0,0,0,0,0,0,0,0,0
+Pedicularis albolabiata,Pedicularis albolabiata,Pedicularis albolabiata (HultÂn) Kozhevn.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Pedicularis hirsuta,Pedicularis hirsuta,Pedicularis hirsuta L.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.5,2,0,0.5,0,0,1,0,0,0,0,0,0.5,0
+Peltigera aphthosa,Peltigera aphthosa,Peltigera aphthosa (L.) Willd.,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.5,0,0,0,0,0,0,0
+Peltigera leucophlebia,Peltigera leucophlebia,Peltigera leucophlebia (Nyl.) Gyeln.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0
+Peltigera malacea,Peltigera malacea,Peltigera malacea (Ach.) Funck,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.5,0,0,0
+Peltigera neckeri,Peltigera neckeri,Peltigera neckeri MÁll.Arg.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.5,0,0,0,0,0,0,0
+Peltigera polydactylon,Peltigera polydactylon,Peltigera polydactylon (Neck.) Hoffm.,0,0,2,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Peltigera rufescens,Peltigera rufescens,Peltigera rufescens (Weis) Humb.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+Peltigera scabrosa ,Peltigera scabrosa,Peltigera scabrosa Th. Fr.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Pertusaria dactylina,Pertusaria dactylina,Pertusaria dactylina (Ach.) Nyl.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Pertusaria geminipara,Pertusaria geminipara,Pertusaria geminipara (Th. Fr.) C.Knight ex Brodo,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Plagiothecium berggrenianum,Plagiothecium berggrenianum,Plagiothecium berggrenianum Frisvoll,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Pleurozium schreberi,Pleurozium schreberi,Pleurozium schreberi (Willdenow ex Brid.) Mitt.,0,0,4,0,0,0,0,0,0,0,2,1,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Poa alpigena,Poa alpina,Poa alpina L.,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0
+Poa alpigena,Poa alpina,Poa alpina L.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,5,0,0,0,2,0,2,0,0
+Poa arctica,Poa arctica,Poa arctica R. Br.,2,0,2,0,4,2,0,2,5,5,0,2,0,0,0,2,2,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+Poa arctica subsp. vivipara,Poa alpina s. vivipara,Poa alpina v. vivipara L.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.5,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,2,0,2,0,0,4,1,0,0,1,1,0,0,1,0,2
+Pogonatum dentatum,Pogonatum dentatum,Pogonatum dentatum (Menzies ex Brid.) Brid.,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+Pogonatum urnigerum,Pogonatum urnigerum,Pogonatum urnigerum (Hedw.) P. Beauv.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Pohlia crudoides,Pohlia crudoides,Pohlia crudoides (Sull. & Lesq.) Broth.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Pohlia nutans,Pohlia nutans,Pohlia nutans (Hedw.) Lindb.,0,0,0,0,0,0,0,1,0,0,0,1,0,1,1,0,35,0,2,0,0,0,0,0,2,1,1,0,0,1,0,0,1,0,0,2,1,0,0,0,0,0,0,0,1,0,0,0,2
+Pohlia species,Pohlia species,Pohlia species ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Polemonium boreale,Polemonium boreale,Polemonium boreale Adams,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,0,2,1,1,1,0,1,0,0.5
+Polytichastrum fragile,Polytrichastrum fragile,Polytrichastrum alpinum (Hedw.) G. L. Sm.,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0
+Polytrichastrum alpinum,Polytrichastrum alpinum,Polytrichastrum alpinum (Hedw.) G. L. Sm.,0,0,0,0,0,0,0,0,0,0,10,0,0,0,0,0,0,6,0,0,0,0,3,5,2,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0
+Polytrichum hyperboreum,Polytrichum hyperboreum,Polytrichum hyperboreum R. Br.,0,0,0,0,0,10,0,0,0,0,10,0,0,0,0,0,0,0,0,0,12,0,4,0,0,0,8,0,2,0,0,0,20,0,3,0,10,0,0,10,17,0,0,0,2,0,0,3,0
+Polytrichum jensenii,Polytrichum jensenii,Polytrichum jensenii I. Hagen,3,0,0,3,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,10,0,2,3,0,7,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Polytrichum juniperinum,Polytrichum juniperinum,Polytrichum juniperinum Hedw.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Polytrichum piliferum,Polytrichum piliferum,Polytrichum piliferum Hedw.,0,0,0,0,0,0,0,0,0,5,0,0,0,0,5,11,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,4,15,4,0,3,0,0,3
+Polytrichum strictum,Polytrichum strictum,Polytrichum strictum Menzies ex Brid.,0,0,30,0,60,45,0,0,40,1,10,5,0,15,0,0,0,0,35,0,0,6,0,0,0,2,0,0,2,0,0,10,0,0,3,15,15,0,2,0,0,0,0,0,0,0,0,0,2
+Polytrichum swartzii,Polytrichum swartzii,Polytrichum swartzii C.J. Hart.,0,4,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Potentilla hyparctica,Potentilla hyparctica,Potentilla hyparctica Malte,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,2,0,0
+Pseudobryum cinclidioides,Pseudobryum cinclidioides,Pseudobryum cinclidioides (HÁb.) T. Kop.,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Ptilidium ciliare,Ptilidium ciliare,Ptilidium ciliare (L.) Hampe,0,0,0,0,0,0,0,0,0,0,7,6,0,12,0,0,0,0,12,0,0,0,0,0,0,0,3,0,6,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Racomitrium lanuginosum,Racomitrium lanuginosum,Racomitrium lanuginosum (Hedw.) Brid.,0,0,7,0,0,4,0,0,0,4,0,0,0,0,5,0,0,30,0,0,0,0,5,3,0,0,0,0,11,0,11,0,1,0,6,0,10,0,6,0,0,0,0,0,0,0,0,0,2
+Ranunculus hyperboreus,Ranunculus hyperboreus,Ranunculus hyperboreus Rottb.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Ranunculus lapponicus,Ranunculus lapponicus,Coptidium lapponicum (L.) Tzvelev,0,0,1,0,0,0.5,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Ranunculus propinquus,Ranunculus propinquus,Ranunculus subborealis s. subborealis Tzvelev,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,2,0,5,2,2,0,2,3,4,2,0,3
+Ranunculus pygmaeus,Ranunculus pygmaeus,Ranunculus pygmaeus Wahlenb.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.5,0,0.5,0,0,0,0,0,0,0,0,0,0,0
+Rumex arcticus,Rumex arcticus,Rumex arcticus Trautv.,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Rumex graminifolius,Rumex graminifolius,Rumex acetosella s. arenicola Y. MÄkinen ex Elven,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+Salix glauca,Salix glauca,Salix glauca L.,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Salix lanata,Salix lanata,Salix lanata L.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Salix nummularia,Salix nummularia,Salix nummularia Andersson,0,0,0,0,0,0,0,0,0,2,0,0,0,0,12,4,0,3,0,0,20,0,0,4,0,0,0,0,1,0,3,0,3,0,0,0,27,4,17,0,2,12,12,4,6,8,0,15,0
+Salix polaris,Salix polaris,Salix polaris Wahlenb.,2,0,3,0,0,7,0,5,3,3,3,0,0,0,0,3,12,0,15,0,0,3,0,1,0,0,0.2,0,1,0,14,0,5,0,3,0,0,12,6,22,3,9,5,0,15,0,3,0,4
+Salix pulchra,Salix pulchra,Salix pulchra Cham.,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Salix reptans,Salix reptans,Salix reptans Rupr.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.5,0,0,0,0,0,0,0
+Sanionia uncinata,Sanionia uncinata,Sanionia uncinata (Hedw.) Loeske,2,0,2,2,0,0,0,0,2,0,2,0,3,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,6,2,0,0,0,0,5,0,0,0,1
+Saxifraga cernua,Saxifraga cernua,Saxifraga cernua L.,1,2,4,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Saxifraga foliolosa,Saxifraga foliolosa,Micranthes foliolosa (R. Br.) Gornall,2,1,4,0.5,2,1,0,5,3,1,0,1,0,0,0,0,0,0.5,0,0,0,3,0,0,4,0,0,0,1,2,0,0,0.5,0,0,1,0,0.5,0,0,0,0,0,0,0,0,0,0,0
+Saxifraga hieracifolia,Saxifraga hieraciifolia,Micranthes hieraciifolia (Waldst. & Kit. ex Willd.) Haw.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.5,0,0,0.5,0,0,0,0,0,0,0,0,0,0
+Saxifraga hyperborea,Saxifraga hyperborea,Saxifraga hyperborea R. Br.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0
+Saxifraga nelsoniana,Saxifraga nelsoniana,Micranthes nelsoniana (D. Don) Small,0,0,0,0,0,0,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.5,0,0,0,0,0,0,0,0,0,0,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0
+Saxifraga tenuis,Saxifraga tenuis,Micranthes tenuis (Wahlenb.) Small,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Scorpidium cossonii,Scorpidium cossonii,Limprichtia cossonii (Schimp.) L.E. Anders.,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Scorpidium sp. ,Scorpidium species,Scorpidium species,0,0,0,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Siphula ceratites,Siphula ceratites,Siphula ceratites (Wahlenb.) Fr.,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Solorina crocea,Solorina crocea,Solorina crocea (L.) Ach.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,2,0,0,0,1
+Sparganium angustifolium,Sparganium angustifolium,Sparganium angustifolium Michx.,0,0,0,0,0,0,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Sphaerophorus globosus,Sphaerophorus globosus,Sphaerophorus globosus (Huds.) Vain.,0,0,1,0,2,2,0,0,0,12,2,2,0,1,6,0,0,2,0,4,0,0,5,6,0,5,4,0,1,0,11,3,0,0,4,0,5,0,3,0,0,1,3,0,0,2,0,2,0
+Sphagnum balticum,Sphagnum balticum,Sphagnum balticum (Russ.) C. Jens.,0,0,0,0,0,0,0,0,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Sphagnum compactum,Sphagnum compactum,Sphagnum compactum Lam. & DC.,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Sphagnum fimbriatum,Sphagnum fimbriatum,Sphagnum fimbriatum Wils.,2,10,0,0,0,2,0,0,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Sphagnum girgensohnii,Sphagnum girgensohnii,Sphagnum girgensohnii Russ.,2,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Sphagnum lenense,Sphagnum lenense,Sphagnum lenense H. Lindb. ex L.I. Savicz,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Sphagnum squarrosum,Sphagnum squarrosum,Sphagnum squarrosum Crome,3,20,0,0,0,0,0,65,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Sphagnum subsecundum,Sphagnum subsecundum,Sphagnum subsecundum Nees,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Sphagnum warnstorfii,Sphagnum warnstorfii,Sphagnum warnstorfii Russ.,4,5,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Stellaria peduncularis,Stellaria peduncularis,Stellaria longipes taxon peduncularis ,0,0,3,0,0,0,0,3,1,0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Stereocaulon alpinum,Stereocaulon alpinum,Stereocaulon alpinum Laur.,0,0,1,0,3,0.5,0,0,0,0,0,0,0,0,0,6,3,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,2,0,0,2,0,0.5,0,2,0,2,1,0,2,1,0,2,2
+Stereocaulon glareosum,Stereocaulon glareosum,Stereocaulon glareosum (Sav.) Magn.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,3,0,0,1,0,0,0,0,0
+Stereocaulon rivulorum,Stereocaulon rivulorum,Stereocaulon rivulorum H. Magn.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Tanacetum bipinnatum,Tanacetum bipinnatum,Tanacetum bipinnatum (L.) Sch.Bip.,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,0,2,0,3,0,0,14,0,0,2,1,1,9,0,2
+Taraxacum ceratophorum,Taraxacum ceratophorum,Taraxacum ceratophorum aggregate ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.2,0,0,0,0,0,0,0,0,0
+Tephroseris atropurpurea,Tephroseris atropurpurea,Tephroseris atropurpurea (Ledeb.) Holub,0,0,1,0,0.5,1,0,1,2,1,0.5,0.5,0,0,0,1,0.5,0,0,0,0,3,0,1,1,0.2,1,0,0,1,0,0,0,0,1,1,0,1,0,1,0.5,1,0.5,0,0,0,0,0,0
+Tetraplodon mnioides,Tetraplodon mnioides,Tetraplodon mnioides (Swartz ex Hedw.) Bruch & Schimp.,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Thamnolia subuliformis,Thamnolia vermicularis s. subuliformis,Thamnolia vermicularis s. subuliformis (Sw.) Schaer.,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,3,0
+Thamnolia vermicularis,Thamnolia vermicularis s. vermicularis,Thamnolia vermicularis s. vermicularis (Sw.) Schaer.,0,0,10,0,0,3,0,0,1,3,2,2,0,3,4,0,0,3,0,3,1,2,4,0,0,3,2,0,2,0,0,1,0,1,3,0,3,0,2,0,1,1,0,0,0.5,1,0,0,1
+Timmia austriaca,Timmia austriaca,Timmia austriaca Hedw.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.2,0,0,0,0,0,0,0,0,0,0
+Trisetum spicatum,Trisetum spicatum,Trisetum spicatum (L.) K. Richt.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.2,0,0,0,2,0
+Vaccinium minus,Vaccinium vitis-idaea s. minus,Vaccinium vitis-idaea s. minus (Lodd.) HultÂn,0,0,0,0,0,0,0,0,0,0,6,6,0,2,3,0,0,0,0,0,0,0,8,2,0,2,0,0,0,0,9,12,0,0,8,0,3,0,0,0,0,0,0,0,0,3,0,5,0
+Varicellaria rhodocarpa,Varicellaria rhodocarpa,Varicellaria rhodocarpa Nyl.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+Warnstorfia sarmenthosa,Warnstorfia sarmentosa,Warnstorfia sarmentosa (Wahlenb.) Hedenas,1,1,0,30,0,0,0,1,0,0,0,0,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0

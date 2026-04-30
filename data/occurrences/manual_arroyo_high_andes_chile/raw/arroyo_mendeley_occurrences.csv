@@ -1,0 +1,978 @@
+species,gradient_id,elevation_m,lat,lon,sampling_date
+Acaena pinnatifida Ruiz & Pav.,La Parva,2500,-33.34429333333333,-70.29843833333334,2023-01-17
+Acaena pinnatifida Ruiz & Pav.,La Parva,2600,-33.34408333333334,-70.29429333333333,2023-01-17
+Acaena pinnatifida Ruiz & Pav.,La Parva,2700,-33.33190666666667,-70.28919166666667,2023-01-18
+Acaena pinnatifida Ruiz & Pav.,La Parva,2800,-33.331923333333336,-70.284845,2023-01-19
+Acaena pinnatifida Ruiz & Pav.,La Parva,2900,-33.32950166666667,-70.28654999999999,2023-01-20
+Acaena pinnatifida Ruiz & Pav.,La Parva,3000,-33.325755,-70.28260166666666,2023-01-20
+Acaena splendens Hook. & Arn.,La Parva,2600,-33.34408333333334,-70.29429333333333,2023-01-17
+Adesmia arachnipes Clos,La Parva,3200,-33.32936,-70.27304166666667,2023-01-19
+Adesmia capitellata (Clos) Hauman,La Parva,3500,-33.32036333333334,-70.25692333333333,2023-01-18
+Adesmia capitellata (Clos) Hauman,La Parva,3600,-33.31871,-70.26104166666667,2023-01-18
+Adesmia coronilloides Gillies ex Hook. & Arn.,La Parva,2700,-33.33190666666667,-70.28919166666667,2023-01-18
+Adesmia coronilloides Gillies ex Hook. & Arn.,La Parva,2900,-33.32950166666667,-70.28654999999999,2023-01-20
+Adesmia coronilloides Gillies ex Hook. & Arn.,La Parva,3100,-33.32688166666667,-70.27770166666667,2023-01-19
+Adesmia exilis Clos,La Parva,2500,-33.34429333333333,-70.29843833333334,2023-01-17
+Adesmia exilis Clos,La Parva,2600,-33.34408333333334,-70.29429333333333,2023-01-17
+Adesmia exilis Clos,La Parva,2900,-33.32950166666667,-70.28654999999999,2023-01-20
+Adesmia glomerula Clos,La Parva,3500,-33.32036333333334,-70.25692333333333,2023-01-18
+Adesmia longiseta DC.,La Parva,2600,-33.34408333333334,-70.29429333333333,2023-01-17
+Adesmia longiseta DC.,La Parva,2900,-33.32950166666667,-70.28654999999999,2023-01-20
+Adesmia montana Phil.,La Parva,2500,-33.34429333333333,-70.29843833333334,2023-01-17
+Adesmia montana Phil.,La Parva,2600,-33.34408333333334,-70.29429333333333,2023-01-17
+Adesmia montana Phil.,La Parva,2700,-33.33190666666667,-70.28919166666667,2023-01-18
+Adesmia montana Phil.,La Parva,2800,-33.331923333333336,-70.284845,2023-01-19
+Adesmia papposa (Lag.) DC. var. radicifolia (Clos) M.N. Correa,La Parva,2600,-33.34408333333334,-70.29429333333333,2023-01-17
+Alstroemeria pallida Graham,La Parva,2600,-33.34408333333334,-70.29429333333333,2023-01-17
+Anarthrophyllum cumingii (Hook. & Arn.) F. Phil.,La Parva,2500,-33.34429333333333,-70.29843833333334,2023-01-17
+Anarthrophyllum cumingii (Hook. & Arn.) F. Phil.,La Parva,2600,-33.34408333333334,-70.29429333333333,2023-01-17
+Anarthrophyllum cumingii (Hook. & Arn.) F. Phil.,La Parva,2800,-33.331923333333336,-70.284845,2023-01-19
+Anarthrophyllum cumingii (Hook. & Arn.) F. Phil.,La Parva,2900,-33.32950166666667,-70.28654999999999,2023-01-20
+Anarthrophyllum gayanum (A. Gray) B.D. Jacks.,La Parva,2900,-33.32950166666667,-70.28654999999999,2023-01-20
+Anemone major (Phil.) F. Meigen,La Parva,3100,-33.32688166666667,-70.27770166666667,2023-01-19
+Antennaria chilensis J. Remy var. chilensis,La Parva,3400,-33.32467166666667,-70.261175,2022-12-28
+Astragalus looseri I.M. Johnst.,La Parva,2700,-33.33190666666667,-70.28919166666667,2023-01-18
+Azorella madreporica Clos,La Parva,3300,-33.325138333333335,-70.26480666666667,2023-01-19
+Azorella madreporica Clos,La Parva,3400,-33.32467166666667,-70.261175,2022-12-28
+Azorella madreporica Clos,La Parva,3500,-33.32036333333334,-70.25692333333333,2023-01-18
+Azorella madreporica Clos,La Parva,3600,-33.31871,-70.26104166666667,2023-01-18
+Azorella monantha Clos,La Parva,3200,-33.32936,-70.27304166666667,2023-01-19
+Azorella ruizii G.M. Plunkett & A.N. Nicolas,La Parva,2700,-33.33190666666667,-70.28919166666667,2023-01-18
+Azorella ruizii G.M. Plunkett & A.N. Nicolas,La Parva,2800,-33.331923333333336,-70.284845,2023-01-19
+Azorella ruizii G.M. Plunkett & A.N. Nicolas,La Parva,2900,-33.32950166666667,-70.28654999999999,2023-01-20
+Azorella ruizii G.M. Plunkett & A.N. Nicolas,La Parva,3000,-33.325755,-70.28260166666666,2023-01-20
+Azorella ruizii G.M. Plunkett & A.N. Nicolas,La Parva,3100,-33.32688166666667,-70.27770166666667,2023-01-19
+Azorella ruizii G.M. Plunkett & A.N. Nicolas,La Parva,3200,-33.32936,-70.27304166666667,2023-01-19
+Berberis empetrifolia Lam.,La Parva,2500,-33.34429333333333,-70.29843833333334,2023-01-17
+Berberis empetrifolia Lam.,La Parva,2600,-33.34408333333334,-70.29429333333333,2023-01-17
+Berberis empetrifolia Lam.,La Parva,2800,-33.331923333333336,-70.284845,2023-01-19
+Berberis empetrifolia Lam.,La Parva,2900,-33.32950166666667,-70.28654999999999,2023-01-20
+Berberis empetrifolia Lam.,La Parva,3100,-33.32688166666667,-70.27770166666667,2023-01-19
+Bromus catharthicus var. catharthicus,La Parva,2500,-33.34429333333333,-70.29843833333334,2023-01-17
+Bromus catharthicus var. catharthicus,La Parva,2600,-33.34408333333334,-70.29429333333333,2023-01-17
+Bromus catharthicus var. catharthicus,La Parva,2700,-33.33190666666667,-70.28919166666667,2023-01-18
+Bromus catharthicus var. catharthicus,La Parva,2800,-33.331923333333336,-70.284845,2023-01-19
+Bromus catharthicus var. catharthicus,La Parva,2900,-33.32950166666667,-70.28654999999999,2023-01-20
+Bromus catharthicus var. catharthicus,La Parva,3000,-33.325755,-70.28260166666666,2023-01-20
+Bromus setifolius J. Presl var. setifolius,La Parva,2700,-33.33190666666667,-70.28919166666667,2023-01-18
+Bromus setifolius J. Presl var. setifolius,La Parva,2900,-33.32950166666667,-70.28654999999999,2023-01-20
+Bromus setifolius J. Presl var. setifolius,La Parva,3100,-33.32688166666667,-70.27770166666667,2023-01-19
+Bromus setifolius J. Presl var. setifolius,La Parva,3300,-33.325138333333335,-70.26480666666667,2023-01-19
+Bromus setifolius J. Presl var. setifolius,La Parva,3400,-33.32467166666667,-70.261175,2022-12-28
+Bromus setifolius J. Presl var. setifolius,La Parva,3500,-33.32036333333334,-70.25692333333333,2023-01-18
+Bromus setifolius J. Presl var. setifolius,La Parva,3600,-33.31871,-70.26104166666667,2023-01-18
+Calceolaria arachnoidea Graham ,La Parva,2500,-33.34429333333333,-70.29843833333334,2023-01-17
+Calceolaria arachnoidea Graham ,La Parva,2600,-33.34408333333334,-70.29429333333333,2023-01-17
+Calceolaria arachnoidea Graham ,La Parva,2700,-33.33190666666667,-70.28919166666667,2023-01-18
+Calceolaria arachnoidea Graham ,La Parva,2800,-33.331923333333336,-70.284845,2023-01-19
+Calceolaria corymbosa Ruiz & Pav. subsp. mimuloides (Clos) C. Ehrh.,La Parva,3000,-33.325755,-70.28260166666666,2023-01-20
+Calopappus acerosus Meyen,La Parva,2700,-33.33190666666667,-70.28919166666667,2023-01-18
+Calopappus acerosus Meyen,La Parva,2800,-33.331923333333336,-70.284845,2023-01-19
+Carex andina Phil.,La Parva,2500,-33.34429333333333,-70.29843833333334,2023-01-17
+Carex andina Phil.,La Parva,2600,-33.34408333333334,-70.29429333333333,2023-01-17
+Carex andina Phil.,La Parva,2700,-33.33190666666667,-70.28919166666667,2023-01-18
+Carex andina Phil.,La Parva,2800,-33.331923333333336,-70.284845,2023-01-19
+Carex andina Phil.,La Parva,3000,-33.325755,-70.28260166666666,2023-01-20
+Carex andina Phil.,La Parva,3300,-33.325138333333335,-70.26480666666667,2023-01-19
+Carex macloviana d'Urv.,La Parva,3300,-33.325138333333335,-70.26480666666667,2023-01-19
+Carex macloviana d'Urv.,La Parva,3400,-33.32467166666667,-70.261175,2022-12-28
+Cerastium arvense L.,La Parva,2500,-33.34429333333333,-70.29843833333334,2023-01-17
+Cerastium arvense L.,La Parva,2600,-33.34408333333334,-70.29429333333333,2023-01-17
+Cerastium arvense L.,La Parva,2700,-33.33190666666667,-70.28919166666667,2023-01-18
+Cerastium arvense L.,La Parva,2800,-33.331923333333336,-70.284845,2023-01-19
+Cerastium arvense L.,La Parva,2900,-33.32950166666667,-70.28654999999999,2023-01-20
+Cerastium arvense L.,La Parva,3000,-33.325755,-70.28260166666666,2023-01-20
+Cerastium arvense L.,La Parva,3100,-33.32688166666667,-70.27770166666667,2023-01-19
+Cerastium arvense L.,La Parva,3200,-33.32936,-70.27304166666667,2023-01-19
+Cerastium arvense L.,La Parva,3300,-33.325138333333335,-70.26480666666667,2023-01-19
+Cerastium arvense L.,La Parva,3400,-33.32467166666667,-70.261175,2022-12-28
+Cerastium arvense L.,La Parva,3500,-33.32036333333334,-70.25692333333333,2023-01-18
+Chaetanthera euphrasioides (DC.) F. Meigen,La Parva,2500,-33.34429333333333,-70.29843833333334,2023-01-17
+Chaetanthera euphrasioides (DC.) F. Meigen,La Parva,2600,-33.34408333333334,-70.29429333333333,2023-01-17
+Chaetanthera euphrasioides (DC.) F. Meigen,La Parva,2700,-33.33190666666667,-70.28919166666667,2023-01-18
+Chaetanthera euphrasioides (DC.) F. Meigen,La Parva,2800,-33.331923333333336,-70.284845,2023-01-19
+Chaetanthera euphrasioides (DC.) F. Meigen,La Parva,2900,-33.32950166666667,-70.28654999999999,2023-01-20
+Chaetanthera euphrasioides (DC.) F. Meigen,La Parva,3000,-33.325755,-70.28260166666666,2023-01-20
+Chaetanthera euphrasioides (DC.) F. Meigen,La Parva,3100,-33.32688166666667,-70.27770166666667,2023-01-19
+Chaetanthera euphrasioides (DC.) F. Meigen,La Parva,3200,-33.32936,-70.27304166666667,2023-01-19
+Chaetanthera euphrasioides (DC.) F. Meigen,La Parva,3300,-33.325138333333335,-70.26480666666667,2023-01-19
+Chaetanthera euphrasioides (DC.) F. Meigen,La Parva,3400,-33.32467166666667,-70.261175,2022-12-28
+Chaetanthera linearis Poepp. ex Less.,La Parva,2500,-33.34429333333333,-70.29843833333334,2023-01-17
+Chaetanthera linearis Poepp. ex Less.,La Parva,2600,-33.34408333333334,-70.29429333333333,2023-01-17
+Chenopodium philippianum Aellen,La Parva,2500,-33.34429333333333,-70.29843833333334,2023-01-17
+Chenopodium philippianum Aellen,La Parva,2600,-33.34408333333334,-70.29429333333333,2023-01-17
+Chenopodium philippianum Aellen,La Parva,2700,-33.33190666666667,-70.28919166666667,2023-01-18
+Chenopodium philippianum Aellen,La Parva,2800,-33.331923333333336,-70.284845,2023-01-19
+Chenopodium philippianum Aellen,La Parva,2900,-33.32950166666667,-70.28654999999999,2023-01-20
+Chenopodium philippianum Aellen,La Parva,3000,-33.325755,-70.28260166666666,2023-01-20
+Chenopodium philippianum Aellen,La Parva,3100,-33.32688166666667,-70.27770166666667,2023-01-19
+Chenopodium philippianum Aellen,La Parva,3600,-33.31871,-70.26104166666667,2023-01-18
+Chuquiraga oppositifolia D. Don,La Parva,2500,-33.34429333333333,-70.29843833333334,2023-01-17
+Chuquiraga oppositifolia D. Don,La Parva,2600,-33.34408333333334,-70.29429333333333,2023-01-17
+Chuquiraga oppositifolia D. Don,La Parva,2700,-33.33190666666667,-70.28919166666667,2023-01-18
+Chuquiraga oppositifolia D. Don,La Parva,2800,-33.331923333333336,-70.284845,2023-01-19
+Chuquiraga oppositifolia D. Don,La Parva,2900,-33.32950166666667,-70.28654999999999,2023-01-20
+Chuquiraga oppositifolia D. Don,La Parva,3100,-33.32688166666667,-70.27770166666667,2023-01-19
+Collomia biflora (Ruiz & Pav.) Brand,La Parva,2500,-33.34429333333333,-70.29843833333334,2023-01-17
+Collomia biflora (Ruiz & Pav.) Brand,La Parva,2600,-33.34408333333334,-70.29429333333333,2023-01-17
+Collomia biflora (Ruiz & Pav.) Brand,La Parva,2700,-33.33190666666667,-70.28919166666667,2023-01-18
+Collomia biflora (Ruiz & Pav.) Brand,La Parva,2800,-33.331923333333336,-70.284845,2023-01-19
+Convolvulus arvensis L.,La Parva,2500,-33.34429333333333,-70.29843833333334,2023-01-17
+Convolvulus demissus Choisy,La Parva,2600,-33.34408333333334,-70.29429333333333,2023-01-17
+Cryptantha capituliflora (Clos) Reiche,La Parva,3000,-33.325755,-70.28260166666666,2023-01-20
+Cryptantha capituliflora (Clos) Reiche,La Parva,3200,-33.32936,-70.27304166666667,2023-01-19
+Cynoglossum creticum Mill.,La Parva,2500,-33.34429333333333,-70.29843833333334,2023-01-17
+Cynoglossum creticum Mill.,La Parva,2600,-33.34408333333334,-70.29429333333333,2023-01-17
+Cynoglossum creticum Mill.,La Parva,2700,-33.33190666666667,-70.28919166666667,2023-01-18
+Cynoglossum creticum Mill.,La Parva,2900,-33.32950166666667,-70.28654999999999,2023-01-20
+Draba gilliesii Hook. & Arn.,La Parva,3300,-33.325138333333335,-70.26480666666667,2023-01-19
+Draba gilliesii Hook. & Arn.,La Parva,3400,-33.32467166666667,-70.261175,2022-12-28
+Ephedra chilensis C. Presl,La Parva,2500,-33.34429333333333,-70.29843833333334,2023-01-17
+Ephedra chilensis C. Presl,La Parva,2600,-33.34408333333334,-70.29429333333333,2023-01-17
+Ephedra chilensis C. Presl,La Parva,2900,-33.32950166666667,-70.28654999999999,2023-01-20
+Erigeron andicola DC.,La Parva,2700,-33.33190666666667,-70.28919166666667,2023-01-18
+Erigeron andicola DC.,La Parva,2800,-33.331923333333336,-70.284845,2023-01-19
+Erigeron andicola DC.,La Parva,3000,-33.325755,-70.28260166666666,2023-01-20
+Erigeron andicola DC.,La Parva,3100,-33.32688166666667,-70.27770166666667,2023-01-19
+Erigeron andicola DC.,La Parva,3200,-33.32936,-70.27304166666667,2023-01-19
+Erigeron andicola DC.,La Parva,3300,-33.325138333333335,-70.26480666666667,2023-01-19
+Erigeron andicola DC.,La Parva,3400,-33.32467166666667,-70.261175,2022-12-28
+Erigeron andicola DC.,La Parva,3500,-33.32036333333334,-70.25692333333333,2023-01-18
+Erigeron andicola DC.,La Parva,3600,-33.31871,-70.26104166666667,2023-01-18
+Erigeron cinereus Hook. & Arn.,La Parva,2800,-33.331923333333336,-70.284845,2023-01-19
+Erigeron cinereus Hook. & Arn.,La Parva,3000,-33.325755,-70.28260166666666,2023-01-20
+Erigeron cinereus Hook. & Arn.,La Parva,3200,-33.32936,-70.27304166666667,2023-01-19
+Erodium cicutarium (L.) L'Hér. ex Aiton,La Parva,2500,-33.34429333333333,-70.29843833333334,2023-01-17
+Erodium cicutarium (L.) L'Hér. ex Aiton,La Parva,2600,-33.34408333333334,-70.29429333333333,2023-01-17
+Erodium cicutarium (L.) L'Hér. ex Aiton,La Parva,2900,-33.32950166666667,-70.28654999999999,2023-01-20
+Euphorbia collina Phil.,La Parva,2500,-33.34429333333333,-70.29843833333334,2023-01-17
+Euphorbia collina Phil.,La Parva,2600,-33.34408333333334,-70.29429333333333,2023-01-17
+Euphorbia collina Phil.,La Parva,2700,-33.33190666666667,-70.28919166666667,2023-01-18
+Euphorbia collina Phil.,La Parva,2800,-33.331923333333336,-70.284845,2023-01-19
+Euphorbia collina Phil.,La Parva,2900,-33.32950166666667,-70.28654999999999,2023-01-20
+Euphorbia collina Phil.,La Parva,3000,-33.325755,-70.28260166666666,2023-01-20
+Euphorbia collina Phil.,La Parva,3100,-33.32688166666667,-70.27770166666667,2023-01-19
+Festuca magellanica Lam.,La Parva,3200,-33.32936,-70.27304166666667,2023-01-19
+Festuca magellanica Lam.,La Parva,3300,-33.325138333333335,-70.26480666666667,2023-01-19
+Galium gilliesii Hook. & Arn. ,La Parva,3000,-33.325755,-70.28260166666666,2023-01-20
+Galium gilliesii Hook. & Arn. ,La Parva,3200,-33.32936,-70.27304166666667,2023-01-19
+Galium gilliesii Hook. & Arn. ,La Parva,3400,-33.32467166666667,-70.261175,2022-12-28
+Gamocarpha compacta (Phil.) S.S. Denham & Pozner,La Parva,3400,-33.32467166666667,-70.261175,2022-12-28
+Gamocarpha compacta (Phil.) S.S. Denham & Pozner,La Parva,3500,-33.32036333333334,-70.25692333333333,2023-01-18
+Gamocarpha scapigera (J. Rémy) S.S. Denham & Pozner,La Parva,3000,-33.325755,-70.28260166666666,2023-01-20
+Gamocarpha scapigera (J. Rémy) S.S. Denham & Pozner,La Parva,3100,-33.32688166666667,-70.27770166666667,2023-01-19
+Gamocarpha scapigera (J. Rémy) S.S. Denham & Pozner,La Parva,3200,-33.32936,-70.27304166666667,2023-01-19
+Gamocarpha scapigera (J. Rémy) S.S. Denham & Pozner,La Parva,3300,-33.325138333333335,-70.26480666666667,2023-01-19
+Gamocarpha scapigera (J. Rémy) S.S. Denham & Pozner,La Parva,3400,-33.32467166666667,-70.261175,2022-12-28
+Gayophytum humile A. Juss.,La Parva,3300,-33.325138333333335,-70.26480666666667,2023-01-19
+Haplopappus anthylloides Meyen & Walp.,La Parva,2600,-33.34408333333334,-70.29429333333333,2023-01-17
+Haplopappus anthylloides Meyen & Walp.,La Parva,2900,-33.32950166666667,-70.28654999999999,2023-01-20
+Haplopappus schumannii (Kuntze) G.K. Br. & W.D. Clark,La Parva,2500,-33.34429333333333,-70.29843833333334,2023-01-17
+Haplopappus schumannii (Kuntze) G.K. Br. & W.D. Clark,La Parva,2600,-33.34408333333334,-70.29429333333333,2023-01-17
+Haplopappus scrobiculatus (Nees) DC.,La Parva,2700,-33.33190666666667,-70.28919166666667,2023-01-18
+Haplopappus scrobiculatus (Nees) DC.,La Parva,2800,-33.331923333333336,-70.284845,2023-01-19
+Haplopappus scrobiculatus (Nees) DC.,La Parva,2900,-33.32950166666667,-70.28654999999999,2023-01-20
+Haplopappus scrobiculatus (Nees) DC.,La Parva,3000,-33.325755,-70.28260166666666,2023-01-20
+Haplopappus scrobiculatus (Nees) DC.,La Parva,3100,-33.32688166666667,-70.27770166666667,2023-01-19
+Haplopappus scrobiculatus (Nees) DC.,La Parva,3400,-33.32467166666667,-70.261175,2022-12-28
+Heliotropium paronychioides A. DC.,La Parva,2900,-33.32950166666667,-70.28654999999999,2023-01-20
+Heliotropium paronychioides A. DC.,La Parva,3000,-33.325755,-70.28260166666666,2023-01-20
+Hordeum comosum J. Presl,La Parva,2500,-33.34429333333333,-70.29843833333334,2023-01-17
+Hordeum comosum J. Presl,La Parva,2600,-33.34408333333334,-70.29429333333333,2023-01-17
+Hordeum comosum J. Presl,La Parva,2700,-33.33190666666667,-70.28919166666667,2023-01-18
+Hordeum comosum J. Presl,La Parva,2800,-33.331923333333336,-70.284845,2023-01-19
+Hordeum comosum J. Presl,La Parva,2900,-33.32950166666667,-70.28654999999999,2023-01-20
+Hordeum comosum J. Presl,La Parva,3000,-33.325755,-70.28260166666666,2023-01-20
+Hordeum comosum J. Presl,La Parva,3100,-33.32688166666667,-70.27770166666667,2023-01-19
+Hordeum comosum J. Presl,La Parva,3200,-33.32936,-70.27304166666667,2023-01-19
+Hordeum comosum J. Presl,La Parva,3300,-33.325138333333335,-70.26480666666667,2023-01-19
+Hordeum comosum J. Presl,La Parva,3400,-33.32467166666667,-70.261175,2022-12-28
+Hordeum comosum J. Presl,La Parva,3500,-33.32036333333334,-70.25692333333333,2023-01-18
+Hordeum comosum J. Presl,La Parva,3600,-33.31871,-70.26104166666667,2023-01-18
+Hypochaeris clarionoides (J. Remy) Reiche,La Parva,2700,-33.33190666666667,-70.28919166666667,2023-01-18
+Hypochaeris clarionoides (J. Remy) Reiche,La Parva,2800,-33.331923333333336,-70.284845,2023-01-19
+Hypochaeris clarionoides (J. Remy) Reiche,La Parva,3000,-33.325755,-70.28260166666666,2023-01-20
+Junellia spathulata (Gillies & Hook.) Moldenke,La Parva,2600,-33.34408333333334,-70.29429333333333,2023-01-17
+Junellia uniflora (Phil.) Moldenke,La Parva,3600,-33.31871,-70.26104166666667,2023-01-18
+"Koeleria barbinodis (Trin.) Barberá, Quintanar, Soreng & P.M. Peterson",La Parva,2700,-33.33190666666667,-70.28919166666667,2023-01-18
+"Koeleria barbinodis (Trin.) Barberá, Quintanar, Soreng & P.M. Peterson",La Parva,3000,-33.325755,-70.28260166666666,2023-01-20
+"Koeleria barbinodis (Trin.) Barberá, Quintanar, Soreng & P.M. Peterson",La Parva,3200,-33.32936,-70.27304166666667,2023-01-19
+"Koeleria barbinodis (Trin.) Barberá, Quintanar, Soreng & P.M. Peterson",La Parva,3300,-33.325138333333335,-70.26480666666667,2023-01-19
+"Koeleria preslii (Kunth) Barberá, Quintanar, Soreng & P.M. Peterson",La Parva,3100,-33.32688166666667,-70.27770166666667,2023-01-19
+"Koeleria preslii (Kunth) Barberá, Quintanar, Soreng & P.M. Peterson",La Parva,3300,-33.325138333333335,-70.26480666666667,2023-01-19
+"Koeleria preslii (Kunth) Barberá, Quintanar, Soreng & P.M. Peterson",La Parva,3400,-33.32467166666667,-70.261175,2022-12-28
+"Koeleria preslii (Kunth) Barberá, Quintanar, Soreng & P.M. Peterson",La Parva,3500,-33.32036333333334,-70.25692333333333,2023-01-18
+Lactuca serriola L.,La Parva,2900,-33.32950166666667,-70.28654999999999,2023-01-20
+Latace andina (Poepp.) Sassone,La Parva,2700,-33.33190666666667,-70.28919166666667,2023-01-18
+Latace andina (Poepp.) Sassone,La Parva,2800,-33.331923333333336,-70.284845,2023-01-19
+Lepidium reichei Phil. ex Reiche,La Parva,2700,-33.33190666666667,-70.28919166666667,2023-01-18
+Lepidium reichei Phil. ex Reiche,La Parva,2800,-33.331923333333336,-70.284845,2023-01-19
+Loasa caespitosa Phil.,La Parva,3300,-33.325138333333335,-70.26480666666667,2023-01-19
+Loasa caespitosa Phil.,La Parva,3500,-33.32036333333334,-70.25692333333333,2023-01-18
+Loasa sigmoidea Urb. & Gilg,La Parva,2700,-33.33190666666667,-70.28919166666667,2023-01-18
+Loasa sigmoidea Urb. & Gilg,La Parva,2800,-33.331923333333336,-70.284845,2023-01-19
+Loasa sigmoidea Urb. & Gilg,La Parva,3000,-33.325755,-70.28260166666666,2023-01-20
+Loasa sigmoidea Urb. & Gilg,La Parva,3200,-33.32936,-70.27304166666667,2023-01-19
+Luzula chilensis Nees & Meyen ex Kunth,La Parva,3000,-33.325755,-70.28260166666666,2023-01-20
+Luzula chilensis Nees & Meyen ex Kunth,La Parva,3300,-33.325138333333335,-70.26480666666667,2023-01-19
+Luzula racemosa Desv.,La Parva,3400,-33.32467166666667,-70.261175,2022-12-28
+Madia sativa Molina,La Parva,2500,-33.34429333333333,-70.29843833333334,2023-01-17
+Madia sativa Molina,La Parva,2600,-33.34408333333334,-70.29429333333333,2023-01-17
+Matricaria discoidea DC.,La Parva,2500,-33.34429333333333,-70.29843833333334,2023-01-17
+Melosperma andicola Benth.,La Parva,2900,-33.32950166666667,-70.28654999999999,2023-01-20
+Microsteris gracilis (Hook.) Greene,La Parva,2500,-33.34429333333333,-70.29843833333334,2023-01-17
+Microsteris gracilis (Hook.) Greene,La Parva,2600,-33.34408333333334,-70.29429333333333,2023-01-17
+Microsteris gracilis (Hook.) Greene,La Parva,2700,-33.33190666666667,-70.28919166666667,2023-01-18
+Microsteris gracilis (Hook.) Greene,La Parva,2800,-33.331923333333336,-70.284845,2023-01-19
+Montiopsis andicola (Gillies) D.I. Ford,La Parva,2700,-33.33190666666667,-70.28919166666667,2023-01-18
+Montiopsis andicola (Gillies) D.I. Ford,La Parva,2800,-33.331923333333336,-70.284845,2023-01-19
+Montiopsis cistiflora (Gillies ex Arn.) D.I. Ford,La Parva,3000,-33.325755,-70.28260166666666,2023-01-20
+Montiopsis gilliesii (Hook. & Arn.) D.I. Ford,La Parva,3000,-33.325755,-70.28260166666666,2023-01-20
+Montiopsis gilliesii (Hook. & Arn.) D.I. Ford,La Parva,3200,-33.32936,-70.27304166666667,2023-01-19
+Montiopsis gilliesii (Hook. & Arn.) D.I. Ford,La Parva,3300,-33.325138333333335,-70.26480666666667,2023-01-19
+Montiopsis gilliesii (Hook. & Arn.) D.I. Ford,La Parva,3400,-33.32467166666667,-70.261175,2022-12-28
+Montiopsis gilliesii (Hook. & Arn.) D.I. Ford,La Parva,3500,-33.32036333333334,-70.25692333333333,2023-01-18
+Montiopsis gilliesii (Hook. & Arn.) D.I. Ford,La Parva,3600,-33.31871,-70.26104166666667,2023-01-18
+Mutisia sinuata Cav.,La Parva,2500,-33.34429333333333,-70.29843833333334,2023-01-17
+Nardophyllum lanatum (Meyen) Cabrera,La Parva,2500,-33.34429333333333,-70.29843833333334,2023-01-17
+Nardophyllum lanatum (Meyen) Cabrera,La Parva,2600,-33.34408333333334,-70.29429333333333,2023-01-17
+Nassauvia aculeata (Less.) Poepp. & Endl. var. Aculeata,La Parva,2700,-33.33190666666667,-70.28919166666667,2023-01-18
+Nassauvia axillaris (Lag. ex Lindl.) D. Don,La Parva,2900,-33.32950166666667,-70.28654999999999,2023-01-20
+Nassauvia cumingii Hook. & Arn.,La Parva,3000,-33.325755,-70.28260166666666,2023-01-20
+Nassauvia cumingii Hook. & Arn.,La Parva,3200,-33.32936,-70.27304166666667,2023-01-19
+Nassauvia cumingii Hook. & Arn.,La Parva,3300,-33.325138333333335,-70.26480666666667,2023-01-19
+Nassauvia cumingii Hook. & Arn.,La Parva,3400,-33.32467166666667,-70.261175,2022-12-28
+Nassauvia lagascae (D. Don) F. Meigen var. lagascae,La Parva,3200,-33.32936,-70.27304166666667,2023-01-19
+Nassauvia lagascae (D. Don) F. Meigen var. lagascae,La Parva,3300,-33.325138333333335,-70.26480666666667,2023-01-19
+Nassauvia lagascae (D. Don) F. Meigen var. lagascae,La Parva,3400,-33.32467166666667,-70.261175,2022-12-28
+Nassauvia lagascae (D. Don) F. Meigen var. lagascae,La Parva,3500,-33.32036333333334,-70.25692333333333,2023-01-18
+Nassauvia looseri Cabrera,La Parva,2500,-33.34429333333333,-70.29843833333334,2023-01-17
+Nassauvia looseri Cabrera,La Parva,2600,-33.34408333333334,-70.29429333333333,2023-01-17
+Nassauvia looseri Cabrera,La Parva,2700,-33.33190666666667,-70.28919166666667,2023-01-18
+Nassauvia looseri Cabrera,La Parva,2800,-33.331923333333336,-70.284845,2023-01-19
+Nassauvia looseri Cabrera,La Parva,2900,-33.32950166666667,-70.28654999999999,2023-01-20
+Nassauvia looseri Cabrera,La Parva,3100,-33.32688166666667,-70.27770166666667,2023-01-19
+Nicotiana corymbosa J. Remy,La Parva,2500,-33.34429333333333,-70.29843833333334,2023-01-17
+Nicotiana corymbosa J. Remy,La Parva,2700,-33.33190666666667,-70.28919166666667,2023-01-18
+Nicotiana corymbosa J. Remy,La Parva,2800,-33.331923333333336,-70.284845,2023-01-19
+Nicotiana corymbosa J. Remy,La Parva,2900,-33.32950166666667,-70.28654999999999,2023-01-20
+Nicotiana corymbosa J. Remy,La Parva,3000,-33.325755,-70.28260166666666,2023-01-20
+Nicotiana corymbosa J. Remy,La Parva,3100,-33.32688166666667,-70.27770166666667,2023-01-19
+Nicotiana corymbosa J. Remy,La Parva,3200,-33.32936,-70.27304166666667,2023-01-19
+Nicotiana corymbosa J. Remy,La Parva,3300,-33.325138333333335,-70.26480666666667,2023-01-19
+Nicotiana corymbosa J. Remy,La Parva,3600,-33.31871,-70.26104166666667,2023-01-18
+Noccaea magellanica (Comm. ex Poir.) Holub,La Parva,2800,-33.331923333333336,-70.284845,2023-01-19
+Noccaea magellanica (Comm. ex Poir.) Holub,La Parva,3300,-33.325138333333335,-70.26480666666667,2023-01-19
+Noccaea magellanica (Comm. ex Poir.) Holub,La Parva,3400,-33.32467166666667,-70.261175,2022-12-28
+Noccaea magellanica (Comm. ex Poir.) Holub,La Parva,3500,-33.32036333333334,-70.25692333333333,2023-01-18
+Oenothera acaulis Cav.,La Parva,2500,-33.34429333333333,-70.29843833333334,2023-01-17
+Olsynium junceum (E. Mey. ex C. Presl) Goldblatt subsp. colchaguense (Phil.) J.M. Watson & A.R. Flores,La Parva,3000,-33.325755,-70.28260166666666,2023-01-20
+Olsynium junceum (E. Mey. ex C. Presl) Goldblatt subsp. colchaguense (Phil.) J.M. Watson & A.R. Flores,La Parva,3300,-33.325138333333335,-70.26480666666667,2023-01-19
+Olsynium junceum (E. Mey. ex C. Presl) Goldblatt subsp. junceum,La Parva,2500,-33.34429333333333,-70.29843833333334,2023-01-17
+Olsynium junceum (E. Mey. ex C. Presl) Goldblatt subsp. junceum,La Parva,2600,-33.34408333333334,-70.29429333333333,2023-01-17
+Olsynium junceum (E. Mey. ex C. Presl) Goldblatt subsp. junceum,La Parva,2700,-33.33190666666667,-70.28919166666667,2023-01-18
+Olsynium junceum (E. Mey. ex C. Presl) Goldblatt subsp. junceum,La Parva,2800,-33.331923333333336,-70.284845,2023-01-19
+Olsynium junceum (E. Mey. ex C. Presl) Goldblatt subsp. junceum,La Parva,2900,-33.32950166666667,-70.28654999999999,2023-01-20
+Olsynium junceum (E. Mey. ex C. Presl) Goldblatt subsp. junceum,La Parva,3000,-33.325755,-70.28260166666666,2023-01-20
+Olsynium philippii (Klatt) Goldblatt subsp. illapelinum (Phil.) J.M. Watson & A.R. Flores,La Parva,2800,-33.331923333333336,-70.284845,2023-01-19
+Oreopolus glacialis (Poepp.) Ricardi,La Parva,3200,-33.32936,-70.27304166666667,2023-01-19
+Oriastrum chilense (J. Remy) Wedd.,La Parva,2900,-33.32950166666667,-70.28654999999999,2023-01-20
+Oriastrum chilense (J. Remy) Wedd.,La Parva,3000,-33.325755,-70.28260166666666,2023-01-20
+Oriastrum chilense (J. Remy) Wedd.,La Parva,3100,-33.32688166666667,-70.27770166666667,2023-01-19
+Oriastrum chilense (J. Remy) Wedd.,La Parva,3300,-33.325138333333335,-70.26480666666667,2023-01-19
+Oriastrum chilense (J. Remy) Wedd.,La Parva,3500,-33.32036333333334,-70.25692333333333,2023-01-18
+Oriastrum lycopodioides (J. Remy) Wedd.,La Parva,3200,-33.32936,-70.27304166666667,2023-01-19
+Oriastrum lycopodioides (J. Remy) Wedd.,La Parva,3300,-33.325138333333335,-70.26480666666667,2023-01-19
+Oriastrum lycopodioides (J. Remy) Wedd.,La Parva,3400,-33.32467166666667,-70.261175,2022-12-28
+Oriastrum pentacaenoides Phil.,La Parva,3500,-33.32036333333334,-70.25692333333333,2023-01-18
+Oriastrum pusillum Poepp. & Endl,La Parva,2500,-33.34429333333333,-70.29843833333334,2023-01-17
+Oxalis compacta Gillies ex Hook. & Arn. ,La Parva,3000,-33.325755,-70.28260166666666,2023-01-20
+Oxalis compacta Gillies ex Hook. & Arn. ,La Parva,3200,-33.32936,-70.27304166666667,2023-01-19
+Oxalis compacta Gillies ex Hook. & Arn. ,La Parva,3300,-33.325138333333335,-70.26480666666667,2023-01-19
+Oxalis compacta Gillies ex Hook. & Arn. ,La Parva,3400,-33.32467166666667,-70.261175,2022-12-28
+Oxalis compacta Gillies ex Hook. & Arn. ,La Parva,3500,-33.32036333333334,-70.25692333333333,2023-01-18
+Oxalis compacta Gillies ex Hook. & Arn. ,La Parva,3600,-33.31871,-70.26104166666667,2023-01-18
+Oxalis penicillata Phil.,La Parva,3500,-33.32036333333334,-70.25692333333333,2023-01-18
+Oxalis penicillata Phil.,La Parva,3600,-33.31871,-70.26104166666667,2023-01-18
+Oxalis squamata Zucc.,La Parva,2700,-33.33190666666667,-70.28919166666667,2023-01-18
+Oxalis squamata Zucc.,La Parva,2800,-33.331923333333336,-70.284845,2023-01-19
+Oxalis squamata Zucc.,La Parva,2900,-33.32950166666667,-70.28654999999999,2023-01-20
+Oxalis squamata Zucc.,La Parva,3000,-33.325755,-70.28260166666666,2023-01-20
+Oxalis squamata Zucc.,La Parva,3100,-33.32688166666667,-70.27770166666667,2023-01-19
+Pappostipa chrysophylla (E. Desv.) Romasch. var. chrysophylla,La Parva,3600,-33.31871,-70.26104166666667,2023-01-18
+Perezia carthamoides (D. Don) Hook. & Arn.,La Parva,2500,-33.34429333333333,-70.29843833333334,2023-01-17
+Perezia carthamoides (D. Don) Hook. & Arn.,La Parva,2600,-33.34408333333334,-70.29429333333333,2023-01-17
+Perezia carthamoides (D. Don) Hook. & Arn.,La Parva,2700,-33.33190666666667,-70.28919166666667,2023-01-18
+Perezia carthamoides (D. Don) Hook. & Arn.,La Parva,2800,-33.331923333333336,-70.284845,2023-01-19
+Perezia carthamoides (D. Don) Hook. & Arn.,La Parva,2900,-33.32950166666667,-70.28654999999999,2023-01-20
+Perezia carthamoides (D. Don) Hook. & Arn.,La Parva,3100,-33.32688166666667,-70.27770166666667,2023-01-19
+Perezia carthamoides (D. Don) Hook. & Arn.,La Parva,3400,-33.32467166666667,-70.261175,2022-12-28
+Perezia pilifera (D. Don) Hook. & Arn.,La Parva,3000,-33.325755,-70.28260166666666,2023-01-20
+Perezia pilifera (D. Don) Hook. & Arn.,La Parva,3300,-33.325138333333335,-70.26480666666667,2023-01-19
+Perezia poeppigii Less.,La Parva,2600,-33.34408333333334,-70.29429333333333,2023-01-17
+Perezia poeppigii Less.,La Parva,2700,-33.33190666666667,-70.28919166666667,2023-01-18
+Perezia poeppigii Less.,La Parva,2800,-33.331923333333336,-70.284845,2023-01-19
+Perezia poeppigii Less.,La Parva,2900,-33.32950166666667,-70.28654999999999,2023-01-20
+Perezia poeppigii Less.,La Parva,3100,-33.32688166666667,-70.27770166666667,2023-01-19
+Phacelia secunda J.F. Gmel. var. secunda,La Parva,2600,-33.34408333333334,-70.29429333333333,2023-01-17
+Phacelia secunda J.F. Gmel. var. secunda,La Parva,2700,-33.33190666666667,-70.28919166666667,2023-01-18
+Phacelia secunda J.F. Gmel. var. secunda,La Parva,2900,-33.32950166666667,-70.28654999999999,2023-01-20
+Phacelia secunda J.F. Gmel. var. secunda,La Parva,3000,-33.325755,-70.28260166666666,2023-01-20
+Phacelia secunda J.F. Gmel. var. secunda,La Parva,3100,-33.32688166666667,-70.27770166666667,2023-01-19
+Phacelia secunda J.F. Gmel. var. secunda,La Parva,3200,-33.32936,-70.27304166666667,2023-01-19
+Phacelia secunda J.F. Gmel. var. secunda,La Parva,3300,-33.325138333333335,-70.26480666666667,2023-01-19
+Phacelia secunda J.F. Gmel. var. secunda,La Parva,3400,-33.32467166666667,-70.261175,2022-12-28
+Phacelia secunda J.F. Gmel. var. secunda,La Parva,3500,-33.32036333333334,-70.25692333333333,2023-01-18
+Phacelia secunda J.F. Gmel. var. secunda,La Parva,3600,-33.31871,-70.26104166666667,2023-01-18
+Poa denudata Steud.,La Parva,2800,-33.331923333333336,-70.284845,2023-01-19
+Poa denudata Steud.,La Parva,3000,-33.325755,-70.28260166666666,2023-01-20
+Poa denudata Steud.,La Parva,3100,-33.32688166666667,-70.27770166666667,2023-01-19
+Poa denudata Steud.,La Parva,3200,-33.32936,-70.27304166666667,2023-01-19
+Poa denudata Steud.,La Parva,3500,-33.32036333333334,-70.25692333333333,2023-01-18
+Poa holciformis J. Presl,La Parva,2500,-33.34429333333333,-70.29843833333334,2023-01-17
+Poa holciformis J. Presl,La Parva,2600,-33.34408333333334,-70.29429333333333,2023-01-17
+Poa holciformis J. Presl,La Parva,2700,-33.33190666666667,-70.28919166666667,2023-01-18
+Poa holciformis J. Presl,La Parva,2800,-33.331923333333336,-70.284845,2023-01-19
+Poa holciformis J. Presl,La Parva,2900,-33.32950166666667,-70.28654999999999,2023-01-20
+Poa holciformis J. Presl,La Parva,3000,-33.325755,-70.28260166666666,2023-01-20
+Poa holciformis J. Presl,La Parva,3100,-33.32688166666667,-70.27770166666667,2023-01-19
+Poa holciformis J. Presl,La Parva,3200,-33.32936,-70.27304166666667,2023-01-19
+Poa holciformis J. Presl,La Parva,3400,-33.32467166666667,-70.261175,2022-12-28
+Poa holciformis J. Presl,La Parva,3500,-33.32036333333334,-70.25692333333333,2023-01-18
+Poa secunda J. Presl ,La Parva,2900,-33.32950166666667,-70.28654999999999,2023-01-20
+Poa secunda J. Presl ,La Parva,3300,-33.325138333333335,-70.26480666666667,2023-01-19
+Polygonum bowenkampii Phil.,La Parva,2500,-33.34429333333333,-70.29843833333334,2023-01-17
+Polygonum bowenkampii Phil.,La Parva,2600,-33.34408333333334,-70.29429333333333,2023-01-17
+Polygonum bowenkampii Phil.,La Parva,2700,-33.33190666666667,-70.28919166666667,2023-01-18
+Polygonum bowenkampii Phil.,La Parva,2800,-33.331923333333336,-70.284845,2023-01-19
+Pozoa coriacea Lag.,La Parva,3100,-33.32688166666667,-70.27770166666667,2023-01-19
+Pozoa coriacea Lag.,La Parva,3200,-33.32936,-70.27304166666667,2023-01-19
+Pozoa coriacea Lag.,La Parva,3300,-33.325138333333335,-70.26480666666667,2023-01-19
+Pozoa coriacea Lag.,La Parva,3500,-33.32036333333334,-70.25692333333333,2023-01-18
+Quinchamalium parviflorum Phil.,La Parva,2700,-33.33190666666667,-70.28919166666667,2023-01-18
+Quinchamalium parviflorum Phil.,La Parva,2800,-33.331923333333336,-70.284845,2023-01-19
+Quinchamalium parviflorum Phil.,La Parva,3100,-33.32688166666667,-70.27770166666667,2023-01-19
+Rhodolirium montanum Phil.,La Parva,2500,-33.34429333333333,-70.29843833333334,2023-01-17
+Rhodolirium montanum Phil.,La Parva,2600,-33.34408333333334,-70.29429333333333,2023-01-17
+Rhodolirium montanum Phil.,La Parva,2700,-33.33190666666667,-70.28919166666667,2023-01-18
+Rhodolirium montanum Phil.,La Parva,2800,-33.331923333333336,-70.284845,2023-01-19
+Rhodolirium montanum Phil.,La Parva,2900,-33.32950166666667,-70.28654999999999,2023-01-20
+Rhodolirium montanum Phil.,La Parva,3100,-33.32688166666667,-70.27770166666667,2023-01-19
+Rytidosperma pictum (Nees & Meyen) Nicora var. pictum,La Parva,2700,-33.33190666666667,-70.28919166666667,2023-01-18
+Rytidosperma pictum (Nees & Meyen) Nicora var. pictum,La Parva,2800,-33.331923333333336,-70.284845,2023-01-19
+Rytidosperma virescens (E. Desv.) Nicora var. virescens,La Parva,3000,-33.325755,-70.28260166666666,2023-01-20
+Rytidosperma virescens (E. Desv.) Nicora var. virescens,La Parva,3300,-33.325138333333335,-70.26480666666667,2023-01-19
+Rytidosperma virescens (E. Desv.) Nicora var. virescens,La Parva,3400,-33.32467166666667,-70.261175,2022-12-28
+Rytidosperma virescens (E. Desv.) Nicora var. virescens,La Parva,3500,-33.32036333333334,-70.25692333333333,2023-01-18
+Rytidosperma virescens (E. Desv.) Nicora var. virescens,La Parva,3600,-33.31871,-70.26104166666667,2023-01-18
+Sanicula graveolens Poepp. ex DC.,La Parva,2700,-33.33190666666667,-70.28919166666667,2023-01-18
+Sanicula graveolens Poepp. ex DC.,La Parva,2800,-33.331923333333336,-70.284845,2023-01-19
+Sanicula graveolens Poepp. ex DC.,La Parva,3000,-33.325755,-70.28260166666666,2023-01-20
+Senecio bustillosianus J. Remy var. bustillosianus,La Parva,2600,-33.34408333333334,-70.29429333333333,2023-01-17
+Senecio bustillosianus J. Remy var. bustillosianus,La Parva,2700,-33.33190666666667,-70.28919166666667,2023-01-18
+Senecio bustillosianus J. Remy var. bustillosianus,La Parva,2800,-33.331923333333336,-70.284845,2023-01-19
+Senecio bustillosianus J. Remy var. bustillosianus,La Parva,2900,-33.32950166666667,-70.28654999999999,2023-01-20
+Senecio bustillosianus J. Remy var. bustillosianus,La Parva,3000,-33.325755,-70.28260166666666,2023-01-20
+Senecio bustillosianus J. Remy var. bustillosianus,La Parva,3100,-33.32688166666667,-70.27770166666667,2023-01-19
+Senecio eruciformis J. Remy var. Eruciformis,La Parva,2500,-33.34429333333333,-70.29843833333334,2023-01-17
+Senecio eruciformis J. Remy var. Eruciformis,La Parva,2600,-33.34408333333334,-70.29429333333333,2023-01-17
+Senecio looseri Cabrera,La Parva,2600,-33.34408333333334,-70.29429333333333,2023-01-17
+Senecio looseri Cabrera,La Parva,2700,-33.33190666666667,-70.28919166666667,2023-01-18
+Senecio looseri Cabrera,La Parva,2900,-33.32950166666667,-70.28654999999999,2023-01-20
+Senecio looseri Cabrera,La Parva,3000,-33.325755,-70.28260166666666,2023-01-20
+Senecio looseri Cabrera,La Parva,3100,-33.32688166666667,-70.27770166666667,2023-01-19
+Senecio looseri Cabrera,La Parva,3200,-33.32936,-70.27304166666667,2023-01-19
+Senecio looseri Cabrera,La Parva,3300,-33.325138333333335,-70.26480666666667,2023-01-19
+Senecio looseri Cabrera,La Parva,3400,-33.32467166666667,-70.261175,2022-12-28
+Senecio pentaphyllus Phil.,La Parva,2500,-33.34429333333333,-70.29843833333334,2023-01-17
+Senecio pentaphyllus Phil.,La Parva,2600,-33.34408333333334,-70.29429333333333,2023-01-17
+Senecio pentaphyllus Phil.,La Parva,2700,-33.33190666666667,-70.28919166666667,2023-01-18
+Senecio pentaphyllus Phil.,La Parva,2800,-33.331923333333336,-70.284845,2023-01-19
+Senecio pentaphyllus Phil.,La Parva,3000,-33.325755,-70.28260166666666,2023-01-20
+Senecio polygaloides Phil.,La Parva,2700,-33.33190666666667,-70.28919166666667,2023-01-18
+Senecio polygaloides Phil.,La Parva,2900,-33.32950166666667,-70.28654999999999,2023-01-20
+Senecio polygaloides Phil.,La Parva,3000,-33.325755,-70.28260166666666,2023-01-20
+Senecio polygaloides Phil.,La Parva,3100,-33.32688166666667,-70.27770166666667,2023-01-19
+Senecio polygaloides Phil.,La Parva,3200,-33.32936,-70.27304166666667,2023-01-19
+Senega salasiana (Gay) J.F.B. Pastore & Agust.Martinez,La Parva,3000,-33.325755,-70.28260166666666,2023-01-20
+Sisyrinchium arenarium Poepp.,La Parva,2600,-33.34408333333334,-70.29429333333333,2023-01-17
+Sisyrinchium arenarium Poepp.,La Parva,2700,-33.33190666666667,-70.28919166666667,2023-01-18
+Sisyrinchium arenarium Poepp.,La Parva,2800,-33.331923333333336,-70.284845,2023-01-19
+Solenomelus segethii (Phil.) Kuntze,La Parva,2700,-33.33190666666667,-70.28919166666667,2023-01-18
+Solenomelus segethii (Phil.) Kuntze,La Parva,2800,-33.331923333333336,-70.284845,2023-01-19
+Solenomelus segethii (Phil.) Kuntze,La Parva,2900,-33.32950166666667,-70.28654999999999,2023-01-20
+Stachys philippiana Vatke,La Parva,2600,-33.34408333333334,-70.29429333333333,2023-01-17
+Tanacetum parthenium (L.) Sch. Bip.,La Parva,2700,-33.33190666666667,-70.28919166666667,2023-01-18
+Taraxacum officinale F.H. Wigg.,La Parva,2600,-33.34408333333334,-70.29429333333333,2023-01-17
+Taraxacum officinale F.H. Wigg.,La Parva,2700,-33.33190666666667,-70.28919166666667,2023-01-18
+Taraxacum officinale F.H. Wigg.,La Parva,2800,-33.331923333333336,-70.284845,2023-01-19
+Taraxacum officinale F.H. Wigg.,La Parva,3000,-33.325755,-70.28260166666666,2023-01-20
+Taraxacum officinale F.H. Wigg.,La Parva,3100,-33.32688166666667,-70.27770166666667,2023-01-19
+Taraxacum officinale F.H. Wigg.,La Parva,3200,-33.32936,-70.27304166666667,2023-01-19
+Taraxacum officinale F.H. Wigg.,La Parva,3300,-33.325138333333335,-70.26480666666667,2023-01-19
+Taraxacum officinale F.H. Wigg.,La Parva,3400,-33.32467166666667,-70.261175,2022-12-28
+Taraxacum officinale F.H. Wigg.,La Parva,3500,-33.32036333333334,-70.25692333333333,2023-01-18
+Taraxacum officinale F.H. Wigg.,La Parva,3600,-33.31871,-70.26104166666667,2023-01-18
+Tetraglochin alatum (Gillies ex Hook. & Arn.) Kuntze,La Parva,2500,-33.34429333333333,-70.29843833333334,2023-01-17
+Tetraglochin alatum (Gillies ex Hook. & Arn.) Kuntze,La Parva,2600,-33.34408333333334,-70.29429333333333,2023-01-17
+Trisetum longiglume Hack.,La Parva,2700,-33.33190666666667,-70.28919166666667,2023-01-18
+Trisetum longiglume Hack.,La Parva,3300,-33.325138333333335,-70.26480666666667,2023-01-19
+Trisetum longiglume Hack.,La Parva,3500,-33.32036333333334,-70.25692333333333,2023-01-18
+Trisetum sp. indet.,La Parva,2700,-33.33190666666667,-70.28919166666667,2023-01-18
+Trisetum sp. indet.,La Parva,3000,-33.325755,-70.28260166666666,2023-01-20
+Tristagma bivalve (Hook. ex Lindl.) Traub,La Parva,2700,-33.33190666666667,-70.28919166666667,2023-01-18
+Tristagma bivalve (Hook. ex Lindl.) Traub,La Parva,2800,-33.331923333333336,-70.284845,2023-01-19
+Tristagma bivalve (Hook. ex Lindl.) Traub,La Parva,2900,-33.32950166666667,-70.28654999999999,2023-01-20
+Tropaeolum polyphyllum Cav,La Parva,3100,-33.32688166666667,-70.27770166666667,2023-01-19
+Tropaeolum sessilifolium Poepp. & Endl.,La Parva,2500,-33.34429333333333,-70.29843833333334,2023-01-17
+Tropaeolum sessilifolium Poepp. & Endl.,La Parva,2600,-33.34408333333334,-70.29429333333333,2023-01-17
+Viola atropurpurea Leyb.,La Parva,3300,-33.325138333333335,-70.26480666666667,2023-01-19
+Viola atropurpurea Leyb.,La Parva,3500,-33.32036333333334,-70.25692333333333,2023-01-18
+Viola philippii Leyb. var. philippii,La Parva,2700,-33.33190666666667,-70.28919166666667,2023-01-18
+Viola philippii Leyb. var. philippii,La Parva,2800,-33.331923333333336,-70.284845,2023-01-19
+Viola philippii Leyb. var. philippii,La Parva,3000,-33.325755,-70.28260166666666,2023-01-20
+Viola philippii Leyb. var. philippii,La Parva,3200,-33.32936,-70.27304166666667,2023-01-19
+Viola philippii Leyb. var. philippii,La Parva,3400,-33.32467166666667,-70.261175,2022-12-28
+Acaena alpina Poepp. ex Walp. ,Valle Nevado,2300,-33.37005166666667,-70.28815666666667,2022-12-27
+Acaena alpina Poepp. ex Walp. ,Valle Nevado,2400,-33.362905000000005,-70.28848166666667,2022-12-27
+Acaena alpina Poepp. ex Walp. ,Valle Nevado,2500,-33.367423333333335,-70.27368166666666,2022-12-27
+Acaena alpina Poepp. ex Walp. ,Valle Nevado,2600,-33.36002833333333,-70.26518166666666,2022-12-27
+Acaena pinnatifida Ruiz & Pav.,Valle Nevado,2300,-33.37005166666667,-70.28815666666667,2022-12-27
+Acaena pinnatifida Ruiz & Pav.,Valle Nevado,2400,-33.362905000000005,-70.28848166666667,2022-12-27
+Acaena pinnatifida Ruiz & Pav.,Valle Nevado,2500,-33.367423333333335,-70.27368166666666,2022-12-27
+Acaena pinnatifida Ruiz & Pav.,Valle Nevado,2600,-33.36002833333333,-70.26518166666666,2022-12-27
+Acaena pinnatifida Ruiz & Pav.,Valle Nevado,2700,-33.356698333333334,-70.25952,2022-12-29
+Acaena pinnatifida Ruiz & Pav.,Valle Nevado,2800,-33.35792,-70.25589833333333,2022-12-29
+Acaena pinnatifida Ruiz & Pav.,Valle Nevado,2900,-33.356605,-70.25098333333334,2022-12-28
+Acaena pinnatifida Ruiz & Pav.,Valle Nevado,3000,-33.344121666666666,-70.25376833333333,2022-12-28
+Acaena pinnatifida Ruiz & Pav.,Valle Nevado,3100,-33.343181666666666,-70.25412166666666,2022-12-28
+Acaena pinnatifida Ruiz & Pav.,Valle Nevado,3200,-33.33060666666667,-70.245845,2022-12-28
+Acaena poeppigiana Gay,Valle Nevado,3200,-33.33060666666667,-70.245845,2022-12-28
+Acaena poeppigiana Gay,Valle Nevado,3300,-33.32741166666667,-70.24047666666667,2022-12-28
+Acaena splendens Hook. & Arn.,Valle Nevado,2300,-33.37005166666667,-70.28815666666667,2022-12-27
+Acaena splendens Hook. & Arn.,Valle Nevado,2400,-33.362905000000005,-70.28848166666667,2022-12-27
+Acaena splendens Hook. & Arn.,Valle Nevado,2500,-33.367423333333335,-70.27368166666666,2022-12-27
+Acaena splendens Hook. & Arn.,Valle Nevado,2600,-33.36002833333333,-70.26518166666666,2022-12-27
+Adesmia arachnipes Clos,Valle Nevado,2600,-33.36002833333333,-70.26518166666666,2022-12-27
+Adesmia arachnipes Clos,Valle Nevado,2900,-33.356605,-70.25098333333334,2022-12-28
+Adesmia arachnipes Clos,Valle Nevado,3000,-33.344121666666666,-70.25376833333333,2022-12-28
+Adesmia arachnipes Clos,Valle Nevado,3100,-33.343181666666666,-70.25412166666666,2022-12-28
+Adesmia capitellata (Clos) Hauman,Valle Nevado,3400,-33.31973666666667,-70.23846,2023-01-18
+Adesmia capitellata (Clos) Hauman,Valle Nevado,3500,-33.31304833333333,-70.23943833333334,2022-12-29
+Adesmia capitellata (Clos) Hauman,Valle Nevado,3600,-33.317598333333336,-70.234775,2022-12-29
+Adesmia exilis Clos,Valle Nevado,2400,-33.362905000000005,-70.28848166666667,2022-12-27
+Adesmia glomerula Clos,Valle Nevado,3500,-33.31304833333333,-70.23943833333334,2022-12-29
+Adesmia glomerula Clos,Valle Nevado,3600,-33.317598333333336,-70.234775,2022-12-29
+Adesmia longiseta DC.,Valle Nevado,2500,-33.367423333333335,-70.27368166666666,2022-12-27
+Adesmia longiseta DC.,Valle Nevado,2600,-33.36002833333333,-70.26518166666666,2022-12-27
+Adesmia longiseta DC.,Valle Nevado,2700,-33.356698333333334,-70.25952,2022-12-29
+Adesmia longiseta DC.,Valle Nevado,2800,-33.35792,-70.25589833333333,2022-12-29
+Adesmia longiseta DC.,Valle Nevado,2900,-33.356605,-70.25098333333334,2022-12-28
+Adesmia montana Phil.,Valle Nevado,2800,-33.35792,-70.25589833333333,2022-12-29
+Adesmia montana Phil.,Valle Nevado,2900,-33.356605,-70.25098333333334,2022-12-28
+Adesmia montana Phil.,Valle Nevado,3000,-33.344121666666666,-70.25376833333333,2022-12-28
+Adesmia papposa (Lag.) DC. var. radicifolia (Clos) M.N. Correa,Valle Nevado,2500,-33.367423333333335,-70.27368166666666,2022-12-27
+Alstroemeria exerens Meyen,Valle Nevado,2400,-33.362905000000005,-70.28848166666667,2022-12-27
+Alstroemeria exerens Meyen,Valle Nevado,2500,-33.367423333333335,-70.27368166666666,2022-12-27
+Alstroemeria exerens Meyen,Valle Nevado,2600,-33.36002833333333,-70.26518166666666,2022-12-27
+Alstroemeria exerens Meyen,Valle Nevado,2800,-33.35792,-70.25589833333333,2022-12-29
+Anarthrophyllum cumingii (Hook. & Arn.) F. Phil,Valle Nevado,2400,-33.362905000000005,-70.28848166666667,2022-12-27
+Anarthrophyllum cumingii (Hook. & Arn.) F. Phil,Valle Nevado,2600,-33.36002833333333,-70.26518166666666,2022-12-27
+Anarthrophyllum cumingii (Hook. & Arn.) F. Phil,Valle Nevado,2700,-33.356698333333334,-70.25952,2022-12-29
+Anarthrophyllum cumingii (Hook. & Arn.) F. Phil,Valle Nevado,2800,-33.35792,-70.25589833333333,2022-12-29
+Anarthrophyllum cumingii (Hook. & Arn.) F. Phil,Valle Nevado,2900,-33.356605,-70.25098333333334,2022-12-28
+Anarthrophyllum gayanum (A. Gray) B.D. Jacks.,Valle Nevado,3100,-33.343181666666666,-70.25412166666666,2022-12-28
+Anemone major (Phil.) F. Meigen,Valle Nevado,3200,-33.33060666666667,-70.245845,2022-12-28
+Antennaria chilensis J. Remy var. chilensis,Valle Nevado,3000,-33.344121666666666,-70.25376833333333,2022-12-28
+Antennaria chilensis J. Remy var. chilensis,Valle Nevado,3400,-33.31973666666667,-70.23846,2023-01-18
+Astragalus cruckshanksii (Hook. & Arn.) Griseb.,Valle Nevado,2700,-33.356698333333334,-70.25952,2022-12-29
+Astragalus vesiculosus Clos,Valle Nevado,2700,-33.356698333333334,-70.25952,2022-12-29
+Astragalus vesiculosus Clos,Valle Nevado,3200,-33.33060666666667,-70.245845,2022-12-28
+Azorella madreporica Clos,Valle Nevado,3000,-33.344121666666666,-70.25376833333333,2022-12-28
+Azorella madreporica Clos,Valle Nevado,3100,-33.343181666666666,-70.25412166666666,2022-12-28
+Azorella madreporica Clos,Valle Nevado,3200,-33.33060666666667,-70.245845,2022-12-28
+Azorella madreporica Clos,Valle Nevado,3300,-33.32741166666667,-70.24047666666667,2022-12-28
+Azorella madreporica Clos,Valle Nevado,3400,-33.31973666666667,-70.23846,2023-01-18
+Azorella madreporica Clos,Valle Nevado,3500,-33.31304833333333,-70.23943833333334,2022-12-29
+Azorella madreporica Clos,Valle Nevado,3600,-33.317598333333336,-70.234775,2022-12-29
+Azorella ruizii G.M. Plunkett & A.N. Nicolas,Valle Nevado,2300,-33.37005166666667,-70.28815666666667,2022-12-27
+Azorella ruizii G.M. Plunkett & A.N. Nicolas,Valle Nevado,2500,-33.367423333333335,-70.27368166666666,2022-12-27
+Azorella ruizii G.M. Plunkett & A.N. Nicolas,Valle Nevado,2600,-33.36002833333333,-70.26518166666666,2022-12-27
+Azorella ruizii G.M. Plunkett & A.N. Nicolas,Valle Nevado,2700,-33.356698333333334,-70.25952,2022-12-29
+Azorella ruizii G.M. Plunkett & A.N. Nicolas,Valle Nevado,2800,-33.35792,-70.25589833333333,2022-12-29
+Azorella ruizii G.M. Plunkett & A.N. Nicolas,Valle Nevado,2900,-33.356605,-70.25098333333334,2022-12-28
+Azorella ruizii G.M. Plunkett & A.N. Nicolas,Valle Nevado,3100,-33.343181666666666,-70.25412166666666,2022-12-28
+Azorella ruizii G.M. Plunkett & A.N. Nicolas,Valle Nevado,3200,-33.33060666666667,-70.245845,2022-12-28
+Azorella ruizii G.M. Plunkett & A.N. Nicolas,Valle Nevado,3300,-33.32741166666667,-70.24047666666667,2022-12-28
+Berberis empetrifolia Lam.,Valle Nevado,2300,-33.37005166666667,-70.28815666666667,2022-12-27
+Berberis empetrifolia Lam.,Valle Nevado,2400,-33.362905000000005,-70.28848166666667,2022-12-27
+Berberis empetrifolia Lam.,Valle Nevado,2500,-33.367423333333335,-70.27368166666666,2022-12-27
+Berberis empetrifolia Lam.,Valle Nevado,2600,-33.36002833333333,-70.26518166666666,2022-12-27
+Berberis empetrifolia Lam.,Valle Nevado,2700,-33.356698333333334,-70.25952,2022-12-29
+Berberis empetrifolia Lam.,Valle Nevado,2800,-33.35792,-70.25589833333333,2022-12-29
+Bromus catharthicus var. catharthicus,Valle Nevado,2300,-33.37005166666667,-70.28815666666667,2022-12-27
+Bromus catharthicus var. catharthicus,Valle Nevado,2400,-33.362905000000005,-70.28848166666667,2022-12-27
+Bromus catharthicus var. catharthicus,Valle Nevado,2500,-33.367423333333335,-70.27368166666666,2022-12-27
+Bromus catharthicus var. catharthicus,Valle Nevado,2600,-33.36002833333333,-70.26518166666666,2022-12-27
+Bromus catharthicus var. catharthicus,Valle Nevado,2700,-33.356698333333334,-70.25952,2022-12-29
+Bromus catharthicus var. catharthicus,Valle Nevado,3000,-33.344121666666666,-70.25376833333333,2022-12-28
+Bromus setifolius J. Presl var. setifolius,Valle Nevado,2500,-33.367423333333335,-70.27368166666666,2022-12-27
+Bromus setifolius J. Presl var. setifolius,Valle Nevado,2600,-33.36002833333333,-70.26518166666666,2022-12-27
+Bromus setifolius J. Presl var. setifolius,Valle Nevado,3200,-33.33060666666667,-70.245845,2022-12-28
+Bromus setifolius J. Presl var. setifolius,Valle Nevado,3500,-33.31304833333333,-70.23943833333334,2022-12-29
+Bromus setifolius J. Presl var. setifolius,Valle Nevado,3600,-33.317598333333336,-70.234775,2022-12-29
+Calandrinia affinis Gillies ex Arn.,Valle Nevado,3000,-33.344121666666666,-70.25376833333333,2022-12-28
+Calandrinia affinis Gillies ex Arn.,Valle Nevado,3100,-33.343181666666666,-70.25412166666666,2022-12-28
+Calandrinia affinis Gillies ex Arn.,Valle Nevado,3300,-33.32741166666667,-70.24047666666667,2022-12-28
+Calandrinia caespitosa Gillies ex Arn.,Valle Nevado,3000,-33.344121666666666,-70.25376833333333,2022-12-28
+Calandrinia caespitosa Gillies ex Arn.,Valle Nevado,3300,-33.32741166666667,-70.24047666666667,2022-12-28
+Calandrinia caespitosa Gillies ex Arn.,Valle Nevado,3400,-33.31973666666667,-70.23846,2023-01-18
+Calceolaria arachnoidea Graham,Valle Nevado,2900,-33.356605,-70.25098333333334,2022-12-28
+Calceolaria arachnoidea Graham,Valle Nevado,3200,-33.33060666666667,-70.245845,2022-12-28
+Calceolaria corymbosa Ruiz & Pav. subsp. mimuloides (Clos) C. Ehrh.,Valle Nevado,2600,-33.36002833333333,-70.26518166666666,2022-12-27
+Calceolaria corymbosa Ruiz & Pav. subsp. mimuloides (Clos) C. Ehrh.,Valle Nevado,2700,-33.356698333333334,-70.25952,2022-12-29
+Calceolaria filicaulis Clos subsp. luxurians (Witasek) C. Ehrh.,Valle Nevado,2700,-33.356698333333334,-70.25952,2022-12-29
+Calceolaria filicaulis Clos subsp. luxurians (Witasek) C. Ehrh.,Valle Nevado,3000,-33.344121666666666,-70.25376833333333,2022-12-28
+Carex andina Phil.,Valle Nevado,2400,-33.362905000000005,-70.28848166666667,2022-12-27
+Carex andina Phil.,Valle Nevado,2500,-33.367423333333335,-70.27368166666666,2022-12-27
+Carex andina Phil.,Valle Nevado,2600,-33.36002833333333,-70.26518166666666,2022-12-27
+Carex andina Phil.,Valle Nevado,2800,-33.35792,-70.25589833333333,2022-12-29
+Carex andina Phil.,Valle Nevado,2900,-33.356605,-70.25098333333334,2022-12-28
+Carex andina Phil.,Valle Nevado,3000,-33.344121666666666,-70.25376833333333,2022-12-28
+Carex andina Phil.,Valle Nevado,3100,-33.343181666666666,-70.25412166666666,2022-12-28
+Carex andina Phil.,Valle Nevado,3200,-33.33060666666667,-70.245845,2022-12-28
+Carex macloviana d'Urv.,Valle Nevado,3400,-33.31973666666667,-70.23846,2023-01-18
+Carex patagonica Speg.,Valle Nevado,2300,-33.37005166666667,-70.28815666666667,2022-12-27
+"Carex recondita Muñoz-Schüler, Martín-Bravo & Jim.Mejías",Valle Nevado,2800,-33.35792,-70.25589833333333,2022-12-29
+Cerastium arvense L.,Valle Nevado,2500,-33.367423333333335,-70.27368166666666,2022-12-27
+Cerastium arvense L.,Valle Nevado,2600,-33.36002833333333,-70.26518166666666,2022-12-27
+Cerastium arvense L.,Valle Nevado,2700,-33.356698333333334,-70.25952,2022-12-29
+Cerastium arvense L.,Valle Nevado,2800,-33.35792,-70.25589833333333,2022-12-29
+Cerastium arvense L.,Valle Nevado,3000,-33.344121666666666,-70.25376833333333,2022-12-28
+Cerastium arvense L.,Valle Nevado,3100,-33.343181666666666,-70.25412166666666,2022-12-28
+Cerastium arvense L.,Valle Nevado,3200,-33.33060666666667,-70.245845,2022-12-28
+Cerastium arvense L.,Valle Nevado,3300,-33.32741166666667,-70.24047666666667,2022-12-28
+Cerastium arvense L.,Valle Nevado,3400,-33.31973666666667,-70.23846,2023-01-18
+Chaetanthera euphrasioides (DC.) F. Meigen,Valle Nevado,2300,-33.37005166666667,-70.28815666666667,2022-12-27
+Chaetanthera euphrasioides (DC.) F. Meigen,Valle Nevado,2400,-33.362905000000005,-70.28848166666667,2022-12-27
+Chaetanthera euphrasioides (DC.) F. Meigen,Valle Nevado,2500,-33.367423333333335,-70.27368166666666,2022-12-27
+Chaetanthera euphrasioides (DC.) F. Meigen,Valle Nevado,2600,-33.36002833333333,-70.26518166666666,2022-12-27
+Chaetanthera euphrasioides (DC.) F. Meigen,Valle Nevado,2700,-33.356698333333334,-70.25952,2022-12-29
+Chaetanthera euphrasioides (DC.) F. Meigen,Valle Nevado,2800,-33.35792,-70.25589833333333,2022-12-29
+Chaetanthera euphrasioides (DC.) F. Meigen,Valle Nevado,2900,-33.356605,-70.25098333333334,2022-12-28
+Chaetanthera euphrasioides (DC.) F. Meigen,Valle Nevado,3000,-33.344121666666666,-70.25376833333333,2022-12-28
+Chaetanthera euphrasioides (DC.) F. Meigen,Valle Nevado,3100,-33.343181666666666,-70.25412166666666,2022-12-28
+Chaetanthera euphrasioides (DC.) F. Meigen,Valle Nevado,3200,-33.33060666666667,-70.245845,2022-12-28
+Chenopodium philippianum Aellen,Valle Nevado,2600,-33.36002833333333,-70.26518166666666,2022-12-27
+Chenopodium philippianum Aellen,Valle Nevado,2700,-33.356698333333334,-70.25952,2022-12-29
+Chenopodium philippianum Aellen,Valle Nevado,2800,-33.35792,-70.25589833333333,2022-12-29
+Chenopodium philippianum Aellen,Valle Nevado,2900,-33.356605,-70.25098333333334,2022-12-28
+Chenopodium philippianum Aellen,Valle Nevado,3000,-33.344121666666666,-70.25376833333333,2022-12-28
+Chuquiraga oppositifolia D. Don,Valle Nevado,2300,-33.37005166666667,-70.28815666666667,2022-12-27
+Chuquiraga oppositifolia D. Don,Valle Nevado,2400,-33.362905000000005,-70.28848166666667,2022-12-27
+Chuquiraga oppositifolia D. Don,Valle Nevado,2500,-33.367423333333335,-70.27368166666666,2022-12-27
+Chuquiraga oppositifolia D. Don,Valle Nevado,2600,-33.36002833333333,-70.26518166666666,2022-12-27
+Chuquiraga oppositifolia D. Don,Valle Nevado,2700,-33.356698333333334,-70.25952,2022-12-29
+Chuquiraga oppositifolia D. Don,Valle Nevado,2800,-33.35792,-70.25589833333333,2022-12-29
+Collomia biflora (Ruiz & Pav.) Brand,Valle Nevado,2300,-33.37005166666667,-70.28815666666667,2022-12-27
+Collomia biflora (Ruiz & Pav.) Brand,Valle Nevado,2400,-33.362905000000005,-70.28848166666667,2022-12-27
+Collomia biflora (Ruiz & Pav.) Brand,Valle Nevado,2600,-33.36002833333333,-70.26518166666666,2022-12-27
+Convolvulus arvensis L.,Valle Nevado,2300,-33.37005166666667,-70.28815666666667,2022-12-27
+Convolvulus arvensis L.,Valle Nevado,2400,-33.362905000000005,-70.28848166666667,2022-12-27
+Conyza andina J. Remy,Valle Nevado,2400,-33.362905000000005,-70.28848166666667,2022-12-27
+Cryptantha capituliflora (Clos) Reiche,Valle Nevado,3100,-33.343181666666666,-70.25412166666666,2022-12-28
+Cryptantha capituliflora (Clos) Reiche,Valle Nevado,3200,-33.33060666666667,-70.245845,2022-12-28
+Cryptantha glomerulifera  (Phil.) I.M. Johnst.,Valle Nevado,2700,-33.356698333333334,-70.25952,2022-12-29
+Cuscuta sp. indet. ,Valle Nevado,2800,-33.35792,-70.25589833333333,2022-12-29
+Cynoglossum creticum Mill.,Valle Nevado,2400,-33.362905000000005,-70.28848166666667,2022-12-27
+Diplolepis nummulariifolia (Hook. & Arn.) Liede & Rapini,Valle Nevado,2400,-33.362905000000005,-70.28848166666667,2022-12-27
+Diplolepis nummulariifolia (Hook. & Arn.) Liede & Rapini,Valle Nevado,2500,-33.367423333333335,-70.27368166666666,2022-12-27
+Ephedra chilensis C. Presl,Valle Nevado,2300,-33.37005166666667,-70.28815666666667,2022-12-27
+Ephedra chilensis C. Presl,Valle Nevado,2400,-33.362905000000005,-70.28848166666667,2022-12-27
+Ephedra chilensis C. Presl,Valle Nevado,2500,-33.367423333333335,-70.27368166666666,2022-12-27
+Erigeron andicola DC.,Valle Nevado,2500,-33.367423333333335,-70.27368166666666,2022-12-27
+Erigeron andicola DC.,Valle Nevado,2700,-33.356698333333334,-70.25952,2022-12-29
+Erigeron andicola DC.,Valle Nevado,2800,-33.35792,-70.25589833333333,2022-12-29
+Erigeron andicola DC.,Valle Nevado,2900,-33.356605,-70.25098333333334,2022-12-28
+Erigeron andicola DC.,Valle Nevado,3000,-33.344121666666666,-70.25376833333333,2022-12-28
+Erigeron andicola DC.,Valle Nevado,3100,-33.343181666666666,-70.25412166666666,2022-12-28
+Erigeron andicola DC.,Valle Nevado,3200,-33.33060666666667,-70.245845,2022-12-28
+Erigeron andicola DC.,Valle Nevado,3300,-33.32741166666667,-70.24047666666667,2022-12-28
+Erigeron andicola DC.,Valle Nevado,3500,-33.31304833333333,-70.23943833333334,2022-12-29
+Erigeron andicola DC.,Valle Nevado,3600,-33.317598333333336,-70.234775,2022-12-29
+Erigeron leptopetalus Phil.,Valle Nevado,3000,-33.344121666666666,-70.25376833333333,2022-12-28
+Erigeron leptopetalus Phil.,Valle Nevado,3600,-33.317598333333336,-70.234775,2022-12-29
+Erigeron sp. indet.,Valle Nevado,3000,-33.344121666666666,-70.25376833333333,2022-12-28
+Erodium cicutarium (L.) L'Hér. ex Aiton,Valle Nevado,2400,-33.362905000000005,-70.28848166666667,2022-12-27
+Euphorbia collina Phil.,Valle Nevado,2300,-33.37005166666667,-70.28815666666667,2022-12-27
+Euphorbia collina Phil.,Valle Nevado,2400,-33.362905000000005,-70.28848166666667,2022-12-27
+Euphorbia collina Phil.,Valle Nevado,2500,-33.367423333333335,-70.27368166666666,2022-12-27
+Euphorbia collina Phil.,Valle Nevado,2600,-33.36002833333333,-70.26518166666666,2022-12-27
+Euphorbia collina Phil.,Valle Nevado,2900,-33.356605,-70.25098333333334,2022-12-28
+Festuca magellanica Lam.,Valle Nevado,3400,-33.31973666666667,-70.23846,2023-01-18
+Galium araucanum Phil.,Valle Nevado,2900,-33.356605,-70.25098333333334,2022-12-28
+Galium gilliesii Hook. & Arn. ,Valle Nevado,3100,-33.343181666666666,-70.25412166666666,2022-12-28
+Galium suffruticosum Hook. & Arn.,Valle Nevado,2900,-33.356605,-70.25098333333334,2022-12-28
+Galium suffruticosum Hook. & Arn.,Valle Nevado,3100,-33.343181666666666,-70.25412166666666,2022-12-28
+Gamocarpha compacta (Phil.) S.S. Denham & Pozner,Valle Nevado,3200,-33.33060666666667,-70.245845,2022-12-28
+Gamocarpha compacta (Phil.) S.S. Denham & Pozner,Valle Nevado,3300,-33.32741166666667,-70.24047666666667,2022-12-28
+Gamocarpha compacta (Phil.) S.S. Denham & Pozner,Valle Nevado,3400,-33.31973666666667,-70.23846,2023-01-18
+Gamocarpha scapigera (J. Rémy) S.S. Denham & Pozner,Valle Nevado,2700,-33.356698333333334,-70.25952,2022-12-29
+Gamocarpha scapigera (J. Rémy) S.S. Denham & Pozner,Valle Nevado,3100,-33.343181666666666,-70.25412166666666,2022-12-28
+Gamocarpha scapigera (J. Rémy) S.S. Denham & Pozner,Valle Nevado,3200,-33.33060666666667,-70.245845,2022-12-28
+Gayophytum humile A. Juss.,Valle Nevado,2800,-33.35792,-70.25589833333333,2022-12-29
+Gayophytum humile A. Juss.,Valle Nevado,3000,-33.344121666666666,-70.25376833333333,2022-12-28
+Gayophytum humile A. Juss.,Valle Nevado,3100,-33.343181666666666,-70.25412166666666,2022-12-28
+Gayophytum micranthum Hook. & Arn.,Valle Nevado,2300,-33.37005166666667,-70.28815666666667,2022-12-27
+Geranium sessiliflorum Cav.,Valle Nevado,3000,-33.344121666666666,-70.25376833333333,2022-12-28
+Haplopappus anthylloides Meyen & Walp.,Valle Nevado,2300,-33.37005166666667,-70.28815666666667,2022-12-27
+Haplopappus anthylloides Meyen & Walp.,Valle Nevado,2400,-33.362905000000005,-70.28848166666667,2022-12-27
+Haplopappus anthylloides Meyen & Walp.,Valle Nevado,2500,-33.367423333333335,-70.27368166666666,2022-12-27
+Haplopappus anthylloides Meyen & Walp.,Valle Nevado,2600,-33.36002833333333,-70.26518166666666,2022-12-27
+Haplopappus schumannii (Kuntze) G.K. Br. & W.D. Clark,Valle Nevado,2300,-33.37005166666667,-70.28815666666667,2022-12-27
+Haplopappus schumannii (Kuntze) G.K. Br. & W.D. Clark,Valle Nevado,2400,-33.362905000000005,-70.28848166666667,2022-12-27
+Haplopappus scrobiculatus (Nees) DC.,Valle Nevado,2600,-33.36002833333333,-70.26518166666666,2022-12-27
+Haplopappus scrobiculatus (Nees) DC.,Valle Nevado,2700,-33.356698333333334,-70.25952,2022-12-29
+Haplopappus scrobiculatus (Nees) DC.,Valle Nevado,2800,-33.35792,-70.25589833333333,2022-12-29
+Haplopappus scrobiculatus (Nees) DC.,Valle Nevado,3000,-33.344121666666666,-70.25376833333333,2022-12-28
+Haplopappus scrobiculatus (Nees) DC.,Valle Nevado,3200,-33.33060666666667,-70.245845,2022-12-28
+Hordeum comosum J. Presl,Valle Nevado,2300,-33.37005166666667,-70.28815666666667,2022-12-27
+Hordeum comosum J. Presl,Valle Nevado,2400,-33.362905000000005,-70.28848166666667,2022-12-27
+Hordeum comosum J. Presl,Valle Nevado,2500,-33.367423333333335,-70.27368166666666,2022-12-27
+Hordeum comosum J. Presl,Valle Nevado,2600,-33.36002833333333,-70.26518166666666,2022-12-27
+Hordeum comosum J. Presl,Valle Nevado,2700,-33.356698333333334,-70.25952,2022-12-29
+Hordeum comosum J. Presl,Valle Nevado,2800,-33.35792,-70.25589833333333,2022-12-29
+Hordeum comosum J. Presl,Valle Nevado,2900,-33.356605,-70.25098333333334,2022-12-28
+Hordeum comosum J. Presl,Valle Nevado,3000,-33.344121666666666,-70.25376833333333,2022-12-28
+Hordeum comosum J. Presl,Valle Nevado,3100,-33.343181666666666,-70.25412166666666,2022-12-28
+Hordeum comosum J. Presl,Valle Nevado,3200,-33.33060666666667,-70.245845,2022-12-28
+Hordeum comosum J. Presl,Valle Nevado,3300,-33.32741166666667,-70.24047666666667,2022-12-28
+Hordeum comosum J. Presl,Valle Nevado,3400,-33.31973666666667,-70.23846,2023-01-18
+Hordeum comosum J. Presl,Valle Nevado,3500,-33.31304833333333,-70.23943833333334,2022-12-29
+Hordeum comosum J. Presl,Valle Nevado,3600,-33.317598333333336,-70.234775,2022-12-29
+Hordeum comosum J. Presl,Valle Nevado,3700,-33.32133166666667,-70.23131833333333,2022-12-29
+Hypochaeris apargioides Hook. & Arn.,Valle Nevado,2400,-33.362905000000005,-70.28848166666667,2022-12-27
+Hypochaeris clarionoides (J. Remy) Reiche,Valle Nevado,2700,-33.356698333333334,-70.25952,2022-12-29
+Hypochaeris clarionoides (J. Remy) Reiche,Valle Nevado,2800,-33.35792,-70.25589833333333,2022-12-29
+Hypochaeris clarionoides (J. Remy) Reiche,Valle Nevado,2900,-33.356605,-70.25098333333334,2022-12-28
+Hypochaeris clarionoides (J. Remy) Reiche,Valle Nevado,3000,-33.344121666666666,-70.25376833333333,2022-12-28
+Hypochaeris clarionoides (J. Remy) Reiche,Valle Nevado,3100,-33.343181666666666,-70.25412166666666,2022-12-28
+Hypochaeris clarionoides (J. Remy) Reiche,Valle Nevado,3300,-33.32741166666667,-70.24047666666667,2022-12-28
+Juncus stipulatus Nees & Meyen,Valle Nevado,2700,-33.356698333333334,-70.25952,2022-12-29
+"Koeleria barbinodis (Trin.) Barberá, Quintanar, Soreng & P.M. Peterson",Valle Nevado,3200,-33.33060666666667,-70.245845,2022-12-28
+"Koeleria barbinodis (Trin.) Barberá, Quintanar, Soreng & P.M. Peterson",Valle Nevado,3300,-33.32741166666667,-70.24047666666667,2022-12-28
+"Koeleria preslii (Kunth) Barberá, Quintanar, Soreng & P.M. Peterson",Valle Nevado,3200,-33.33060666666667,-70.245845,2022-12-28
+"Koeleria preslii (Kunth) Barberá, Quintanar, Soreng & P.M. Peterson",Valle Nevado,3300,-33.32741166666667,-70.24047666666667,2022-12-28
+"Koeleria preslii (Kunth) Barberá, Quintanar, Soreng & P.M. Peterson",Valle Nevado,3400,-33.31973666666667,-70.23846,2023-01-18
+"Koeleria preslii (Kunth) Barberá, Quintanar, Soreng & P.M. Peterson",Valle Nevado,3500,-33.31304833333333,-70.23943833333334,2022-12-29
+"Koeleria preslii (Kunth) Barberá, Quintanar, Soreng & P.M. Peterson",Valle Nevado,3600,-33.317598333333336,-70.234775,2022-12-29
+Lactuca virosa L.,Valle Nevado,2300,-33.37005166666667,-70.28815666666667,2022-12-27
+Lactuca virosa L.,Valle Nevado,2500,-33.367423333333335,-70.27368166666666,2022-12-27
+Lactuca virosa L.,Valle Nevado,2600,-33.36002833333333,-70.26518166666666,2022-12-27
+Lactuca virosa L.,Valle Nevado,2700,-33.356698333333334,-70.25952,2022-12-29
+Lactuca virosa L.,Valle Nevado,3000,-33.344121666666666,-70.25376833333333,2022-12-28
+Lactuca virosa L.,Valle Nevado,3100,-33.343181666666666,-70.25412166666666,2022-12-28
+Lactuca virosa L.,Valle Nevado,3500,-33.31304833333333,-70.23943833333334,2022-12-29
+Latace andina (Poepp.) Sassone,Valle Nevado,2500,-33.367423333333335,-70.27368166666666,2022-12-27
+Latace andina (Poepp.) Sassone,Valle Nevado,2600,-33.36002833333333,-70.26518166666666,2022-12-27
+Latace andina (Poepp.) Sassone,Valle Nevado,2700,-33.356698333333334,-70.25952,2022-12-29
+Latace andina (Poepp.) Sassone,Valle Nevado,2800,-33.35792,-70.25589833333333,2022-12-29
+Latace andina (Poepp.) Sassone,Valle Nevado,2900,-33.356605,-70.25098333333334,2022-12-28
+Latace andina (Poepp.) Sassone,Valle Nevado,3000,-33.344121666666666,-70.25376833333333,2022-12-28
+Leucheria bridgesii Hook. & Arn.,Valle Nevado,2600,-33.36002833333333,-70.26518166666666,2022-12-27
+Leucocoryne alliacea Miers ex Lindl.,Valle Nevado,2700,-33.356698333333334,-70.25952,2022-12-29
+Leucocoryne alliacea Miers ex Lindl.,Valle Nevado,2800,-33.35792,-70.25589833333333,2022-12-29
+Leucocoryne alliacea Miers ex Lindl.,Valle Nevado,2900,-33.356605,-70.25098333333334,2022-12-28
+Loasa sigmoidea Urb. & Gilg,Valle Nevado,2500,-33.367423333333335,-70.27368166666666,2022-12-27
+Loasa sigmoidea Urb. & Gilg,Valle Nevado,3100,-33.343181666666666,-70.25412166666666,2022-12-28
+Loasa sigmoidea Urb. & Gilg,Valle Nevado,3200,-33.33060666666667,-70.245845,2022-12-28
+Loasa sigmoidea Urb. & Gilg,Valle Nevado,3300,-33.32741166666667,-70.24047666666667,2022-12-28
+Luzula chilensis Nees & Meyen ex Kunth,Valle Nevado,2600,-33.36002833333333,-70.26518166666666,2022-12-27
+Luzula chilensis Nees & Meyen ex Kunth,Valle Nevado,3000,-33.344121666666666,-70.25376833333333,2022-12-28
+Luzula chilensis Nees & Meyen ex Kunth,Valle Nevado,3100,-33.343181666666666,-70.25412166666666,2022-12-28
+Luzula chilensis Nees & Meyen ex Kunth,Valle Nevado,3200,-33.33060666666667,-70.245845,2022-12-28
+Luzula chilensis Nees & Meyen ex Kunth,Valle Nevado,3400,-33.31973666666667,-70.23846,2023-01-18
+Luzula chilensis Nees & Meyen ex Kunth,Valle Nevado,3600,-33.317598333333336,-70.234775,2022-12-29
+Luzula parvula Barros,Valle Nevado,3300,-33.32741166666667,-70.24047666666667,2022-12-28
+Luzula racemosa Desv.,Valle Nevado,3300,-33.32741166666667,-70.24047666666667,2022-12-28
+Madia sativa Molina,Valle Nevado,2300,-33.37005166666667,-70.28815666666667,2022-12-27
+Melosperma andicola Benth.,Valle Nevado,2300,-33.37005166666667,-70.28815666666667,2022-12-27
+Melosperma andicola Benth.,Valle Nevado,2500,-33.367423333333335,-70.27368166666666,2022-12-27
+Melosperma andicola Benth.,Valle Nevado,2700,-33.356698333333334,-70.25952,2022-12-29
+Melosperma andicola Benth.,Valle Nevado,3000,-33.344121666666666,-70.25376833333333,2022-12-28
+Menonvillea purpurea (Hastings) Rollins,Valle Nevado,2500,-33.367423333333335,-70.27368166666666,2022-12-27
+Menonvillea scapigera (Phil.) Rollins ,Valle Nevado,2600,-33.36002833333333,-70.26518166666666,2022-12-27
+Menonvillea scapigera (Phil.) Rollins ,Valle Nevado,2700,-33.356698333333334,-70.25952,2022-12-29
+Microsteris gracilis (Hook.) Greene,Valle Nevado,2300,-33.37005166666667,-70.28815666666667,2022-12-27
+Microsteris gracilis (Hook.) Greene,Valle Nevado,2400,-33.362905000000005,-70.28848166666667,2022-12-27
+Microsteris gracilis (Hook.) Greene,Valle Nevado,2600,-33.36002833333333,-70.26518166666666,2022-12-27
+Microsteris gracilis (Hook.) Greene,Valle Nevado,2700,-33.356698333333334,-70.25952,2022-12-29
+Microsteris gracilis (Hook.) Greene,Valle Nevado,2800,-33.35792,-70.25589833333333,2022-12-29
+Microsteris gracilis (Hook.) Greene,Valle Nevado,2900,-33.356605,-70.25098333333334,2022-12-28
+Microsteris gracilis (Hook.) Greene,Valle Nevado,3000,-33.344121666666666,-70.25376833333333,2022-12-28
+Microsteris gracilis (Hook.) Greene,Valle Nevado,3100,-33.343181666666666,-70.25412166666666,2022-12-28
+Microsteris gracilis (Hook.) Greene,Valle Nevado,3200,-33.33060666666667,-70.245845,2022-12-28
+Montia fontana L.,Valle Nevado,2700,-33.356698333333334,-70.25952,2022-12-29
+Montiopsis andicola (Gillies) D.I. Ford,Valle Nevado,2500,-33.367423333333335,-70.27368166666666,2022-12-27
+Montiopsis andicola (Gillies) D.I. Ford,Valle Nevado,2600,-33.36002833333333,-70.26518166666666,2022-12-27
+Montiopsis andicola (Gillies) D.I. Ford,Valle Nevado,2900,-33.356605,-70.25098333333334,2022-12-28
+Montiopsis cistiflora (Gillies ex Arn.) D.I. Ford,Valle Nevado,2900,-33.356605,-70.25098333333334,2022-12-28
+Montiopsis cistiflora (Gillies ex Arn.) D.I. Ford,Valle Nevado,3100,-33.343181666666666,-70.25412166666666,2022-12-28
+Montiopsis cistiflora (Gillies ex Arn.) D.I. Ford,Valle Nevado,3200,-33.33060666666667,-70.245845,2022-12-28
+Montiopsis cistiflora (Gillies ex Arn.) D.I. Ford,Valle Nevado,3300,-33.32741166666667,-70.24047666666667,2022-12-28
+Montiopsis gilliesii (Hook. & Arn.) D.I. Ford,Valle Nevado,3000,-33.344121666666666,-70.25376833333333,2022-12-28
+Montiopsis gilliesii (Hook. & Arn.) D.I. Ford,Valle Nevado,3100,-33.343181666666666,-70.25412166666666,2022-12-28
+Montiopsis gilliesii (Hook. & Arn.) D.I. Ford,Valle Nevado,3200,-33.33060666666667,-70.245845,2022-12-28
+Montiopsis gilliesii (Hook. & Arn.) D.I. Ford,Valle Nevado,3300,-33.32741166666667,-70.24047666666667,2022-12-28
+Montiopsis gilliesii (Hook. & Arn.) D.I. Ford,Valle Nevado,3400,-33.31973666666667,-70.23846,2023-01-18
+Montiopsis gilliesii (Hook. & Arn.) D.I. Ford,Valle Nevado,3500,-33.31304833333333,-70.23943833333334,2022-12-29
+Montiopsis gilliesii (Hook. & Arn.) D.I. Ford,Valle Nevado,3600,-33.317598333333336,-70.234775,2022-12-29
+Montiopsis potentilloides (Barnéoud) D.I. Ford,Valle Nevado,2300,-33.37005166666667,-70.28815666666667,2022-12-27
+Mutisia sinuata Cav.,Valle Nevado,2400,-33.362905000000005,-70.28848166666667,2022-12-27
+Nassauvia cumingii Hook. & Arn.,Valle Nevado,3000,-33.344121666666666,-70.25376833333333,2022-12-28
+Nassauvia cumingii Hook. & Arn.,Valle Nevado,3100,-33.343181666666666,-70.25412166666666,2022-12-28
+Nassauvia cumingii Hook. & Arn.,Valle Nevado,3300,-33.32741166666667,-70.24047666666667,2022-12-28
+Nassauvia cumingii Hook. & Arn.,Valle Nevado,3400,-33.31973666666667,-70.23846,2023-01-18
+Nassauvia cumingii Hook. & Arn.,Valle Nevado,3500,-33.31304833333333,-70.23943833333334,2022-12-29
+Nassauvia lagascae (D. Don) F. Meigen var. lagascae,Valle Nevado,3100,-33.343181666666666,-70.25412166666666,2022-12-28
+Nassauvia lagascae (D. Don) F. Meigen var. lagascae,Valle Nevado,3300,-33.32741166666667,-70.24047666666667,2022-12-28
+Nassauvia lagascae (D. Don) F. Meigen var. lagascae,Valle Nevado,3500,-33.31304833333333,-70.23943833333334,2022-12-29
+Nassauvia lagascae (D. Don) F. Meigen var. lagascae,Valle Nevado,3600,-33.317598333333336,-70.234775,2022-12-29
+Nassauvia looseri Cabrera,Valle Nevado,2700,-33.356698333333334,-70.25952,2022-12-29
+Nassauvia looseri Cabrera,Valle Nevado,2800,-33.35792,-70.25589833333333,2022-12-29
+Nassauvia looseri Cabrera,Valle Nevado,2900,-33.356605,-70.25098333333334,2022-12-28
+Nassauvia looseri Cabrera,Valle Nevado,3200,-33.33060666666667,-70.245845,2022-12-28
+Nicotiana corymbosa J. Remy,Valle Nevado,2300,-33.37005166666667,-70.28815666666667,2022-12-27
+Nicotiana corymbosa J. Remy,Valle Nevado,2600,-33.36002833333333,-70.26518166666666,2022-12-27
+Nicotiana corymbosa J. Remy,Valle Nevado,2700,-33.356698333333334,-70.25952,2022-12-29
+Nicotiana corymbosa J. Remy,Valle Nevado,2800,-33.35792,-70.25589833333333,2022-12-29
+Nicotiana corymbosa J. Remy,Valle Nevado,2900,-33.356605,-70.25098333333334,2022-12-28
+Nicotiana corymbosa J. Remy,Valle Nevado,3000,-33.344121666666666,-70.25376833333333,2022-12-28
+Nicotiana corymbosa J. Remy,Valle Nevado,3100,-33.343181666666666,-70.25412166666666,2022-12-28
+Nicotiana corymbosa J. Remy,Valle Nevado,3200,-33.33060666666667,-70.245845,2022-12-28
+Noccaea magellanica (Comm. ex Poir.) Holub,Valle Nevado,2600,-33.36002833333333,-70.26518166666666,2022-12-27
+Noccaea magellanica (Comm. ex Poir.) Holub,Valle Nevado,2700,-33.356698333333334,-70.25952,2022-12-29
+Noccaea magellanica (Comm. ex Poir.) Holub,Valle Nevado,2800,-33.35792,-70.25589833333333,2022-12-29
+Noccaea magellanica (Comm. ex Poir.) Holub,Valle Nevado,2900,-33.356605,-70.25098333333334,2022-12-28
+Noccaea magellanica (Comm. ex Poir.) Holub,Valle Nevado,3000,-33.344121666666666,-70.25376833333333,2022-12-28
+Noccaea magellanica (Comm. ex Poir.) Holub,Valle Nevado,3100,-33.343181666666666,-70.25412166666666,2022-12-28
+Noccaea magellanica (Comm. ex Poir.) Holub,Valle Nevado,3200,-33.33060666666667,-70.245845,2022-12-28
+Noccaea magellanica (Comm. ex Poir.) Holub,Valle Nevado,3300,-33.32741166666667,-70.24047666666667,2022-12-28
+Noccaea magellanica (Comm. ex Poir.) Holub,Valle Nevado,3400,-33.31973666666667,-70.23846,2023-01-18
+Nototriche compacta (A. Gray) A.W. Hill,Valle Nevado,3700,-33.32133166666667,-70.23131833333333,2022-12-29
+Olsynium junceum (E. Mey. ex C. Presl) Goldblatt subsp. colchaguense (Phil.) J.M. Watson & A.R. Flores,Valle Nevado,3000,-33.344121666666666,-70.25376833333333,2022-12-28
+Olsynium junceum (E. Mey. ex C. Presl) Goldblatt subsp. colchaguense (Phil.) J.M. Watson & A.R. Flores,Valle Nevado,3200,-33.33060666666667,-70.245845,2022-12-28
+Olsynium junceum (E. Mey. ex C. Presl) Goldblatt subsp. colchaguense (Phil.) J.M. Watson & A.R. Flores,Valle Nevado,3300,-33.32741166666667,-70.24047666666667,2022-12-28
+Olsynium junceum (E. Mey. ex C. Presl) Goldblatt subsp. junceum,Valle Nevado,2300,-33.37005166666667,-70.28815666666667,2022-12-27
+Olsynium junceum (E. Mey. ex C. Presl) Goldblatt subsp. junceum,Valle Nevado,2400,-33.362905000000005,-70.28848166666667,2022-12-27
+Olsynium junceum (E. Mey. ex C. Presl) Goldblatt subsp. junceum,Valle Nevado,2500,-33.367423333333335,-70.27368166666666,2022-12-27
+Olsynium junceum (E. Mey. ex C. Presl) Goldblatt subsp. junceum,Valle Nevado,2600,-33.36002833333333,-70.26518166666666,2022-12-27
+Olsynium junceum (E. Mey. ex C. Presl) Goldblatt subsp. junceum,Valle Nevado,2700,-33.356698333333334,-70.25952,2022-12-29
+Olsynium junceum (E. Mey. ex C. Presl) Goldblatt subsp. junceum,Valle Nevado,2800,-33.35792,-70.25589833333333,2022-12-29
+Olsynium junceum (E. Mey. ex C. Presl) Goldblatt subsp. junceum,Valle Nevado,3200,-33.33060666666667,-70.245845,2022-12-28
+Olsynium philippii (Klatt) Goldblatt subsp. illapelinum (Phil.) J.M. Watson & A.R. Flores,Valle Nevado,2800,-33.35792,-70.25589833333333,2022-12-29
+Olsynium philippii (Klatt) Goldblatt subsp. illapelinum (Phil.) J.M. Watson & A.R. Flores,Valle Nevado,3000,-33.344121666666666,-70.25376833333333,2022-12-28
+Olsynium philippii (Klatt) Goldblatt subsp. illapelinum (Phil.) J.M. Watson & A.R. Flores,Valle Nevado,3100,-33.343181666666666,-70.25412166666666,2022-12-28
+Oriastrum chilense (J. Remy) Wedd,Valle Nevado,3600,-33.317598333333336,-70.234775,2022-12-29
+Oriastrum lycopodioides (J. Remy) Wedd,Valle Nevado,3300,-33.32741166666667,-70.24047666666667,2022-12-28
+Oriastrum lycopodioides (J. Remy) Wedd,Valle Nevado,3500,-33.31304833333333,-70.23943833333334,2022-12-29
+Oriastrum pentacaenoides Phil.,Valle Nevado,3600,-33.317598333333336,-70.234775,2022-12-29
+Oriastrum pusillum Poepp. & Endl,Valle Nevado,2300,-33.37005166666667,-70.28815666666667,2022-12-27
+Oriastrum pusillum Poepp. & Endl,Valle Nevado,3200,-33.33060666666667,-70.245845,2022-12-28
+Oxalis compacta Gillies ex Hook. & Arn. ,Valle Nevado,3100,-33.343181666666666,-70.25412166666666,2022-12-28
+Oxalis compacta Gillies ex Hook. & Arn. ,Valle Nevado,3200,-33.33060666666667,-70.245845,2022-12-28
+Oxalis compacta Gillies ex Hook. & Arn. ,Valle Nevado,3300,-33.32741166666667,-70.24047666666667,2022-12-28
+Oxalis compacta Gillies ex Hook. & Arn. ,Valle Nevado,3400,-33.31973666666667,-70.23846,2023-01-18
+Oxalis compacta Gillies ex Hook. & Arn. ,Valle Nevado,3600,-33.317598333333336,-70.234775,2022-12-29
+Oxalis squamata Zucc.,Valle Nevado,2500,-33.367423333333335,-70.27368166666666,2022-12-27
+Oxalis squamata Zucc.,Valle Nevado,2600,-33.36002833333333,-70.26518166666666,2022-12-27
+Oxalis squamata Zucc.,Valle Nevado,2700,-33.356698333333334,-70.25952,2022-12-29
+Oxalis squamata Zucc.,Valle Nevado,2900,-33.356605,-70.25098333333334,2022-12-28
+Pappostipa chrysophylla (E. Desv.) Romasch. var. chrysophylla,Valle Nevado,2300,-33.37005166666667,-70.28815666666667,2022-12-27
+Pappostipa chrysophylla (E. Desv.) Romasch. var. chrysophylla,Valle Nevado,2400,-33.362905000000005,-70.28848166666667,2022-12-27
+Pappostipa chrysophylla (E. Desv.) Romasch. var. chrysophylla,Valle Nevado,2500,-33.367423333333335,-70.27368166666666,2022-12-27
+Pappostipa chrysophylla (E. Desv.) Romasch. var. chrysophylla,Valle Nevado,2600,-33.36002833333333,-70.26518166666666,2022-12-27
+Pappostipa chrysophylla (E. Desv.) Romasch. var. chrysophylla,Valle Nevado,3700,-33.32133166666667,-70.23131833333333,2022-12-29
+Perezia carthamoides (D. Don) Hook. & Arn.,Valle Nevado,2300,-33.37005166666667,-70.28815666666667,2022-12-27
+Perezia carthamoides (D. Don) Hook. & Arn.,Valle Nevado,2400,-33.362905000000005,-70.28848166666667,2022-12-27
+Perezia carthamoides (D. Don) Hook. & Arn.,Valle Nevado,2500,-33.367423333333335,-70.27368166666666,2022-12-27
+Perezia carthamoides (D. Don) Hook. & Arn.,Valle Nevado,2600,-33.36002833333333,-70.26518166666666,2022-12-27
+Perezia carthamoides (D. Don) Hook. & Arn.,Valle Nevado,2700,-33.356698333333334,-70.25952,2022-12-29
+Perezia carthamoides (D. Don) Hook. & Arn.,Valle Nevado,2800,-33.35792,-70.25589833333333,2022-12-29
+Perezia carthamoides (D. Don) Hook. & Arn.,Valle Nevado,2900,-33.356605,-70.25098333333334,2022-12-28
+Perezia carthamoides (D. Don) Hook. & Arn.,Valle Nevado,3000,-33.344121666666666,-70.25376833333333,2022-12-28
+Perezia carthamoides (D. Don) Hook. & Arn.,Valle Nevado,3100,-33.343181666666666,-70.25412166666666,2022-12-28
+Perezia carthamoides (D. Don) Hook. & Arn.,Valle Nevado,3200,-33.33060666666667,-70.245845,2022-12-28
+Perezia carthamoides (D. Don) Hook. & Arn.,Valle Nevado,3500,-33.31304833333333,-70.23943833333334,2022-12-29
+Perezia pilifera (D. Don) Hook. & Arn.,Valle Nevado,3000,-33.344121666666666,-70.25376833333333,2022-12-28
+Perezia pilifera (D. Don) Hook. & Arn.,Valle Nevado,3100,-33.343181666666666,-70.25412166666666,2022-12-28
+Perezia pilifera (D. Don) Hook. & Arn.,Valle Nevado,3200,-33.33060666666667,-70.245845,2022-12-28
+Perezia pilifera (D. Don) Hook. & Arn.,Valle Nevado,3300,-33.32741166666667,-70.24047666666667,2022-12-28
+Phacelia cumingii (Benth.) A. Gray,Valle Nevado,2300,-33.37005166666667,-70.28815666666667,2022-12-27
+Phacelia secunda J.F. Gmel. var. secunda,Valle Nevado,2300,-33.37005166666667,-70.28815666666667,2022-12-27
+Phacelia secunda J.F. Gmel. var. secunda,Valle Nevado,2400,-33.362905000000005,-70.28848166666667,2022-12-27
+Phacelia secunda J.F. Gmel. var. secunda,Valle Nevado,2500,-33.367423333333335,-70.27368166666666,2022-12-27
+Phacelia secunda J.F. Gmel. var. secunda,Valle Nevado,2600,-33.36002833333333,-70.26518166666666,2022-12-27
+Phacelia secunda J.F. Gmel. var. secunda,Valle Nevado,2700,-33.356698333333334,-70.25952,2022-12-29
+Phacelia secunda J.F. Gmel. var. secunda,Valle Nevado,2800,-33.35792,-70.25589833333333,2022-12-29
+Phacelia secunda J.F. Gmel. var. secunda,Valle Nevado,2900,-33.356605,-70.25098333333334,2022-12-28
+Phacelia secunda J.F. Gmel. var. secunda,Valle Nevado,3000,-33.344121666666666,-70.25376833333333,2022-12-28
+Phacelia secunda J.F. Gmel. var. secunda,Valle Nevado,3100,-33.343181666666666,-70.25412166666666,2022-12-28
+Phacelia secunda J.F. Gmel. var. secunda,Valle Nevado,3200,-33.33060666666667,-70.245845,2022-12-28
+Phacelia secunda J.F. Gmel. var. secunda,Valle Nevado,3300,-33.32741166666667,-70.24047666666667,2022-12-28
+Phacelia secunda J.F. Gmel. var. secunda,Valle Nevado,3400,-33.31973666666667,-70.23846,2023-01-18
+Phacelia secunda J.F. Gmel. var. secunda,Valle Nevado,3500,-33.31304833333333,-70.23943833333334,2022-12-29
+Plantago barbata G. Forst.,Valle Nevado,2700,-33.356698333333334,-70.25952,2022-12-29
+Plantago barbata G. Forst.,Valle Nevado,2800,-33.35792,-70.25589833333333,2022-12-29
+Plantago barbata G. Forst.,Valle Nevado,2900,-33.356605,-70.25098333333334,2022-12-28
+Plantago grandiflora Meyen,Valle Nevado,2500,-33.367423333333335,-70.27368166666666,2022-12-27
+Poa denudata Steud.,Valle Nevado,2800,-33.35792,-70.25589833333333,2022-12-29
+Poa denudata Steud.,Valle Nevado,3400,-33.31973666666667,-70.23846,2023-01-18
+Poa denudata Steud.,Valle Nevado,3500,-33.31304833333333,-70.23943833333334,2022-12-29
+Poa holciformis J. Presl,Valle Nevado,2300,-33.37005166666667,-70.28815666666667,2022-12-27
+Poa holciformis J. Presl,Valle Nevado,2400,-33.362905000000005,-70.28848166666667,2022-12-27
+Poa holciformis J. Presl,Valle Nevado,2500,-33.367423333333335,-70.27368166666666,2022-12-27
+Poa holciformis J. Presl,Valle Nevado,2600,-33.36002833333333,-70.26518166666666,2022-12-27
+Poa holciformis J. Presl,Valle Nevado,2700,-33.356698333333334,-70.25952,2022-12-29
+Poa holciformis J. Presl,Valle Nevado,2800,-33.35792,-70.25589833333333,2022-12-29
+Poa holciformis J. Presl,Valle Nevado,2900,-33.356605,-70.25098333333334,2022-12-28
+Poa holciformis J. Presl,Valle Nevado,3100,-33.343181666666666,-70.25412166666666,2022-12-28
+Poa holciformis J. Presl,Valle Nevado,3200,-33.33060666666667,-70.245845,2022-12-28
+Poa holciformis J. Presl,Valle Nevado,3300,-33.32741166666667,-70.24047666666667,2022-12-28
+Poa holciformis J. Presl,Valle Nevado,3400,-33.31973666666667,-70.23846,2023-01-18
+Poa secunda J. Presl ,Valle Nevado,2300,-33.37005166666667,-70.28815666666667,2022-12-27
+Poa secunda J. Presl ,Valle Nevado,2400,-33.362905000000005,-70.28848166666667,2022-12-27
+Poa secunda J. Presl ,Valle Nevado,2500,-33.367423333333335,-70.27368166666666,2022-12-27
+Poa secunda J. Presl ,Valle Nevado,2600,-33.36002833333333,-70.26518166666666,2022-12-27
+Poa secunda J. Presl ,Valle Nevado,2700,-33.356698333333334,-70.25952,2022-12-29
+Poa secunda J. Presl ,Valle Nevado,2900,-33.356605,-70.25098333333334,2022-12-28
+Poa secunda J. Presl ,Valle Nevado,3000,-33.344121666666666,-70.25376833333333,2022-12-28
+Poa secunda J. Presl ,Valle Nevado,3100,-33.343181666666666,-70.25412166666666,2022-12-28
+Poa secunda J. Presl ,Valle Nevado,3200,-33.33060666666667,-70.245845,2022-12-28
+Poa secunda J. Presl ,Valle Nevado,3400,-33.31973666666667,-70.23846,2023-01-18
+Poa tristigmatica E. Desv.,Valle Nevado,2300,-33.37005166666667,-70.28815666666667,2022-12-27
+Poa tristigmatica E. Desv.,Valle Nevado,2400,-33.362905000000005,-70.28848166666667,2022-12-27
+Poa tristigmatica E. Desv.,Valle Nevado,2500,-33.367423333333335,-70.27368166666666,2022-12-27
+Poa tristigmatica E. Desv.,Valle Nevado,2900,-33.356605,-70.25098333333334,2022-12-28
+Polygonum aviculare L.,Valle Nevado,3000,-33.344121666666666,-70.25376833333333,2022-12-28
+Polygonum bowenkampii Phil.,Valle Nevado,2500,-33.367423333333335,-70.27368166666666,2022-12-27
+Polygonum bowenkampii Phil.,Valle Nevado,2600,-33.36002833333333,-70.26518166666666,2022-12-27
+Polygonum bowenkampii Phil.,Valle Nevado,2700,-33.356698333333334,-70.25952,2022-12-29
+Polygonum bowenkampii Phil.,Valle Nevado,2800,-33.35792,-70.25589833333333,2022-12-29
+Polygonum bowenkampii Phil.,Valle Nevado,2900,-33.356605,-70.25098333333334,2022-12-28
+Pozoa coriacea Lag.,Valle Nevado,2700,-33.356698333333334,-70.25952,2022-12-29
+Pozoa coriacea Lag.,Valle Nevado,3100,-33.343181666666666,-70.25412166666666,2022-12-28
+Pozoa coriacea Lag.,Valle Nevado,3200,-33.33060666666667,-70.245845,2022-12-28
+Pozoa coriacea Lag.,Valle Nevado,3300,-33.32741166666667,-70.24047666666667,2022-12-28
+Quinchamalium parviflorum Phil.,Valle Nevado,2300,-33.37005166666667,-70.28815666666667,2022-12-27
+Quinchamalium parviflorum Phil.,Valle Nevado,2400,-33.362905000000005,-70.28848166666667,2022-12-27
+Quinchamalium parviflorum Phil.,Valle Nevado,2500,-33.367423333333335,-70.27368166666666,2022-12-27
+Quinchamalium parviflorum Phil.,Valle Nevado,2600,-33.36002833333333,-70.26518166666666,2022-12-27
+Quinchamalium parviflorum Phil.,Valle Nevado,2700,-33.356698333333334,-70.25952,2022-12-29
+Quinchamalium parviflorum Phil.,Valle Nevado,2800,-33.35792,-70.25589833333333,2022-12-29
+Quinchamalium parviflorum Phil.,Valle Nevado,2900,-33.356605,-70.25098333333334,2022-12-28
+Quinchamalium parviflorum Phil.,Valle Nevado,3200,-33.33060666666667,-70.245845,2022-12-28
+Rhodolirium montanum Phil.,Valle Nevado,2300,-33.37005166666667,-70.28815666666667,2022-12-27
+Rhodolirium montanum Phil.,Valle Nevado,2400,-33.362905000000005,-70.28848166666667,2022-12-27
+Rhodolirium montanum Phil.,Valle Nevado,2700,-33.356698333333334,-70.25952,2022-12-29
+Rhodolirium montanum Phil.,Valle Nevado,2800,-33.35792,-70.25589833333333,2022-12-29
+Rhodolirium montanum Phil.,Valle Nevado,2900,-33.356605,-70.25098333333334,2022-12-28
+Rhodolirium montanum Phil.,Valle Nevado,3000,-33.344121666666666,-70.25376833333333,2022-12-28
+Rytidosperma pictum (Nees & Meyen) Nicora var. pictum,Valle Nevado,2900,-33.356605,-70.25098333333334,2022-12-28
+Rytidosperma violaceum (E. Desv.) Nicora ,Valle Nevado,2800,-33.35792,-70.25589833333333,2022-12-29
+Rytidosperma violaceum (E. Desv.) Nicora ,Valle Nevado,2900,-33.356605,-70.25098333333334,2022-12-28
+Rytidosperma virescens (E. Desv.) Nicora var. virescens,Valle Nevado,2400,-33.362905000000005,-70.28848166666667,2022-12-27
+Rytidosperma virescens (E. Desv.) Nicora var. virescens,Valle Nevado,2500,-33.367423333333335,-70.27368166666666,2022-12-27
+Rytidosperma virescens (E. Desv.) Nicora var. virescens,Valle Nevado,2600,-33.36002833333333,-70.26518166666666,2022-12-27
+Rytidosperma virescens (E. Desv.) Nicora var. virescens,Valle Nevado,2900,-33.356605,-70.25098333333334,2022-12-28
+Rytidosperma virescens (E. Desv.) Nicora var. virescens,Valle Nevado,3000,-33.344121666666666,-70.25376833333333,2022-12-28
+Rytidosperma virescens (E. Desv.) Nicora var. virescens,Valle Nevado,3100,-33.343181666666666,-70.25412166666666,2022-12-28
+Rytidosperma virescens (E. Desv.) Nicora var. virescens,Valle Nevado,3200,-33.33060666666667,-70.245845,2022-12-28
+Rytidosperma virescens (E. Desv.) Nicora var. virescens,Valle Nevado,3300,-33.32741166666667,-70.24047666666667,2022-12-28
+Rytidosperma virescens (E. Desv.) Nicora var. virescens,Valle Nevado,3400,-33.31973666666667,-70.23846,2023-01-18
+Rytidosperma virescens (E. Desv.) Nicora var. virescens,Valle Nevado,3500,-33.31304833333333,-70.23943833333334,2022-12-29
+Rytidosperma virescens (E. Desv.) Nicora var. virescens,Valle Nevado,3600,-33.317598333333336,-70.234775,2022-12-29
+Sanicula graveolens Poepp. ex DC.,Valle Nevado,2300,-33.37005166666667,-70.28815666666667,2022-12-27
+Sanicula graveolens Poepp. ex DC.,Valle Nevado,2400,-33.362905000000005,-70.28848166666667,2022-12-27
+Sanicula graveolens Poepp. ex DC.,Valle Nevado,2500,-33.367423333333335,-70.27368166666666,2022-12-27
+Sanicula graveolens Poepp. ex DC.,Valle Nevado,2600,-33.36002833333333,-70.26518166666666,2022-12-27
+Sanicula graveolens Poepp. ex DC.,Valle Nevado,2700,-33.356698333333334,-70.25952,2022-12-29
+Sanicula graveolens Poepp. ex DC.,Valle Nevado,2800,-33.35792,-70.25589833333333,2022-12-29
+Sanicula graveolens Poepp. ex DC.,Valle Nevado,2900,-33.356605,-70.25098333333334,2022-12-28
+Sanicula graveolens Poepp. ex DC.,Valle Nevado,3000,-33.344121666666666,-70.25376833333333,2022-12-28
+Sanicula graveolens Poepp. ex DC.,Valle Nevado,3100,-33.343181666666666,-70.25412166666666,2022-12-28
+Senecio bustillosianus J. Remy var. bustillosianus,Valle Nevado,2500,-33.367423333333335,-70.27368166666666,2022-12-27
+Senecio bustillosianus J. Remy var. bustillosianus,Valle Nevado,2600,-33.36002833333333,-70.26518166666666,2022-12-27
+Senecio bustillosianus J. Remy var. bustillosianus,Valle Nevado,2700,-33.356698333333334,-70.25952,2022-12-29
+Senecio bustillosianus J. Remy var. bustillosianus,Valle Nevado,2800,-33.35792,-70.25589833333333,2022-12-29
+Senecio bustillosianus J. Remy var. bustillosianus,Valle Nevado,2900,-33.356605,-70.25098333333334,2022-12-28
+Senecio bustillosianus J. Remy var. bustillosianus,Valle Nevado,3000,-33.344121666666666,-70.25376833333333,2022-12-28
+Senecio bustillosianus J. Remy var. bustillosianus,Valle Nevado,3100,-33.343181666666666,-70.25412166666666,2022-12-28
+Senecio bustillosianus J. Remy var. bustillosianus,Valle Nevado,3200,-33.33060666666667,-70.245845,2022-12-28
+Senecio eruciformis J. Remy var. eruciformis,Valle Nevado,2300,-33.37005166666667,-70.28815666666667,2022-12-27
+Senecio eruciformis J. Remy var. eruciformis,Valle Nevado,2700,-33.356698333333334,-70.25952,2022-12-29
+Senecio looseri Cabrera,Valle Nevado,2800,-33.35792,-70.25589833333333,2022-12-29
+Senecio looseri Cabrera,Valle Nevado,3000,-33.344121666666666,-70.25376833333333,2022-12-28
+Senecio looseri Cabrera,Valle Nevado,3100,-33.343181666666666,-70.25412166666666,2022-12-28
+Senecio looseri Cabrera,Valle Nevado,3300,-33.32741166666667,-70.24047666666667,2022-12-28
+Senecio looseri Cabrera,Valle Nevado,3400,-33.31973666666667,-70.23846,2023-01-18
+Senecio looseri Cabrera,Valle Nevado,3500,-33.31304833333333,-70.23943833333334,2022-12-29
+Senecio pentaphyllus Phil.,Valle Nevado,2300,-33.37005166666667,-70.28815666666667,2022-12-27
+Senecio pentaphyllus Phil.,Valle Nevado,2400,-33.362905000000005,-70.28848166666667,2022-12-27
+Senecio pentaphyllus Phil.,Valle Nevado,2500,-33.367423333333335,-70.27368166666666,2022-12-27
+Senecio pentaphyllus Phil.,Valle Nevado,2600,-33.36002833333333,-70.26518166666666,2022-12-27
+Senecio pentaphyllus Phil.,Valle Nevado,2800,-33.35792,-70.25589833333333,2022-12-29
+Senecio pentaphyllus Phil.,Valle Nevado,2900,-33.356605,-70.25098333333334,2022-12-28
+Senecio polygaloides Phil.,Valle Nevado,2300,-33.37005166666667,-70.28815666666667,2022-12-27
+Senecio polygaloides Phil.,Valle Nevado,2400,-33.362905000000005,-70.28848166666667,2022-12-27
+Senecio polygaloides Phil.,Valle Nevado,2500,-33.367423333333335,-70.27368166666666,2022-12-27
+Senecio polygaloides Phil.,Valle Nevado,2700,-33.356698333333334,-70.25952,2022-12-29
+Senecio polygaloides Phil.,Valle Nevado,2800,-33.35792,-70.25589833333333,2022-12-29
+Senecio polygaloides Phil.,Valle Nevado,3100,-33.343181666666666,-70.25412166666666,2022-12-28
+Senecio polygaloides Phil.,Valle Nevado,3200,-33.33060666666667,-70.245845,2022-12-28
+Senecio polygaloides Phil.,Valle Nevado,3300,-33.32741166666667,-70.24047666666667,2022-12-28
+Senecio polygaloides Phil.,Valle Nevado,3400,-33.31973666666667,-70.23846,2023-01-18
+Silene andicola Gillies ex Hook. & Arn. ,Valle Nevado,2600,-33.36002833333333,-70.26518166666666,2022-12-27
+Sisyrinchium arenarium Poepp.,Valle Nevado,2300,-33.37005166666667,-70.28815666666667,2022-12-27
+Sisyrinchium arenarium Poepp.,Valle Nevado,2400,-33.362905000000005,-70.28848166666667,2022-12-27
+Sisyrinchium arenarium Poepp.,Valle Nevado,2500,-33.367423333333335,-70.27368166666666,2022-12-27
+Sisyrinchium arenarium Poepp.,Valle Nevado,2600,-33.36002833333333,-70.26518166666666,2022-12-27
+Sisyrinchium arenarium Poepp.,Valle Nevado,2700,-33.356698333333334,-70.25952,2022-12-29
+Sisyrinchium arenarium Poepp.,Valle Nevado,2800,-33.35792,-70.25589833333333,2022-12-29
+Sisyrinchium arenarium Poepp.,Valle Nevado,2900,-33.356605,-70.25098333333334,2022-12-28
+Sisyrinchium cuspidatum Poepp.,Valle Nevado,2400,-33.362905000000005,-70.28848166666667,2022-12-27
+Solenomelus segethii (Phil.) Kuntze,Valle Nevado,2500,-33.367423333333335,-70.27368166666666,2022-12-27
+Solenomelus segethii (Phil.) Kuntze,Valle Nevado,2600,-33.36002833333333,-70.26518166666666,2022-12-27
+Solenomelus segethii (Phil.) Kuntze,Valle Nevado,2700,-33.356698333333334,-70.25952,2022-12-29
+Stachys philippiana Vatke,Valle Nevado,2400,-33.362905000000005,-70.28848166666667,2022-12-27
+Stachys philippiana Vatke,Valle Nevado,2500,-33.367423333333335,-70.27368166666666,2022-12-27
+Stachys philippiana Vatke,Valle Nevado,2600,-33.36002833333333,-70.26518166666666,2022-12-27
+Stenodraba parvifolia (Phil.) O.E. Schulz,Valle Nevado,3300,-33.32741166666667,-70.24047666666667,2022-12-28
+Stenodraba parvifolia (Phil.) O.E. Schulz,Valle Nevado,3500,-33.31304833333333,-70.23943833333334,2022-12-29
+Tanacetum parthenium (L.) Sch. Bip.,Valle Nevado,2400,-33.362905000000005,-70.28848166666667,2022-12-27
+Tanacetum parthenium (L.) Sch. Bip.,Valle Nevado,2600,-33.36002833333333,-70.26518166666666,2022-12-27
+Tanacetum parthenium (L.) Sch. Bip.,Valle Nevado,3100,-33.343181666666666,-70.25412166666666,2022-12-28
+Taraxacum officinale F.H. Wigg.,Valle Nevado,2300,-33.37005166666667,-70.28815666666667,2022-12-27
+Taraxacum officinale F.H. Wigg.,Valle Nevado,2500,-33.367423333333335,-70.27368166666666,2022-12-27
+Taraxacum officinale F.H. Wigg.,Valle Nevado,2600,-33.36002833333333,-70.26518166666666,2022-12-27
+Taraxacum officinale F.H. Wigg.,Valle Nevado,2700,-33.356698333333334,-70.25952,2022-12-29
+Taraxacum officinale F.H. Wigg.,Valle Nevado,2800,-33.35792,-70.25589833333333,2022-12-29
+Taraxacum officinale F.H. Wigg.,Valle Nevado,2900,-33.356605,-70.25098333333334,2022-12-28
+Taraxacum officinale F.H. Wigg.,Valle Nevado,3000,-33.344121666666666,-70.25376833333333,2022-12-28
+Taraxacum officinale F.H. Wigg.,Valle Nevado,3100,-33.343181666666666,-70.25412166666666,2022-12-28
+Taraxacum officinale F.H. Wigg.,Valle Nevado,3200,-33.33060666666667,-70.245845,2022-12-28
+Taraxacum officinale F.H. Wigg.,Valle Nevado,3300,-33.32741166666667,-70.24047666666667,2022-12-28
+Taraxacum officinale F.H. Wigg.,Valle Nevado,3400,-33.31973666666667,-70.23846,2023-01-18
+Taraxacum officinale F.H. Wigg.,Valle Nevado,3500,-33.31304833333333,-70.23943833333334,2022-12-29
+Taraxacum officinale F.H. Wigg.,Valle Nevado,3600,-33.317598333333336,-70.234775,2022-12-29
+Tetraglochin alatum (Gillies ex Hook. & Arn.) Kuntze,Valle Nevado,2400,-33.362905000000005,-70.28848166666667,2022-12-27
+Tristagma bivalve (Hook. ex Lindl.) Traub,Valle Nevado,2300,-33.37005166666667,-70.28815666666667,2022-12-27
+Tristagma bivalve (Hook. ex Lindl.) Traub,Valle Nevado,2600,-33.36002833333333,-70.26518166666666,2022-12-27
+Tristagma bivalve (Hook. ex Lindl.) Traub,Valle Nevado,2700,-33.356698333333334,-70.25952,2022-12-29
+Tristagma bivalve (Hook. ex Lindl.) Traub,Valle Nevado,2800,-33.35792,-70.25589833333333,2022-12-29
+Tristagma bivalve (Hook. ex Lindl.) Traub,Valle Nevado,2900,-33.356605,-70.25098333333334,2022-12-28
+Tristagma bivalve (Hook. ex Lindl.) Traub,Valle Nevado,3000,-33.344121666666666,-70.25376833333333,2022-12-28
+Tropaeolum nubigenum Phil.,Valle Nevado,3500,-33.31304833333333,-70.23943833333334,2022-12-29
+Tropaeolum polyphyllum Cav.,Valle Nevado,2500,-33.367423333333335,-70.27368166666666,2022-12-27
+Viola philippii Leyb. var. philippii,Valle Nevado,3100,-33.343181666666666,-70.25412166666666,2022-12-28
+Viola philippii Leyb. var. philippii,Valle Nevado,3300,-33.32741166666667,-70.24047666666667,2022-12-28

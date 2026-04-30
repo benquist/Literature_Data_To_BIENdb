@@ -1,0 +1,4 @@
+qa_flags: needs_manual_access|contact_required
+url: https://cafriplot.net/
+checked: 2026-04-30T01:01:27Z
+note: No CSV/ZIP/XLSX download link found on CAFRIPLOT homepage. Manual contact required.
