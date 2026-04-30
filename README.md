@@ -9,6 +9,13 @@ This project implements a literature-to-BIEN ingestion workflow that handles a g
 - Interactive report with per-paper breakdowns and a georeferenced leaflet map: `reports/literature_data_overview.html`
 - All output follows Darwin Core schema with BIEN staging fields (GNRS-ready political units, `source_file`, `sourceProvenance`, DOI metadata)
 
+### Migrated occurrence intake program (from DryadPlantTraits)
+
+- Occurrence intake registry: **46 sources** (**10 compiled**, **33 pending_review**, **3 pending_manual_access**)
+- Compiled manual occurrence records: **165,155 rows**, **144,389 georeferenced**
+- Migrated scripts location: `scripts/occurrence_intake/`
+- Migrated data location: `data/occurrences/` and `data/occurrence_source_intake.csv`
+
 ## Goal
 
 For each paper:
