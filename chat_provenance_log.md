@@ -1,5 +1,19 @@
 # Literature_Data_To_BIENdb Chat Provenance Log
 
+## 2026-04-30 - Add per-source quality stats and leaflet map to progress report
+
+**Prompt:** Update source_data_progress_report.Rmd with new sections: per-source quality summary (georef, binomial) and leaflet occurrence map; re-render HTML; commit and push.
+
+**Summary:**
+- Replaced the simple `compiled_rows` vapply block in the setup chunk with a single-pass `read_source_summary()` function (tryCatch-guarded) that reads each compiled CSV once and extracts total_records, georef_records, and binomial_records.
+- Added `georef_records`, `binomial_records`, `pct_georef`, `pct_binomial` columns to `intake_enriched`.
+- Built `all_georef_pts` data frame (all georeferenced points across compiled sources, capped at 50,000 random rows with `set.seed(42)`) for the leaflet map.
+- Added `library(leaflet)` to the library block.
+- Added new Section 3 "Compiled Source Quality Summary" containing: (a) a kable table with per-source and totals row; (b) subsection "Geographic Distribution of Compiled Occurrences" with a leaflet map colored by `source_id` using `colorFactor("Set1")`, circle markers with popup (`source_id` + `species`), and a bottom-right legend.
+- Remaining sections renumbered (Sources Pending → 4, What Has Been Done → 5, What Remains → 6, Reproducibility → 7).
+- Rendered `source_data_progress_report.html` successfully (no errors).
+- Committed and pushed to origin.
+
 ## 2026-04-28 - Mapping parse resilience for normalization
 
 **Prompt:** Patch `scripts/03_normalize_to_dwc.R` so malformed mapping CSVs cannot hard-fail normalization: wrap mapping read in `tryCatch`, validate required columns (at least `source_column`) before dereference, and warn + continue with heuristic extraction on mapping parse/column issues; then parse-check and run `jennings_2026` pipeline.
@@ -104,3 +118,14 @@
 - Documented registry state: 46 total sources (10 compiled, 33 pending_review, 3 pending_manual_access).
 - Documented compiled occurrence totals: 165,155 rows and 144,389 georeferenced.
 - Documented canonical locations: scripts/occurrence_intake/, data/occurrences/, and data/occurrence_source_intake.csv.
+
+## 2026-04-30 - Source data progress report and waiting list
+
+**Prompt:** For Literature_Data_To_BIENdb, provide a full summary of all data sources accessed for literature data integration, what has been done, what remains to be done, and create a `.Rmd` + `.html` report for source data progress and pending waiting list.
+
+**Summary:**
+- Added `source_data_progress_report.Rmd` at project root.
+- Report reads `data/occurrence_source_intake.csv` and computes accessed/ingested vs pending status directly from `harvest_status`.
+- Added evidence fields from repository artifacts: compiled file existence and compiled row counts from `data/occurrences/<source_id>/compiled_occurrences.csv`.
+- Included executive summary, accessed table, pending waiting-list table, done summary, actionable next-step checklist, timestamp, and reproducibility notes.
+- Rendered `source_data_progress_report.html` successfully via `rmarkdown::render`.

@@ -1,0 +1,309 @@
+---
+title: "Literature Data Integration Source Progress Report"
+author: "BIEN Literature_Data_To_BIENdb"
+date: "`r format(Sys.time(), '%Y-%m-%d %H:%M %Z')`"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    number_sections: true
+    theme: cosmo
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+
+library(dplyr)
+library(readr)
+library(knitr)
+library(DT)
+library(leaflet)
+
+project_root <- getwd()
+intake_file <- file.path(project_root, "data", "occurrence_source_intake.csv")
+occurrence_dir <- file.path(project_root, "data", "occurrences")
+
+if (!file.exists(intake_file)) {
+  stop("Missing required file: data/occurrence_source_intake.csv")
+}
+
+intake <- readr::read_csv(intake_file, show_col_types = FALSE)
+
+required_cols <- c(
+  "source_id", "display_name", "intake_type", "source_group",
+  "canonical_url_or_doi", "harvest_status", "next_action", "notes"
+)
+missing_cols <- setdiff(required_cols, names(intake))
+if (length(missing_cols) > 0) {
+  stop(paste("Missing required columns in intake CSV:", paste(missing_cols, collapse = ", ")))
+}
+
+compiled_paths <- file.path(occurrence_dir, intake$source_id, "compiled_occurrences.csv")
+compiled_exists <- file.exists(compiled_paths)
+
+read_source_summary <- function(p) {
+  tryCatch({
+    df <- readr::read_csv(p, show_col_types = FALSE)
+    total <- nrow(df)
+    georef <- if (all(c("decimalLatitude", "decimalLongitude") %in% names(df))) {
+      sum(!is.na(df$decimalLatitude) & !is.na(df$decimalLongitude) &
+          df$decimalLatitude != "" & df$decimalLongitude != "", na.rm = TRUE)
+    } else { 0L }
+    binomial <- if ("species" %in% names(df)) {
+      sum(!is.na(df$species) & df$species != "" &
+          grepl(" ", trimws(as.character(df$species))), na.rm = TRUE)
+    } else { 0L }
+    list(total = total, georef = as.integer(georef), binomial = as.integer(binomial), data = df)
+  }, error = function(e) {
+    list(total = NA_integer_, georef = NA_integer_, binomial = NA_integer_, data = NULL)
+  })
+}
+
+source_summaries <- vector("list", length(compiled_paths))
+for (i in seq_along(compiled_paths)) {
+  if (compiled_exists[i]) {
+    source_summaries[[i]] <- read_source_summary(compiled_paths[i])
+  } else {
+    source_summaries[[i]] <- list(total = NA_integer_, georef = NA_integer_, binomial = NA_integer_, data = NULL)
+  }
+}
+
+compiled_rows     <- sapply(source_summaries, function(s) s$total)
+compiled_georef   <- sapply(source_summaries, function(s) s$georef)
+compiled_binomial <- sapply(source_summaries, function(s) s$binomial)
+
+intake_enriched <- intake %>%
+  mutate(
+    canonical_url_or_doi = ifelse(is.na(canonical_url_or_doi) | canonical_url_or_doi == "", "unknown/unverified", canonical_url_or_doi),
+    next_action = ifelse(is.na(next_action) | next_action == "", "unknown/unverified", next_action),
+    notes = ifelse(is.na(notes) | notes == "", "unknown/unverified", notes),
+    compiled_file_exists = ifelse(compiled_exists, "yes", "no"),
+    compiled_row_count   = compiled_rows,
+    georef_records       = compiled_georef,
+    binomial_records     = compiled_binomial,
+    pct_georef   = ifelse(!is.na(compiled_rows) & compiled_rows > 0,
+                          round(compiled_georef   / compiled_rows * 100, 1), NA_real_),
+    pct_binomial = ifelse(!is.na(compiled_rows) & compiled_rows > 0,
+                          round(compiled_binomial / compiled_rows * 100, 1), NA_real_),
+    status_bucket = case_when(
+      harvest_status == "compiled" ~ "accessed_or_ingested",
+      harvest_status %in% c("pending_review", "pending_manual_access") ~ "pending",
+      TRUE ~ "pending"
+    )
+  )
+
+# Combined georeferenced points for leaflet map (capped at 50,000 for performance)
+all_georef_pts <- do.call(rbind, lapply(seq_along(source_summaries), function(i) {
+  s <- source_summaries[[i]]
+  if (is.null(s$data)) return(NULL)
+  df <- s$data
+  if (!all(c("decimalLatitude", "decimalLongitude") %in% names(df))) return(NULL)
+  df <- df[!is.na(df$decimalLatitude) & !is.na(df$decimalLongitude) &
+           df$decimalLatitude != "" & df$decimalLongitude != "", ]
+  if (nrow(df) == 0) return(NULL)
+  data.frame(
+    source_id = intake$source_id[i],
+    species   = if ("species" %in% names(df)) as.character(df$species) else NA_character_,
+    lat = suppressWarnings(as.numeric(df$decimalLatitude)),
+    lon = suppressWarnings(as.numeric(df$decimalLongitude)),
+    stringsAsFactors = FALSE
+  )
+}))
+all_georef_pts <- all_georef_pts[!is.na(all_georef_pts$lat) & !is.na(all_georef_pts$lon), ]
+if (!is.null(all_georef_pts) && nrow(all_georef_pts) > 50000) {
+  set.seed(42)
+  all_georef_pts <- all_georef_pts[sample(nrow(all_georef_pts), 50000), ]
+}
+
+accessed_tbl <- intake_enriched %>%
+  filter(status_bucket == "accessed_or_ingested") %>%
+  arrange(source_group, source_id)
+
+pending_tbl <- intake_enriched %>%
+  filter(status_bucket == "pending") %>%
+  arrange(harvest_status, source_group, source_id)
+
+status_counts <- intake_enriched %>%
+  count(harvest_status, name = "n") %>%
+  arrange(desc(n))
+
+n_total <- nrow(intake_enriched)
+n_accessed <- nrow(accessed_tbl)
+n_pending <- nrow(pending_tbl)
+pct_accessed <- ifelse(n_total > 0, round(100 * n_accessed / n_total, 1), NA_real_)
+pct_pending <- ifelse(n_total > 0, round(100 * n_pending / n_total, 1), NA_real_)
+
+what_done <- intake_enriched %>%
+  filter(status_bucket == "accessed_or_ingested") %>%
+  count(source_group, name = "sources_completed") %>%
+  arrange(desc(sources_completed), source_group)
+
+pending_actions <- pending_tbl %>%
+  transmute(source_id, display_name, harvest_status, next_action)
+```
+
+# Executive Summary
+
+- Report timestamp: `r format(Sys.time(), '%Y-%m-%d %H:%M %Z')`
+- Source registry file: `data/occurrence_source_intake.csv`
+- Total sources tracked: **`r n_total`**
+- Sources accessed/ingested (`harvest_status == "compiled"`): **`r n_accessed`** (`r pct_accessed`%)
+- Sources pending (`harvest_status != "compiled"`): **`r n_pending`** (`r pct_pending`%)
+
+```{r status-breakdown}
+knitr::kable(status_counts, caption = "Harvest status breakdown from intake registry")
+```
+
+# Sources Already Accessed/Ingested
+
+Evidence columns are included directly from repository artifacts. If evidence is unavailable, fields are marked as `unknown/unverified`.
+
+```{r accessed-table}
+accessed_display <- accessed_tbl %>%
+  select(
+    source_id,
+    display_name,
+    intake_type,
+    source_group,
+    canonical_url_or_doi,
+    harvest_status,
+    compiled_file_exists,
+    compiled_row_count,
+    notes
+  )
+
+DT::datatable(
+  accessed_display,
+  options = list(pageLength = 15, scrollX = TRUE),
+  rownames = FALSE,
+  caption = "Sources with compiled status"
+)
+```
+
+# Compiled Source Quality Summary
+
+Per-source quality metrics computed from compiled occurrence CSVs at render time.
+
+```{r quality-summary-table}
+quality_tbl <- intake_enriched %>%
+  filter(harvest_status == "compiled") %>%
+  select(source_id, display_name,
+         total_records    = compiled_row_count,
+         georef_records,  pct_georef,
+         binomial_records, pct_binomial) %>%
+  arrange(source_id)
+
+totals_row <- data.frame(
+  source_id        = "TOTAL",
+  display_name     = "",
+  total_records    = sum(quality_tbl$total_records,    na.rm = TRUE),
+  georef_records   = sum(quality_tbl$georef_records,   na.rm = TRUE),
+  pct_georef       = round(sum(quality_tbl$georef_records,   na.rm = TRUE) /
+                           max(sum(quality_tbl$total_records, na.rm = TRUE), 1) * 100, 1),
+  binomial_records = sum(quality_tbl$binomial_records, na.rm = TRUE),
+  pct_binomial     = round(sum(quality_tbl$binomial_records, na.rm = TRUE) /
+                           max(sum(quality_tbl$total_records, na.rm = TRUE), 1) * 100, 1),
+  stringsAsFactors = FALSE
+)
+
+quality_display <- rbind(quality_tbl, totals_row)
+
+knitr::kable(
+  quality_display,
+  col.names = c("Source ID", "Display Name", "Total Records",
+                "Georef Records", "% Georef",
+                "Binomial Records", "% Binomial"),
+  caption = "Per-source quality metrics for compiled occurrence files"
+)
+```
+
+## Geographic Distribution of Compiled Occurrences
+
+```{r leaflet-map}
+if (!is.null(all_georef_pts) && nrow(all_georef_pts) > 0) {
+  pal <- colorFactor(palette = "Set1", domain = unique(all_georef_pts$source_id))
+
+  leaflet(all_georef_pts, options = leafletOptions(minZoom = 1)) %>%
+    addTiles() %>%
+    addCircleMarkers(
+      lng = ~lon, lat = ~lat,
+      color = ~pal(source_id),
+      radius = 3,
+      stroke = FALSE,
+      fillOpacity = 0.6,
+      popup = ~paste0("<b>Source:</b> ", source_id, "<br><b>Species:</b> ", species)
+    ) %>%
+    addLegend(
+      position = "bottomright",
+      pal = pal,
+      values = ~source_id,
+      title = "Source",
+      opacity = 0.8
+    )
+} else {
+  cat("No georeferenced points available to map.")
+}
+```
+
+# Sources Pending (Waiting List)
+
+```{r pending-table}
+pending_display <- pending_tbl %>%
+  select(
+    source_id,
+    display_name,
+    intake_type,
+    source_group,
+    canonical_url_or_doi,
+    harvest_status,
+    next_action,
+    notes
+  )
+
+DT::datatable(
+  pending_display,
+  options = list(pageLength = 20, scrollX = TRUE),
+  rownames = FALSE,
+  caption = "Sources pending review or manual access"
+)
+```
+
+# What Has Been Done
+
+```{r done-summary}
+knitr::kable(what_done, caption = "Completed (compiled) sources by source_group")
+```
+
+- The registry has explicit status entries for all listed sources via `harvest_status`.
+- Compiled-source directories were checked under `data/occurrences/<source_id>/compiled_occurrences.csv` for evidence.
+- Canonical links/DOIs, action notes, and source notes were pulled from the intake registry without manual reinterpretation.
+
+# What Remains To Be Done
+
+Actionable checklist generated from pending rows:
+
+```{r pending-actions-table}
+DT::datatable(
+  pending_actions,
+  options = list(pageLength = 20, scrollX = TRUE),
+  rownames = FALSE,
+  caption = "Pending source action checklist"
+)
+```
+
+- [ ] Resolve all `pending_manual_access` sources with direct coordinator contact and access confirmation.
+- [ ] Execute each pending source `next_action` and capture outputs in `data/occurrences/<source_id>/`.
+- [ ] Update `harvest_status` to `compiled` only after compiled output is written and validated.
+- [ ] Re-render this report after each status update to keep the waiting list current.
+
+# Reproducibility Notes
+
+- This report is fully generated from repository files at render time.
+- No source status was inferred from external systems.
+- Missing or blank fields are reported as `unknown/unverified`.
+- Render command:
+
+```bash
+cd /Users/brianjenquist/VSCode/Literature_Data_To_BIENdb
+Rscript -e "rmarkdown::render('source_data_progress_report.Rmd')"
+```
