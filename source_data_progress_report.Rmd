@@ -135,6 +135,18 @@ n_pending <- nrow(pending_tbl)
 pct_accessed <- ifelse(n_total > 0, round(100 * n_accessed / n_total, 1), NA_real_)
 pct_pending <- ifelse(n_total > 0, round(100 * n_pending / n_total, 1), NA_real_)
 
+recent_intake_sources <- c("manual_ukrainian_kurgans_gbif", "manual_ecat_central_africa")
+recent_additions <- intake_enriched %>%
+  filter(source_id %in% recent_intake_sources) %>%
+  mutate(
+    note_summary = sprintf(
+      "%s — %s compiled rows, %s georeferenced",
+      display_name,
+      ifelse(is.na(compiled_row_count), "NA", format(compiled_row_count, big.mark = ",")),
+      ifelse(is.na(georef_records), "NA", format(georef_records, big.mark = ","))
+    )
+  )
+
 what_done <- intake_enriched %>%
   filter(status_bucket == "accessed_or_ingested") %>%
   count(source_group, name = "sources_completed") %>%
@@ -340,6 +352,8 @@ if (!is.null(papers_all)) {
 
 All georeferenced points from both literature papers and occurrence intake sources are shown together in the consolidated map below (Section 3.2).
 
+- Newly compiled intake sources `manual_ukrainian_kurgans_gbif` and `manual_ecat_central_africa` are included when their compiled occurrence files are present.
+
 # Executive Summary
 
 - Report timestamp: `r format(Sys.time(), '%Y-%m-%d %H:%M %Z')`
@@ -347,6 +361,27 @@ All georeferenced points from both literature papers and occurrence intake sourc
 - Total sources tracked: **`r n_total`**
 - Sources accessed/ingested (`harvest_status == "compiled"`): **`r n_accessed`** (`r pct_accessed`%)
 - Sources pending (`harvest_status != "compiled"`): **`r n_pending`** (`r pct_pending`%)
+
+## Recent Intake Additions
+
+The following newly compiled intake sources have been added to this report and are now included in the consolidated geographic map.
+
+```{r recent-additions}
+if (nrow(recent_additions) > 0) {
+  display_additions <- recent_additions %>%
+    select(source_id, note_summary, harvest_status)
+  knitr::kable(
+    display_additions,
+    col.names = c("Source ID", "Summary", "Harvest Status"),
+    caption = "Recent compiled intake sources included in the report and map"
+  )
+} else {
+  cat("No recent intake additions for the selected source IDs.")
+}
+```
+
+- `manual_ukrainian_kurgans_gbif`: Moysiyenko et al. 2023 Ukrainian kurgans occurrence dataset, now compiled and mapped.
+- `manual_ecat_central_africa`: Tack et al. 2022 ECAT Central Africa expert-validated tree occurrences, now compiled and mapped.
 
 ```{r status-breakdown}
 knitr::kable(status_counts, caption = "Harvest status breakdown from intake registry")
@@ -418,6 +453,8 @@ knitr::kable(
 ## Consolidated Geographic Map — All Sources
 
 All **`r n_combined_georef`** georeferenced points across literature papers and compiled occurrence intake sources (sampled to 50,000 max for performance). Points are coloured by source; shape of popup shows data track (Literature Paper vs Occurrence Intake).
+
+- The consolidated map includes the newly ingested `manual_ukrainian_kurgans_gbif` and `manual_ecat_central_africa` sources when their compiled data are available.
 
 ```{r consolidated-map}
 if (!is.null(combined_georef_pts) && nrow(combined_georef_pts) > 0) {

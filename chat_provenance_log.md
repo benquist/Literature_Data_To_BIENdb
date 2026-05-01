@@ -1,5 +1,17 @@
 # Literature_Data_To_BIENdb Chat Provenance Log
 
+## 2026-05-01 - Discovery fallback and output audit for missing literature sources
+
+**Prompt:** Debug `Literature_Data_To_BIENdb` asset discovery/download for blocked paper sources and audit normalized/staged outputs for completed literature papers.
+
+**Summary:**
+- Fixed `scripts/utils.R` curl helpers with a standard browser user-agent and robust quoting for `system2()` arguments.
+- Increased `curl_fetch_text()` timeout to 120 seconds for larger Pensoft XML downloads.
+- Extended `scripts/01_discover_paper_assets.R` to discover direct `<uri content-type="original_file">` asset URLs when no `<supplementary-material>` blocks are present, and to fallback to landing page asset hrefs for common data file types.
+- Verified discovery/download for `wasowicz_2020` and `salim_2020`; these sources currently expose non-tabular figure assets, so normalization is still blocked by the lack of tabular input files.
+- Verified `sun_2024` discovery now handles missing `xml_url` without crashing and writes an empty asset manifest when no landing-page dataset links are available.
+- Audited completed sources `jennings_2026`, `gosline_2023`, `novikov_2022`, `dayneko_2023`, `joyce_2020`, and `aung_2025`: all normalized rows have scientificName/genus values, all staging rows are marked `PENDING` for taxon scrub, and no processed source set currently includes resolved decimal latitude/longitude values.
+
 ## 2026-04-30 - Add per-source quality stats and leaflet map to progress report
 
 **Prompt:** Update source_data_progress_report.Rmd with new sections: per-source quality summary (georef, binomial) and leaflet occurrence map; re-render HTML; commit and push.
@@ -139,3 +151,12 @@
   - Leaflet map (`CartoDB.Positron`) of georeferenced literature paper points colored by paper_id (max 50k sample).
 - Processed papers (staging_summary exists): jennings_2026, gosline_2023, wasowicz_2020, novikov_2022, dayneko_2023, joyce_2020, aung_2025 (7 of 11).
 - Rendered `source_data_progress_report.html` successfully without errors.
+
+## 2026-05-01 - Attempt literature ingestion and occurrence intake refresh
+
+**Prompt:** Run the Literature_Data_To_BIENdb ingestion pipeline and occurrence intake updater to ingest more observation data.
+
+**Summary:**
+- Attempted `Rscript scripts/run_pipeline.R --paper-id=` for the pending literature papers `wasowicz_2020`, `moysiyenko_2023`, `salim_2020`, `sun_2024`, and `tack_2022`.
+- Each failed in discovery/download due to zero supplementary assets found by the current discovery logic.
+- Ran `Rscript scripts/occurrence_intake/download_occurrence_sources.R`; all 13 manual occurrence sources were already compiled, and `data/occurrences/compiled_occurrences_all.csv` was refreshed with 165,155 rows.
