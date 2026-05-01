@@ -140,6 +140,194 @@ what_done <- intake_enriched %>%
 
 pending_actions <- pending_tbl %>%
   transmute(source_id, display_name, harvest_status, next_action)
+
+# ── Literature papers setup ─────────────────────────────────────────────────
+papers_cfg_file <- file.path(project_root, "config", "papers.csv")
+papers_cfg <- tryCatch(
+  readr::read_csv(papers_cfg_file, show_col_types = FALSE),
+  error = function(e) NULL
+)
+
+if (!is.null(papers_cfg)) {
+  processed_dir <- file.path(project_root, "data", "processed")
+
+  summary_list <- lapply(papers_cfg$paper_id, function(pid) {
+    f <- file.path(processed_dir, paste0(pid, "_staging_summary.csv"))
+    if (file.exists(f)) {
+      tryCatch(readr::read_csv(f, show_col_types = FALSE),
+               error = function(e) NULL)
+    } else {
+      NULL
+    }
+  })
+  has_summary <- !sapply(summary_list, is.null)
+
+  papers_summary_raw <- if (any(has_summary)) {
+    do.call(rbind, summary_list[has_summary])
+  } else {
+    NULL
+  }
+
+  summary_df_for_join <- if (!is.null(papers_summary_raw)) {
+    papers_summary_raw
+  } else {
+    data.frame(
+      paper_id = character(0), n_rows = integer(0),
+      n_with_coords = integer(0), n_with_country = integer(0),
+      n_with_state_province = integer(0), n_with_county_parish = integer(0),
+      n_with_municipality = integer(0), n_habit_trait_rows = integer(0),
+      n_unique_species = integer(0), generated_at_utc = character(0),
+      stringsAsFactors = FALSE
+    )
+  }
+
+  papers_all <- papers_cfg %>%
+    dplyr::left_join(summary_df_for_join, by = "paper_id") %>%
+    dplyr::mutate(
+      status     = ifelse(!is.na(n_rows), "Processed", "Pending"),
+      pct_georef = ifelse(!is.na(n_rows) & n_rows > 0,
+                         round(n_with_coords / n_rows * 100, 1), NA_real_)
+    )
+
+  # Load georeferenced points from bien_staging.csv files
+  lit_georef_list <- lapply(papers_cfg$paper_id, function(pid) {
+    f <- file.path(processed_dir, paste0(pid, "_bien_staging.csv"))
+    if (!file.exists(f)) return(NULL)
+    tryCatch({
+      df <- readr::read_csv(f, show_col_types = FALSE)
+      if (!all(c("latitude", "longitude") %in% names(df))) return(NULL)
+      df <- df[!is.na(df$latitude) & !is.na(df$longitude) &
+               df$latitude != "" & df$longitude != "", ]
+      if (nrow(df) == 0) return(NULL)
+      data.frame(
+        paper_id       = pid,
+        latitude       = suppressWarnings(as.numeric(df$latitude)),
+        longitude      = suppressWarnings(as.numeric(df$longitude)),
+        name_submitted = if ("name_submitted" %in% names(df))
+                           as.character(df$name_submitted)
+                         else NA_character_,
+        stringsAsFactors = FALSE
+      )
+    }, error = function(e) NULL)
+  })
+
+  lit_georef_pts <- do.call(rbind, Filter(Negate(is.null), lit_georef_list))
+  if (!is.null(lit_georef_pts) && nrow(lit_georef_pts) > 0) {
+    lit_georef_pts <- lit_georef_pts[
+      !is.na(lit_georef_pts$latitude) & !is.na(lit_georef_pts$longitude), ]
+    if (nrow(lit_georef_pts) > 50000) {
+      set.seed(42)
+      lit_georef_pts <- lit_georef_pts[sample(nrow(lit_georef_pts), 50000), ]
+    }
+  } else {
+    lit_georef_pts <- NULL
+  }
+
+  n_papers_total      <- nrow(papers_cfg)
+  n_papers_processed  <- sum(has_summary)
+  n_papers_pending    <- n_papers_total - n_papers_processed
+  n_staging_rows_total <- if (!is.null(papers_summary_raw))
+                            sum(papers_summary_raw$n_rows, na.rm = TRUE)
+                          else 0L
+  n_lit_georef_total  <- if (!is.null(lit_georef_pts)) nrow(lit_georef_pts) else 0L
+
+} else {
+  papers_all          <- NULL
+  lit_georef_pts      <- NULL
+  n_papers_total      <- 0L
+  n_papers_processed  <- 0L
+  n_papers_pending    <- 0L
+  n_staging_rows_total <- 0L
+  n_lit_georef_total  <- 0L
+}
+```
+
+# Literature Paper Integration Status
+
+## Executive Sub-Summary
+
+- Total papers configured: **`r n_papers_total`**
+- Papers processed/staged: **`r n_papers_processed`**
+- Papers pending: **`r n_papers_pending`**
+- Total staging rows across all processed papers: **`r n_staging_rows_total`**
+- Total georeferenced observations (literature papers): **`r n_lit_georef_total`**
+
+## Per-Paper Status Table
+
+```{r lit-papers-table}
+if (!is.null(papers_all)) {
+  papers_display <- papers_all %>%
+    dplyr::mutate(
+      citation_short = substr(citation, 1, 80),
+      doi_link = ifelse(
+        !is.na(doi) & doi != "",
+        sprintf('<a href="https://doi.org/%s" target="_blank">%s</a>', doi, doi),
+        "—"
+      )
+    ) %>%
+    dplyr::select(
+      paper_id,
+      citation_short,
+      year,
+      journal,
+      doi_link,
+      status,
+      total_records    = n_rows,
+      georef_records   = n_with_coords,
+      pct_georef,
+      unique_species   = n_unique_species,
+      habit_trait_rows = n_habit_trait_rows
+    )
+
+  DT::datatable(
+    papers_display,
+    escape     = FALSE,
+    rownames   = FALSE,
+    options    = list(pageLength = 15, scrollX = TRUE),
+    caption    = "All configured literature papers with staging status and quality metrics. Pending papers show NA for numeric fields.",
+    colnames   = c(
+      "Paper ID", "Citation (truncated)", "Year", "Journal", "DOI",
+      "Status", "Total Records", "Georef Records", "% Georef",
+      "Unique Species", "Habit/Trait Rows"
+    )
+  )
+} else {
+  cat("config/papers.csv not found — literature paper section unavailable.")
+}
+```
+
+## Geographic Coverage — Literature Papers
+
+```{r lit-georef-map}
+if (!is.null(lit_georef_pts) && nrow(lit_georef_pts) > 0) {
+  lit_pal <- colorFactor(
+    palette = "Set1",
+    domain  = unique(lit_georef_pts$paper_id)
+  )
+  leaflet(lit_georef_pts, options = leafletOptions(minZoom = 1)) %>%
+    addProviderTiles("CartoDB.Positron") %>%
+    addCircleMarkers(
+      lng         = ~longitude,
+      lat         = ~latitude,
+      color       = ~lit_pal(paper_id),
+      radius      = 3,
+      stroke      = FALSE,
+      fillOpacity = 0.6,
+      popup       = ~paste0(
+        "<b>Paper:</b> ", paper_id,
+        "<br><b>Species:</b> ", name_submitted
+      )
+    ) %>%
+    addLegend(
+      position = "bottomright",
+      pal      = lit_pal,
+      values   = ~paper_id,
+      title    = "Paper",
+      opacity  = 0.8
+    )
+} else {
+  cat("No georeferenced points available for literature papers.")
+}
 ```
 
 # Executive Summary

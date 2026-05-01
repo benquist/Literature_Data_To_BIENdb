@@ -129,3 +129,13 @@
 - Added evidence fields from repository artifacts: compiled file existence and compiled row counts from `data/occurrences/<source_id>/compiled_occurrences.csv`.
 - Included executive summary, accessed table, pending waiting-list table, done summary, actionable next-step checklist, timestamp, and reproducibility notes.
 - Rendered `source_data_progress_report.html` successfully via `rmarkdown::render`.
+
+## 2026-04-30 — Add Literature Paper Integration Status section to source progress report
+
+- Updated `source_data_progress_report.Rmd`: added literature papers setup code in the setup chunk (reads `config/papers.csv`, loads all `data/processed/<paper_id>_staging_summary.csv` files that exist, builds `papers_all` join, loads `lit_georef_pts` from `*_bien_staging.csv` files).
+- Added new top-level section `# Literature Paper Integration Status` before the existing Executive Summary, containing:
+  - Executive sub-summary (inline R: total/processed/pending papers, total staging rows, total georef pts).
+  - DT table of all 11 papers with DOI hyperlinks, status (Processed/Pending), and quality metrics.
+  - Leaflet map (`CartoDB.Positron`) of georeferenced literature paper points colored by paper_id (max 50k sample).
+- Processed papers (staging_summary exists): jennings_2026, gosline_2023, wasowicz_2020, novikov_2022, dayneko_2023, joyce_2020, aung_2025 (7 of 11).
+- Rendered `source_data_progress_report.html` successfully without errors.
