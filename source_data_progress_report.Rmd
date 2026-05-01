@@ -240,6 +240,44 @@ if (!is.null(papers_cfg)) {
   n_staging_rows_total <- 0L
   n_lit_georef_total  <- 0L
 }
+
+# ── Consolidated map: combine literature papers + occurrence intake ───────────
+# Normalise lit_georef_pts (latitude/longitude/paper_id/name_submitted)
+lit_pts_norm <- if (!is.null(lit_georef_pts) && nrow(lit_georef_pts) > 0) {
+  data.frame(
+    source_label = lit_georef_pts$paper_id,
+    lat          = as.numeric(lit_georef_pts$latitude),
+    lon          = as.numeric(lit_georef_pts$longitude),
+    label        = lit_georef_pts$name_submitted,
+    track        = "Literature Paper",
+    stringsAsFactors = FALSE
+  )
+} else NULL
+
+# Normalise all_georef_pts (lat/lon/source_id/species)
+occ_pts_norm <- if (!is.null(all_georef_pts) && nrow(all_georef_pts) > 0) {
+  data.frame(
+    source_label = all_georef_pts$source_id,
+    lat          = as.numeric(all_georef_pts$lat),
+    lon          = as.numeric(all_georef_pts$lon),
+    label        = all_georef_pts$species,
+    track        = "Occurrence Intake",
+    stringsAsFactors = FALSE
+  )
+} else NULL
+
+combined_georef_pts <- do.call(rbind, Filter(Negate(is.null), list(lit_pts_norm, occ_pts_norm)))
+if (!is.null(combined_georef_pts) && nrow(combined_georef_pts) > 0) {
+  combined_georef_pts <- combined_georef_pts[
+    !is.na(combined_georef_pts$lat) & !is.na(combined_georef_pts$lon), ]
+  if (nrow(combined_georef_pts) > 50000) {
+    set.seed(42)
+    combined_georef_pts <- combined_georef_pts[sample(nrow(combined_georef_pts), 50000), ]
+  }
+} else {
+  combined_georef_pts <- NULL
+}
+n_combined_georef <- if (!is.null(combined_georef_pts)) nrow(combined_georef_pts) else 0L
 ```
 
 # Literature Paper Integration Status
@@ -296,39 +334,9 @@ if (!is.null(papers_all)) {
 }
 ```
 
-## Geographic Coverage — Literature Papers
+## Geographic Coverage — All Sources
 
-```{r lit-georef-map}
-if (!is.null(lit_georef_pts) && nrow(lit_georef_pts) > 0) {
-  lit_pal <- colorFactor(
-    palette = "Set1",
-    domain  = unique(lit_georef_pts$paper_id)
-  )
-  leaflet(lit_georef_pts, options = leafletOptions(minZoom = 1)) %>%
-    addProviderTiles("CartoDB.Positron") %>%
-    addCircleMarkers(
-      lng         = ~longitude,
-      lat         = ~latitude,
-      color       = ~lit_pal(paper_id),
-      radius      = 3,
-      stroke      = FALSE,
-      fillOpacity = 0.6,
-      popup       = ~paste0(
-        "<b>Paper:</b> ", paper_id,
-        "<br><b>Species:</b> ", name_submitted
-      )
-    ) %>%
-    addLegend(
-      position = "bottomright",
-      pal      = lit_pal,
-      values   = ~paper_id,
-      title    = "Paper",
-      opacity  = 0.8
-    )
-} else {
-  cat("No georeferenced points available for literature papers.")
-}
-```
+All georeferenced points from both literature papers and occurrence intake sources are shown together in the consolidated map below (Section 3.2).
 
 # Executive Summary
 
@@ -405,28 +413,41 @@ knitr::kable(
 )
 ```
 
-## Geographic Distribution of Compiled Occurrences
+## Consolidated Geographic Map — All Sources
 
-```{r leaflet-map}
-if (!is.null(all_georef_pts) && nrow(all_georef_pts) > 0) {
-  pal <- colorFactor(palette = "Set1", domain = unique(all_georef_pts$source_id))
+All **`r n_combined_georef`** georeferenced points across literature papers and compiled occurrence intake sources (sampled to 50,000 max for performance). Points are coloured by source; shape of popup shows data track (Literature Paper vs Occurrence Intake).
 
-  leaflet(all_georef_pts, options = leafletOptions(minZoom = 1)) %>%
-    addTiles() %>%
+```{r consolidated-map}
+if (!is.null(combined_georef_pts) && nrow(combined_georef_pts) > 0) {
+  all_labels  <- unique(combined_georef_pts$source_label)
+  n_labels    <- length(all_labels)
+  pal_colors  <- if (n_labels <= 12) {
+    RColorBrewer::brewer.pal(max(3L, n_labels), "Paired")[seq_len(n_labels)]
+  } else {
+    colorRampPalette(RColorBrewer::brewer.pal(12, "Paired"))(n_labels)
+  }
+  combined_pal <- colorFactor(palette = pal_colors, domain = all_labels)
+
+  leaflet(combined_georef_pts, options = leafletOptions(minZoom = 1)) %>%
+    addProviderTiles("CartoDB.Positron") %>%
     addCircleMarkers(
-      lng = ~lon, lat = ~lat,
-      color = ~pal(source_id),
-      radius = 3,
-      stroke = FALSE,
-      fillOpacity = 0.6,
-      popup = ~paste0("<b>Source:</b> ", source_id, "<br><b>Species:</b> ", species)
+      lng         = ~lon,
+      lat         = ~lat,
+      color       = ~combined_pal(source_label),
+      radius      = 3,
+      stroke      = FALSE,
+      fillOpacity = 0.65,
+      popup       = ~paste0(
+        "<b>", track, ":</b> ", source_label,
+        "<br><b>Species:</b> ", label
+      )
     ) %>%
     addLegend(
       position = "bottomright",
-      pal = pal,
-      values = ~source_id,
-      title = "Source",
-      opacity = 0.8
+      pal      = combined_pal,
+      values   = ~source_label,
+      title    = "Source",
+      opacity  = 0.85
     )
 } else {
   cat("No georeferenced points available to map.")
