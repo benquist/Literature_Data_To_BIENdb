@@ -15,9 +15,11 @@ knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 
 library(dplyr)
 library(readr)
+library(tidyr)
 library(knitr)
 library(DT)
 library(leaflet)
+library(ggplot2)
 
 project_root <- getwd()
 intake_file <- file.path(project_root, "data", "occurrence_source_intake.csv")
@@ -504,6 +506,124 @@ DT::datatable(
 - [ ] Execute each pending source `next_action` and capture outputs in `data/occurrences/<source_id>/`.
 - [ ] Update `harvest_status` to `compiled` only after compiled output is written and validated.
 - [ ] Re-render this report after each status update to keep the waiting list current.
+
+# BIEN Species Overlap Analysis
+
+This section compares the species in our literature paper staging data against what is already in the BIEN database, to identify novel taxa not yet represented in BIEN.
+
+**To generate the overlap data:** run the batch query script (requires active BIEN DB connection, ~15–20 min for 66k species):
+
+```bash
+cd /Users/brianjenquist/VSCode/Literature_Data_To_BIENdb
+Rscript scripts/bien_overlap_check.R
+```
+
+The script writes checkpoint files so it can resume if interrupted. Re-run `rmarkdown::render('source_data_progress_report.Rmd')` after the script completes to populate the tables and chart below.
+
+```{r bien-overlap-setup}
+bien_detail_file  <- file.path(project_root, "output", "bien_overlap_per_species.csv")
+bien_summary_file <- file.path(project_root, "output", "bien_overlap_per_paper.csv")
+
+bien_detail  <- tryCatch(readr::read_csv(bien_detail_file,  show_col_types = FALSE), error = function(e) NULL)
+bien_summary <- tryCatch(readr::read_csv(bien_summary_file, show_col_types = FALSE), error = function(e) NULL)
+
+bien_ready <- !is.null(bien_detail) && nrow(bien_detail) > 0 &&
+              !is.null(bien_summary) && nrow(bien_summary) > 0
+```
+
+```{r bien-exec-summary, results='asis'}
+if (bien_ready) {
+  n_queried  <- nrow(bien_detail)
+  n_in_bien  <- sum(bien_detail$in_bien, na.rm = TRUE)
+  n_not_bien <- n_queried - n_in_bien
+  pct_in     <- round(100 * n_in_bien / max(n_queried, 1), 1)
+  cat(sprintf(
+    "- **Unique binomial species queried:** %s\n- **In BIEN:** %s (%s%%)\n- **Not in BIEN (novel):** %s (%s%%)\n",
+    format(n_queried, big.mark = ","),
+    format(n_in_bien, big.mark = ","), pct_in,
+    format(n_not_bien, big.mark = ","), round(100 - pct_in, 1)
+  ))
+} else {
+  cat("> **Results not yet available.** Run `scripts/bien_overlap_check.R` to generate overlap data, then re-render this report.\n")
+}
+```
+
+## Per-Paper BIEN Overlap Summary
+
+```{r bien-paper-table}
+if (bien_ready) {
+  DT::datatable(
+    bien_summary,
+    rownames = FALSE,
+    options  = list(pageLength = 15, scrollX = TRUE),
+    caption  = "Species overlap with BIEN per literature paper. 'in_bien_count' = species already in BIEN; 'not_in_bien_count' = novel taxa.",
+    colnames = c("Paper ID", "Total Species", "In BIEN", "Not in BIEN", "% In BIEN")
+  )
+} else {
+  cat("Run `scripts/bien_overlap_check.R` first.")
+}
+```
+
+## In-BIEN vs. Novel Species by Paper
+
+```{r bien-bar-chart, fig.width=8, fig.height=4}
+if (bien_ready) {
+  plot_df <- bien_summary %>%
+    tidyr::pivot_longer(
+      cols      = c(in_bien_count, not_in_bien_count),
+      names_to  = "status",
+      values_to = "n_species"
+    ) %>%
+    dplyr::mutate(
+      status = dplyr::recode(status,
+        in_bien_count     = "Already in BIEN",
+        not_in_bien_count = "Novel (not in BIEN)"
+      )
+    )
+
+  ggplot2::ggplot(plot_df, ggplot2::aes(x = paper_id, y = n_species, fill = status)) +
+    ggplot2::geom_col(position = "stack") +
+    ggplot2::coord_flip() +
+    ggplot2::scale_fill_manual(
+      values = c("Already in BIEN" = "#2166ac", "Novel (not in BIEN)" = "#d73027")
+    ) +
+    ggplot2::labs(
+      x       = NULL,
+      y       = "Number of Species",
+      fill    = NULL,
+      title   = "Species from each literature paper: already in BIEN vs. novel",
+      caption = "Novel = species name not matched in BIEN occurrence records."
+    ) +
+    ggplot2::theme_minimal(base_size = 12) +
+    ggplot2::theme(legend.position = "bottom")
+} else {
+  cat("Run `scripts/bien_overlap_check.R` first.")
+}
+```
+
+## Top Novel Species (Not in BIEN)
+
+Species absent from BIEN, ranked by how many papers they appear in — highest-priority candidates for BIEN integration.
+
+```{r bien-novel-table}
+if (bien_ready) {
+  novel_top <- bien_detail %>%
+    dplyr::filter(!in_bien) %>%
+    dplyr::arrange(dplyr::desc(papers_present_in), species) %>%
+    dplyr::slice_head(n = 50) %>%
+    dplyr::select(species, bien_record_count, papers_present_in)
+
+  DT::datatable(
+    novel_top,
+    rownames = FALSE,
+    options  = list(pageLength = 25, scrollX = TRUE),
+    caption  = "Top 50 species not in BIEN, sorted by number of papers they appear in.",
+    colnames = c("Species", "BIEN Records", "Papers Present In")
+  )
+} else {
+  cat("Run `scripts/bien_overlap_check.R` first.")
+}
+```
 
 # Reproducibility Notes
 
